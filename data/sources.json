@@ -1,0 +1,40 @@
+[
+  {
+    "name": "民眾全自費品項收費情形",
+    "type": "csv",
+    "url": "https://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-E4200E-001",
+    "disabled": true
+}, {
+    "name": "民眾自付差額品項收費情形",
+    "type": "csv",
+    "url": "https://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-E4200F-001"
+}, {
+    "name": "全自費醫材健保替代品項明細",
+    "type": "csv",
+    "url": "https://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-D42001-001"
+}, {
+    "name": "自付差額特材功能分類說明",
+    "type": "ods",
+    "url": "https://data.nhi.gov.tw/resource/OpenData/%E4%B8%83%E5%A4%A7%E9%A1%9E%E8%87%AA%E4%BB%98%E5%B7%AE%E9%A1%8D%E7%89%B9%E6%9D%90%E6%96%B028%E9%A1%9E%E5%8A%9F%E8%83%BD%E5%88%86%E9%A1%9E%E8%AA%AA%E6%98%8E.ods"
+}, {
+    "name": "自付差額特材數量佔率-地區醫院",
+    "type": "csv",
+    "url": "https://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200C-001"
+}, {
+    "name": "自付差額特材數量佔率-區域醫院",
+    "type": "csv",
+    "url": "https://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200B-001"
+}, {
+    "name": "自付差額特材數量佔率-基層診所",
+    "type": "csv",
+    "url": "https://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200D-001"
+}, {
+    "name": "自付差額特材數量佔率-醫學中心",
+    "type": "csv",
+    "url": "https://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200A-001"
+}, {
+    "name": "自付差額醫材對應健保全額給付品項明細",
+    "type": "csv",
+    "url": "https://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-D42002-001",
+    "disabled": true
+}]

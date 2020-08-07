@@ -1,0 +1,36 @@
+{
+  "name": "nhi-open-data-tool",
+  "version": "1.0.0",
+  "description": "應用健保署資料建置三好(好用、好查、好比)的查詢介面。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunyenHuang/nhi-open-data-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chunyenHuang/nhi-open-data-tool/issues"
+  },
+  "homepage": "https://github.com/chunyenHuang/nhi-open-data-tool#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "jest": "^25.4.0",
+    "jest-expect-message": "^1.0.2"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "fs-extra": "^9.0.1",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "node-fetch": "^2.6.0",
+    "xlsx": "^0.16.5"
+  }
+}
