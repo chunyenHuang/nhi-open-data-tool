@@ -41,6 +41,15 @@ const report = {
     processItems();
 
     report.lastUpdatedAt = moment().toISOString();
+
+    // sort report items to make git diff cleanner
+    report.metadata = Object.keys(report.metadata).sort((a, b) => a > b ? 1 : -1).reduce((obj, key) => {
+      obj[key] = report.metadata[key];
+      return obj;
+    }, {});
+    report.logs = report.logs.sort((a, b) => a > b ? 1 : -1);
+    report.errors = report.logs.sort((a, b) => a > b ? 1 : -1);
+
     fs.writeFileSync(path.join(LATEST_DIR, `report.json`), JSON.stringify(report, null, 2));
   } catch (e) {
     console.log(e);
@@ -79,8 +88,7 @@ async function downloadAndConvertToJson({ name, type, url }) {
     report.logs.push(`[${name}] 轉換 ${Date.now()- startedAt}ms`);
   } catch (e) {
     console.log(e);
-    report.errors.push(`Failed to Download & Convert: ${name}`);
-    report.errors.push(e.message || e);
+    report.errors.push(`Failed to Download & Convert: ${name} ${JSON.stringify(e.message || e)}`);
   }
 }
 
