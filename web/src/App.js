@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import Container from '@material-ui/core/Container';
 import {
   HashRouter as Router,
   Route,
@@ -44,7 +45,7 @@ function App(props) {
   }, []);
 
   return (
-    <div className={classes.main}>
+    <Container className={classes.main}>
       <Router basename={'/'}>
         <React.Suspense fallback={<CircularProgress className={classes.spinner} />}>
           <CssBaseline />
@@ -73,7 +74,7 @@ function App(props) {
             </main>}
         </React.Suspense>
       </Router>
-    </div>
+    </Container>
   );
 }
 

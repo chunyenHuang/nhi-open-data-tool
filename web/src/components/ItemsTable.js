@@ -54,6 +54,7 @@ export default function ItemsTable() {
       label: '英文',
       options: {
         filter: false,
+        display: false,
       },
     },
     {

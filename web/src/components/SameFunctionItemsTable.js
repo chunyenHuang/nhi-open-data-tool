@@ -58,6 +58,7 @@ export default function SameFunctionItemsTable({ funcName, id }) {
       label: '英文',
       options: {
         filter: false,
+        display: false,
       },
     },
     {
