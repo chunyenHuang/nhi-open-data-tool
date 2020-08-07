@@ -85,7 +85,7 @@ export default function Item({ id: inId, match }) {
         <div className={classes.space} />
         <ItemPricesInAllOrgsTable id={id}/>
         <div className={classes.space} />
-        <SameFunctionItemsTable funcName={item['分類']} />
+        <SameFunctionItemsTable id={id} funcName={item['分類']} />
         <div className={classes.space} />
         <MatchedAllOfferedItemsTable id={id} />
       </div>

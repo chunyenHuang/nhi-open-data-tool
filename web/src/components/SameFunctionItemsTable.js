@@ -8,7 +8,7 @@ import { sortBy } from 'utils/sorting';
 import CellImage from 'components/CellImage';
 import { getItemImageUrl } from 'utils/retrieve';
 
-export default function SameFunctionItemsTable({ funcName }) {
+export default function SameFunctionItemsTable({ funcName, id }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -21,6 +21,15 @@ export default function SameFunctionItemsTable({ funcName }) {
   }, [funcName]);
 
   const columns = [
+    {
+      name: '代碼',
+      label: ' ',
+      options: {
+        filter: false,
+        sort: false,
+        customBodyRender: (value) => value === id ? '本頁產品' : '',
+      },
+    },
     {
       name: '代碼',
       label: '圖片',
@@ -102,4 +111,5 @@ export default function SameFunctionItemsTable({ funcName }) {
 
 SameFunctionItemsTable.propTypes = {
   funcName: PropTypes.string,
+  id: PropTypes.string,
 };
