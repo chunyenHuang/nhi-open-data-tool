@@ -2,7 +2,7 @@ name: Daily Data Process
 
 on:
   schedule:
-  - cron: "*/10 * * * *"
+  - cron: "* */6 * * *"
 
 jobs:
   build:
@@ -15,12 +15,12 @@ jobs:
     - name: Create local changes
       run: |
         npm i
-        node data/process.js
+        npm run process
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "更新資料" -a
+        git commit -m "更新健保署資料" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
