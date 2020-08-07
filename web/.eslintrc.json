@@ -1,0 +1,46 @@
+{
+  "extends": ["eslint:recommended", "google", "plugin:react/recommended"],
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "always"],
+    "max-len": ["error", { "code": 160 }],
+    "no-console": ["error", { "allow": ["log", "warn", "error"] }],
+    "object-curly-spacing": ["error", "always"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/display-name": 0,
+    "require-jsdoc": 0,
+    "camelcase": 0
+  },
+  "settings": {
+    "react":  {
+      "version": "detect"
+    }
+  },
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "babel-eslint",
+  "globals": {
+    "global": true,
+    "window": true,
+    "navigator": true,
+    "document": true,
+    "fetch": true,
+    "FormData": true
+  }
+}
