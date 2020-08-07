@@ -140,8 +140,17 @@ function processList() {
         '健保給付點數': record['健保給付點數'],
         '類別': record['自付差額品項類別'],
         '分類': record['自付差額品項功能分類'],
+        '最低自付差額': record['特約院所收費'],
+        '最高自付差額': record['特約院所收費'],
         '對應健保全額給付品項代碼': matchedPaidItemCodes,
       };
+    }
+    // update min and max prices
+    if (record['特約院所收費'] < items[record['品項代碼']]['最低自付差額']) {
+      items[record['品項代碼']]['最低自付差額'] = record['特約院所收費'];
+    }
+    if (record['特約院所收費'] > items[record['品項代碼']]['最高自付差額']) {
+      items[record['品項代碼']]['最高自付差額'] = record['特約院所收費'];
     }
   });
 
