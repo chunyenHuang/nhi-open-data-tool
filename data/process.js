@@ -148,11 +148,14 @@ function processPCItemList() {
         '地區': record['就醫院所縣市別'],
       };
     }
-    if (!items[record['品項代碼']]) {
+    const cost = parseFloat(record['特約院所收費']);
+    let matchedItem = items[record['品項代碼']];
+
+    if (!matchedItem) {
       const matchedPaidItemCodes = allPaidItems
         .filter((x) => x['自付差額品項代碼'] === record['品項代碼'])
         .map((x) => x['對應健保全額給付品項代碼']);
-      items[record['品項代碼']] = {
+      matchedItem = {
         '代碼': record['品項代碼'],
         '中文': record['中文名稱'],
         '英文': record['英文名稱'],
@@ -160,27 +163,29 @@ function processPCItemList() {
         '健保給付點數': record['健保給付點數'],
         '類別': record['自付差額品項類別'],
         '分類': record['自付差額品項功能分類'],
-        '最低自付差額': record['特約院所收費'],
-        '最高自付差額': record['特約院所收費'],
+        '最低自付差額': cost,
+        '最高自付差額': cost,
         '醫療機構數': 0,
         '對應健保全額給付品項代碼': matchedPaidItemCodes,
       };
     }
 
     // count
-    items[record['品項代碼']]['醫療機構數']++;
+    matchedItem['醫療機構數']++;
 
     // update min and max prices
-    if (record['特約院所收費'] < items[record['品項代碼']]['最低自付差額']) {
-      items[record['品項代碼']]['最低自付差額'] = record['特約院所收費'];
+    if (cost < matchedItem['最低自付差額']) {
+      matchedItem['最低自付差額'] = cost;
     }
-    if (record['特約院所收費'] > items[record['品項代碼']]['最高自付差額']) {
-      items[record['品項代碼']]['最高自付差額'] = record['特約院所收費'];
+    if (cost > matchedItem['最高自付差額']) {
+      matchedItem['最高自付差額'] = cost;
     }
+
+    items[record['品項代碼']] = matchedItem;
   });
 
   allPaidItems.forEach((item) => {
-    paidItems[item['對應健保全額給付品項代碼']] = paidItems[item['對應健保全額給付品項代碼']] || {
+    const matched = paidItems[item['對應健保全額給付品項代碼']] || {
       '代碼': item['對應健保全額給付品項代碼'],
       '名稱': item['中英文名稱'],
       '支付點數': item['支付點數'],
@@ -189,7 +194,9 @@ function processPCItemList() {
       '自付差額品項代碼': [],
     };
 
-    paidItems[item['對應健保全額給付品項代碼']]['自付差額品項代碼'].push(item['自付差額品項代碼']);
+    matched['自付差額品項代碼'].push(item['自付差額品項代碼']);
+
+    paidItems[item['對應健保全額給付品項代碼']] = matched;
   });
 
   organizations = Object.keys(organizations).map((key) => organizations[key]);
@@ -210,8 +217,11 @@ function processNCItemList() {
   let items = {};
 
   records.forEach((record) => {
-    if (!items[record['品項代碼']]) {
-      items[record['品項代碼']] = {
+    const cost = parseFloat(record['特約院所收費']);
+    let matchedItem = items[record['品項代碼']];
+
+    if (!matchedItem) {
+      matchedItem = {
         '代碼': record['品項代碼'],
         '中文': record['中文名稱'],
         '英文': record['英文名稱'],
@@ -220,22 +230,24 @@ function processNCItemList() {
         '醫材種類': record['醫材種類'],
         '未納入健保給付原因': record['未納入健保給付原因'],
         '說明': record['說明'],
-        '最低自費額': record['特約院所收費'],
-        '最高自費額': record['特約院所收費'],
+        '最低自費額': cost,
+        '最高自費額': cost,
         '醫療機構數': 0,
       };
     }
 
     // count
-    items[record['品項代碼']]['醫療機構數']++;
+    matchedItem['醫療機構數']++;
 
     // update min and max prices
-    if (record['特約院所收費'] < items[record['品項代碼']]['最低自費額']) {
-      items[record['品項代碼']]['最低自費額'] = record['特約院所收費'];
+    if (cost < matchedItem['最低自費額']) {
+      matchedItem['最低自費額'] = cost;
     }
-    if (record['特約院所收費'] > items[record['品項代碼']]['最高自費額']) {
-      items[record['品項代碼']]['最高自費額'] = record['特約院所收費'];
+    if (cost > matchedItem['最高自費額']) {
+      matchedItem['最高自費額'] = cost;
     }
+
+    items[record['品項代碼']] = matchedItem;
   });
 
   items = Object.keys(items).map((key) => items[key]);
