@@ -1,9 +1,9 @@
 const csvtojson = require('csvtojson');
-const fetch = require('node-fetch');
 const XLSX = require('xlsx');
 const fs = require('fs-extra');
 const path = require('path');
 const moment = require('moment-timezone');
+const got = require('got');
 
 const {
   FORCE_CREATE,
@@ -15,8 +15,8 @@ const {
 
 const report = {
   lastUpdatedAt: null,
-  logs: [],
   metadata: {},
+  logs: [],
   errors: [],
 };
 
@@ -50,16 +50,19 @@ const report = {
 
 async function downloadAndConvertToJson({ name, type, url }) {
   try {
-    const startedAt = Date.now();
+    let startedAt = Date.now();
     const cacheFilePath = path.join(LATEST_DIR, `原始資料-${name}.${type}`);
     let buffer;
     if (!fs.existsSync(cacheFilePath)) {
-      const res = await fetch(url);
-      buffer = await res.buffer();
+      const res = await got(url, { responseType: 'buffer' });
+      buffer = res.body;
       fs.writeFileSync(cacheFilePath, buffer);
     } else {
       buffer = fs.readFileSync(cacheFilePath);
     }
+    report.logs.push(`[${name}] 下載 ${Date.now()- startedAt}ms`);
+    startedAt = Date.now();
+
     let jsonData;
     if (type === 'csv') {
       jsonData = await csvtojson().fromString(buffer.toString());
@@ -73,7 +76,7 @@ async function downloadAndConvertToJson({ name, type, url }) {
     }
     fs.writeFileSync(path.join(LATEST_DIR, `原始資料-${name}.json`), JSON.stringify(jsonData, null, 2));
     report.metadata[`原始資料-${name}.json`] = jsonData.length;
-    report.logs.push(`Download & Convert: ${name} ${Date.now()- startedAt}ms`);
+    report.logs.push(`[${name}] 轉換 ${Date.now()- startedAt}ms`);
   } catch (e) {
     console.log(e);
     report.errors.push(`Failed to Download & Convert: ${name}`);

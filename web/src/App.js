@@ -38,7 +38,8 @@ function App(props) {
 
   useEffect(() => {
     (async () => {
-      const { lastUpdatedAt } = await retrieve('report');
+      const { lastUpdatedAt } = await retrieve('report', { bypassCache: true });
+      cache.setTTLBaseline(lastUpdatedAt);
       await cache.set('lastUpdatedAt', lastUpdatedAt);
       setLoading(true);
     })();

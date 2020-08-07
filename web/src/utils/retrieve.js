@@ -3,10 +3,11 @@ import cache from './cache';
 const API_URL = `https://raw.githubusercontent.com/chunyenHuang/nhi-open-data-tool/master/data/latest`;
 
 export default async function retrieve(path, options = {}) {
+  const { bypassCache = false } = options;
   path = path.endsWith('.json') ? path : `${path}.json`;
   const cacheKey = `api:${path}`;
   const cachedData = await cache.get(cacheKey);
-  if (cachedData) {
+  if (!bypassCache && cachedData) {
     return cachedData;
   }
 
