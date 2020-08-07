@@ -21,26 +21,31 @@ const report = {
 };
 
 (async () => {
-  if (FORCE_CREATE) {
-    fs.emptyDirSync(LATEST_DIR);
+  try {
+    if (FORCE_CREATE) {
+      fs.emptyDirSync(LATEST_DIR);
+    }
+
+    const promises = SOURCES
+      .filter(({ disabled }) => !disabled)
+      .map(downloadAndConvertToJson);
+
+    await Promise.all(promises);
+
+    // copy latest to backup with timestamp
+    // fs.copySync(LATEST_DIR, path.join(BACKUP_DIR, `${moment.tz(TIME_ZONE).format('YYYY-MM-DD HH:mm')}`));
+
+    // process data
+    processRatio();
+    processList();
+    processItems();
+
+    report.lastUpdatedAt = moment().toISOString();
+    fs.writeFileSync(path.join(LATEST_DIR, `report.json`), JSON.stringify(report, null, 2));
+  } catch (e) {
+    console.log(e);
+    process.exit(1);
   }
-
-  const promises = SOURCES
-    .filter(({ disabled }) => !disabled)
-    .map(downloadAndConvertToJson);
-
-  await Promise.all(promises);
-
-  // copy latest to backup with timestamp
-  // fs.copySync(LATEST_DIR, path.join(BACKUP_DIR, `${moment.tz(TIME_ZONE).format('YYYY-MM-DD HH:mm')}`));
-
-  // process data
-  processRatio();
-  processList();
-  processItems();
-
-  report.lastUpdatedAt = moment().toISOString();
-  fs.writeFileSync(path.join(LATEST_DIR, `report.json`), JSON.stringify(report, null, 2));
 })();
 
 async function downloadAndConvertToJson({ name, type, url }) {
