@@ -66,7 +66,7 @@ async function downloadAndConvertToJson({ name, type, url }) {
         range: 0,
       });
     }
-    fs.writeFileSync(path.join(LATEST_DIR, `原始資料-${name}.json`), JSON.stringify(jsonData));
+    fs.writeFileSync(path.join(LATEST_DIR, `原始資料-${name}.json`), JSON.stringify(jsonData, null, 2));
     report.metadata[`原始資料-${name}.json`] = jsonData.length;
     report.logs.push(`Download & Convert: ${name} ${Date.now()- startedAt}ms`);
   } catch (e) {

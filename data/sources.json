@@ -2,8 +2,7 @@
   {
     "name": "民眾全自費品項收費情形",
     "type": "csv",
-    "url": "https://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-E4200E-001",
-    "disabled": true
+    "url": "https://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-E4200E-001"
 }, {
     "name": "民眾自付差額品項收費情形",
     "type": "csv",
@@ -35,6 +34,5 @@
 }, {
     "name": "自付差額醫材對應健保全額給付品項明細",
     "type": "csv",
-    "url": "https://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-D42002-001",
-    "disabled": true
+    "url": "https://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-D42002-001"
 }]

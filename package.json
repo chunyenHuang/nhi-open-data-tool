@@ -8,6 +8,7 @@
     "build": "npm run build:web",
     "build:web": "cd web && npm run build && cd ..",
     "deploy": "echo 'no backend yet'",
+    "process": "FORCE_CREATE=true node data/process.js",
     "test": "node_modules/.bin/jest tests"
   },
   "repository": {
