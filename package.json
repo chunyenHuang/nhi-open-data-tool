@@ -4,7 +4,11 @@
   "description": "應用健保署資料建置三好(好用、好查、好比)的查詢介面。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "node_modules/.bin/eslint functions tests && cd web && node_modules/.bin/eslint src",
+    "build": "npm run build:web",
+    "build:web": "cd web && npm run build && cd ..",
+    "deploy": "echo 'no backend yet'",
+    "test": "node_modules/.bin/jest tests"
   },
   "repository": {
     "type": "git",
@@ -32,5 +36,18 @@
     "moment-timezone": "^0.5.31",
     "node-fetch": "^2.6.0",
     "xlsx": "^0.16.5"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testPathIgnorePatterns": [
+      "node_modules"
+    ],
+    "setupFilesAfterEnv": [
+      "jest-expect-message"
+    ],
+    "verbose": true
   }
 }
