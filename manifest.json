@@ -1,0 +1,9 @@
+{
+  "short_name": "健保自付差額特材查詢",
+  "name": "健保自付差額特材查詢服務",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
