@@ -142,9 +142,14 @@ function processList() {
         '分類': record['自付差額品項功能分類'],
         '最低自付差額': record['特約院所收費'],
         '最高自付差額': record['特約院所收費'],
+        '醫療機構數': 0,
         '對應健保全額給付品項代碼': matchedPaidItemCodes,
       };
     }
+
+    // count
+    items[record['品項代碼']]['醫療機構數']++;
+
     // update min and max prices
     if (record['特約院所收費'] < items[record['品項代碼']]['最低自付差額']) {
       items[record['品項代碼']]['最低自付差額'] = record['特約院所收費'];
