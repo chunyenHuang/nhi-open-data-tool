@@ -38,7 +38,9 @@ const report = {
     // process data
     processRatio();
     processList();
-    processItems();
+    processPCItemList();
+    processPCItems();
+    processNCItemList();
 
     report.lastUpdatedAt = moment().toISOString();
 
@@ -115,7 +117,7 @@ function processRatio() {
 function processList() {
   const categories = [];
 
-  let records = require(path.join(LATEST_DIR, '原始資料-自付差額特材功能分類說明.json'));
+  const records = require(path.join(LATEST_DIR, '原始資料-自付差額特材功能分類說明.json'));
   records.forEach((record) => {
     if (!categories.includes(record['自付差額品項類別'])) {
       categories.push(record['自付差額品項類別']);
@@ -126,10 +128,11 @@ function processList() {
   report.metadata[`自付差額品項類別.json`] = categories.length;
   fs.writeFileSync(path.join(LATEST_DIR, '自付差額特材功能分類.json'), JSON.stringify(records, null, 2));
   report.metadata[`自付差額特材功能分類.json`] = records.length;
+}
 
+function processPCItemList() {
   const allPaidItems = require(path.join(LATEST_DIR, '原始資料-自付差額醫材對應健保全額給付品項明細.json'));
-
-  records = require(path.join(LATEST_DIR, '原始資料-民眾自付差額品項收費情形.json'));
+  const records = require(path.join(LATEST_DIR, '原始資料-民眾自付差額品項收費情形.json'));
 
   let organizations = {};
   let items = {};
@@ -201,8 +204,48 @@ function processList() {
   report.metadata[`自付差額醫材對應健保全額給付品項.json`] = paidItems.length;
 }
 
+function processNCItemList() {
+  const records = require(path.join(LATEST_DIR, '原始資料-民眾全自費品項收費情形.json'));
+
+  let items = {};
+
+  records.forEach((record) => {
+    if (!items[record['品項代碼']]) {
+      items[record['品項代碼']] = {
+        '代碼': record['品項代碼'],
+        '中文': record['中文名稱'],
+        '英文': record['英文名稱'],
+        '許可證字號': record['許可證字號'],
+        '手術及裝置': record['手術及裝置'],
+        '醫材種類': record['醫材種類'],
+        '未納入健保給付原因': record['未納入健保給付原因'],
+        '說明': record['說明'],
+        '最低自費額': record['特約院所收費'],
+        '最高自費額': record['特約院所收費'],
+        '醫療機構數': 0,
+      };
+    }
+
+    // count
+    items[record['品項代碼']]['醫療機構數']++;
+
+    // update min and max prices
+    if (record['特約院所收費'] < items[record['品項代碼']]['最低自付差額']) {
+      items[record['品項代碼']]['最低自付差額'] = record['特約院所收費'];
+    }
+    if (record['特約院所收費'] > items[record['品項代碼']]['最高自付差額']) {
+      items[record['品項代碼']]['最高自付差額'] = record['特約院所收費'];
+    }
+  });
+
+  items = Object.keys(items).map((key) => items[key]);
+
+  fs.writeFileSync(path.join(LATEST_DIR, '全自費品項.json'), JSON.stringify(items, null, 2));
+  report.metadata[`全自費品項.json`] = items.length;
+}
+
 // Split 原始資料-民眾自付差額品項收費情形.json to indexed files
-function processItems() {
+function processPCItems() {
   const records = require(path.join(LATEST_DIR, '原始資料-民眾自付差額品項收費情形.json'));
 
   const sets = [
