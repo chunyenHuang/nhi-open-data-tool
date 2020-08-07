@@ -1,4 +1,8 @@
 # nhi-open-data-tool
+
+![Daily Data Process](https://github.com/chunyenHuang/nhi-open-data-tool/workflows/Daily%20Data%20Process/badge.svg)
+![Publish to AWS & Web](https://github.com/chunyenHuang/nhi-open-data-tool/workflows/Publish%20to%20AWS%20&%20Web/badge.svg)
+
 應用健保署資料建置三好(好用、好查、好比)的查詢介面。
 
 ## 連結
