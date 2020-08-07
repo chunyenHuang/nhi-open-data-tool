@@ -1,6 +1,6 @@
 import Dexie from 'dexie';
 
-const db = new Dexie('ReactDB');
+const db = new Dexie('nhi-open-data-tool');
 db.version(1).stores({
   cache: '++id,key',
 });
