@@ -75,6 +75,7 @@ async function downloadAndConvertToJson({ name, type, url }) {
     report.metadata[`原始資料-${name}.json`] = jsonData.length;
     report.logs.push(`Download & Convert: ${name} ${Date.now()- startedAt}ms`);
   } catch (e) {
+    console.log(e);
     report.errors.push(`Failed to Download & Convert: ${name}`);
     report.errors.push(e.message || e);
   }
