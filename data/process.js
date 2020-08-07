@@ -230,11 +230,11 @@ function processNCItemList() {
     items[record['品項代碼']]['醫療機構數']++;
 
     // update min and max prices
-    if (record['特約院所收費'] < items[record['品項代碼']]['最低自付差額']) {
-      items[record['品項代碼']]['最低自付差額'] = record['特約院所收費'];
+    if (record['特約院所收費'] < items[record['品項代碼']]['最低自費額']) {
+      items[record['品項代碼']]['最低自費額'] = record['特約院所收費'];
     }
-    if (record['特約院所收費'] > items[record['品項代碼']]['最高自付差額']) {
-      items[record['品項代碼']]['最高自付差額'] = record['特約院所收費'];
+    if (record['特約院所收費'] > items[record['品項代碼']]['最高自費額']) {
+      items[record['品項代碼']]['最高自費額'] = record['特約院所收費'];
     }
   });
 
