@@ -2,7 +2,9 @@ name: Daily Data Process
 
 on:
   schedule:
-  - cron: "* */6 * * *"
+    - cron: "* */6 * * *"
+  push:
+    branches: [ master ]
 
 jobs:
   build:
