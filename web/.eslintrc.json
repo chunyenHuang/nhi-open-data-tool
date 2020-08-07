@@ -41,6 +41,7 @@
     "navigator": true,
     "document": true,
     "fetch": true,
-    "FormData": true
+    "FormData": true,
+    "localStorage": true
   }
 }
