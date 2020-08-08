@@ -7,7 +7,7 @@ import { sortBy } from 'utils/sorting';
 import CellImage from 'components/CellImage';
 import { getItemImageUrl } from 'utils/retrieve';
 
-export default function MatchedAllOfferedItemsTable({ id }) {
+export default function MatchedAllOfferedPCItemsTable({ id }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -73,6 +73,6 @@ export default function MatchedAllOfferedItemsTable({ id }) {
   );
 }
 
-MatchedAllOfferedItemsTable.propTypes = {
+MatchedAllOfferedPCItemsTable.propTypes = {
   id: PropTypes.string,
 };

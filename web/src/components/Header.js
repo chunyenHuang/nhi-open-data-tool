@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'react-router-dom/Link';
+import { useHistory } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -15,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
   appBar: {},
   title: {
     marginRight: theme.spacing(1),
+    cursor: 'pointer',
   },
   space: {
     flexGrow: 1,
@@ -27,6 +29,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Header() {
   const classes = useStyles();
+  const history = useHistory();
 
   const [lastUpdatedAt, setLastUpdatedAt] = useState();
 
@@ -39,8 +42,8 @@ function Header() {
   return (
     <AppBar position="fixed" color="default" className={classes.appBar}>
       <Toolbar variant="dense">
-        <Typography variant="h6" className={classes.title}>
-          查自付差額醫療特材
+        <Typography variant="h6" className={classes.title} onClick={() => history.push('/')}>
+          查醫療品項
         </Typography>
         {routes.filter(({ hideFromMenu })=>!hideFromMenu).map(({ title, path }) => (
           <Button to={path} key={title} component={Link}>

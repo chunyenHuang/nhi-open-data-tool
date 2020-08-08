@@ -39,14 +39,17 @@ function App(props) {
   useEffect(() => {
     (async () => {
       const { lastUpdatedAt } = await retrieve('report', { bypassCache: true });
-      cache.setTTLBaseline(lastUpdatedAt);
+      const cacheLastUpdatedAt = await cache.get('lastUpdatedAt');
+      if (lastUpdatedAt !== cacheLastUpdatedAt) {
+        await cache.purge();
+      }
       await cache.set('lastUpdatedAt', lastUpdatedAt);
       setLoading(true);
     })();
   }, []);
 
   return (
-    <Container className={classes.main}>
+    <Container className={classes.main} maxWidth="xl">
       <Router basename={'/'}>
         <React.Suspense fallback={<CircularProgress className={classes.spinner} />}>
           <CssBaseline />
@@ -64,7 +67,7 @@ function App(props) {
                     exact={route.exact}
                     key={route.path}
                     render={(props) => (
-                      <DocumentTitle title={`${route.title}`}>
+                      <DocumentTitle title={`${route.documentTitle}`}>
                         <route.component {...props} />
                       </DocumentTitle>)
                     }

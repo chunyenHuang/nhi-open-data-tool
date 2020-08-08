@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 import retrieve from 'utils/retrieve';
 import DataTable from 'components/DataTable';
@@ -7,17 +8,28 @@ import { sortBy } from 'utils/sorting';
 import CellImage from 'components/CellImage';
 import { getItemImageUrl } from 'utils/retrieve';
 
-export default function ItemsTable() {
+export default function SameFunctionPCItemsTable({ funcName, id }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
+    if (!funcName) return;
+
     (async () => {
-      const records = await retrieve('自付差額品項');
-      setData(records.sort(sortBy('中文')).sort(sortBy('分類')).sort(sortBy('類別')));
+      const allItems = await retrieve('自付差額品項');
+      setData(allItems.filter((x) => x['分類'] === funcName).sort(sortBy('最低自付差額')));
     })();
-  }, []);
+  }, [funcName]);
 
   const columns = [
+    {
+      name: '代碼',
+      label: ' ',
+      options: {
+        filter: false,
+        sort: false,
+        customBodyRender: (value) => value === id ? '本頁產品' : '',
+      },
+    },
     {
       name: '代碼',
       label: '圖片',
@@ -26,14 +38,6 @@ export default function ItemsTable() {
         sort: false,
         customBodyRender: (value) => <CellImage value={getItemImageUrl(value)} />,
       },
-    },
-    {
-      name: '類別',
-      label: '類別',
-    },
-    {
-      name: '分類',
-      label: '分類',
     },
     {
       name: '代碼',
@@ -99,11 +103,14 @@ export default function ItemsTable() {
 
   return (
     <DataTable
-      title="全部自付差額醫療特材"
+      title={`相同功能分類：${funcName}`}
       data={data}
       columns={columns}
     />
   );
 }
 
-ItemsTable.propTypes = {};
+SameFunctionPCItemsTable.propTypes = {
+  funcName: PropTypes.string,
+  id: PropTypes.string,
+};

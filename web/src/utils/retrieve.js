@@ -14,6 +14,8 @@ export default async function retrieve(path, options = {}) {
   const res = await fetch(`${API_URL}/${path}`);
   const output = await res.json();
 
+  console.log(output);
+
   await cache.set(cacheKey, output);
 
   return output;
@@ -21,4 +23,8 @@ export default async function retrieve(path, options = {}) {
 
 export const getItemImageUrl = (id) => {
   return `https://www.nhi.gov.tw/Query4Pic/${id}.jpg`;
+};
+
+export const getTextLinkHtml = (label, url) => {
+  return `<a href="${url}" rel="noopener" target="blank" style="none;">${label}</a>`;
 };

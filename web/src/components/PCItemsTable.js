@@ -6,30 +6,19 @@ import DataTable from 'components/DataTable';
 import VisitButton from 'components/VisitButton';
 import { sortBy } from 'utils/sorting';
 import CellImage from 'components/CellImage';
-import { getItemImageUrl } from 'utils/retrieve';
+import { getItemImageUrl, getTextLinkHtml } from 'utils/retrieve';
 
-export default function SameFunctionItemsTable({ funcName, id }) {
+export default function PCItemsTable({ prefilters = {} }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    if (!funcName) return;
-
     (async () => {
-      const allItems = await retrieve('自付差額品項');
-      setData(allItems.filter((x) => x['分類'] === funcName).sort(sortBy('最低自付差額')));
+      const records = await retrieve('自付差額品項');
+      setData(records.sort(sortBy('中文')).sort(sortBy('分類')).sort(sortBy('類別')));
     })();
-  }, [funcName]);
+  }, []);
 
   const columns = [
-    {
-      name: '代碼',
-      label: ' ',
-      options: {
-        filter: false,
-        sort: false,
-        customBodyRender: (value) => value === id ? '本頁產品' : '',
-      },
-    },
     {
       name: '代碼',
       label: '圖片',
@@ -37,6 +26,26 @@ export default function SameFunctionItemsTable({ funcName, id }) {
         filter: false,
         sort: false,
         customBodyRender: (value) => <CellImage value={getItemImageUrl(value)} />,
+      },
+    },
+    {
+      name: '類別',
+      label: '類別',
+      options: {
+        filterList: prefilters['類別'] || [],
+        filterOptions: {
+          fullWidth: true,
+        },
+      },
+    },
+    {
+      name: '分類',
+      label: '分類',
+      options: {
+        filterList: prefilters['分類'] || [],
+        filterOptions: {
+          fullWidth: true,
+        },
       },
     },
     {
@@ -91,26 +100,33 @@ export default function SameFunctionItemsTable({ funcName, id }) {
       },
     },
     {
+      name: '醫療機構數',
+      label: '醫療機構數',
+      options: {
+        filter: false,
+      },
+    },
+    {
       name: '代碼',
       label: ' ',
       options: {
         filter: false,
         sort: false,
-        customBodyRender: (value) => (<VisitButton url={`/item/${value}`} title="查看" target="_blank" />),
+        customBodyRender: (value) => (<VisitButton url={`/pcItem/${value}`} title="查看" target="_blank" />),
       },
     },
   ];
 
   return (
     <DataTable
-      title={`相同功能分類：${funcName}`}
+      title="自付差額醫療特材清單"
+      description={getTextLinkHtml('資料出處：健保署 民眾自付差額品項收費情形', 'https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=663&Mid=A110734')}
       data={data}
       columns={columns}
     />
   );
 }
 
-SameFunctionItemsTable.propTypes = {
-  funcName: PropTypes.string,
-  id: PropTypes.string,
+PCItemsTable.propTypes = {
+  prefilters: PropTypes.object,
 };

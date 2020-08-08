@@ -7,9 +7,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import DocumentTitle from 'react-document-title';
 
 import retrieve, { getItemImageUrl } from 'utils/retrieve';
-import ItemPricesInAllOrgsTable from 'components/ItemPricesInAllOrgsTable';
-import SameFunctionItemsTable from 'components/SameFunctionItemsTable';
-import MatchedAllOfferedItemsTable from 'components/MatchedAllOfferedItemsTable';
+import PCItemPricesInAllOrgsTable from 'components/PCItemPricesInAllOrgsTable';
+import SameFunctionPCItemsTable from 'components/SameFunctionPCItemsTable';
+import MatchedAllOfferedPCItemsTable from 'components/MatchedAllOfferedPCItemsTable';
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -90,11 +90,11 @@ export default function Item({ id: inId, match }) {
           </Grid>
         </Paper>
         <div className={classes.space} />
-        <ItemPricesInAllOrgsTable id={id}/>
+        <PCItemPricesInAllOrgsTable id={id}/>
         <div className={classes.space} />
-        <SameFunctionItemsTable id={id} funcName={item['分類']} />
+        <SameFunctionPCItemsTable id={id} funcName={item['分類']} />
         <div className={classes.space} />
-        <MatchedAllOfferedItemsTable id={id} />
+        <MatchedAllOfferedPCItemsTable id={id} />
       </div>
     </DocumentTitle>
   );

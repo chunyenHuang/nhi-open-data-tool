@@ -5,7 +5,7 @@ import retrieve from 'utils/retrieve';
 import DataTable from 'components/DataTable';
 import { sortBy } from 'utils/sorting';
 
-export default function ItemPricesInAllOrgsTable({ id }) {
+export default function PCItemPricesInAllOrgsTable({ id }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -23,20 +23,36 @@ export default function ItemPricesInAllOrgsTable({ id }) {
       name: '分區業務組',
       label: '分區業務組',
       options: {
+        filter: false,
         display: false,
       },
     },
     {
       name: '就醫院所縣市別',
       label: '地區',
+      options: {
+        filterOptions: {
+          fullWidth: true,
+        },
+      },
     },
     {
       name: '特約類別',
       label: '特約類別',
+      options: {
+        filterOptions: {
+          fullWidth: true,
+        },
+      },
     },
     {
       name: '醫事機構名稱',
       label: '醫事機構名稱',
+      options: {
+        filterOptions: {
+          fullWidth: true,
+        },
+      },
     },
     {
       name: '醫事機構簡稱',
@@ -80,6 +96,6 @@ export default function ItemPricesInAllOrgsTable({ id }) {
   );
 }
 
-ItemPricesInAllOrgsTable.propTypes = {
+PCItemPricesInAllOrgsTable.propTypes = {
   id: PropTypes.string,
 };

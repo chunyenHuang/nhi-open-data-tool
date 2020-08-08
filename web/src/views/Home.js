@@ -1,10 +1,10 @@
 import React from 'react';
 
-import ItemsTable from 'components/ItemsTable';
+import PCItemsTriage from 'components/PCItemsTriage';
 
 export default function Home() {
   return (
     <div>
-      <ItemsTable />
+      <PCItemsTriage />
     </div>);
 }
