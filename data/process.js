@@ -29,7 +29,7 @@ const report = {
 
     const sources = await getSources();
 
-    fs.writeFileSync(path.join(__dirname, 'sources.json'), JSON.stringify(sources, null, 2));
+    fs.writeFileSync(path.join(LATEST_DIR, 'sources.json'), JSON.stringify(sources, null, 2));
 
     const promises = sources.map(downloadAndConvertToJson);
 
