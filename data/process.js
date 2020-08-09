@@ -8,11 +8,10 @@ const got = require('got');
 const {
   FORCE_CREATE,
   LATEST_DIR,
-  // BACKUP_DIR,
-  // TIME_ZONE,
 } = require('./config');
 
 const getSources = require('./getSources');
+const { writeData } = require('./helpers');
 
 const report = {
   lastUpdatedAt: null,
@@ -29,7 +28,7 @@ const report = {
 
     const sources = await getSources();
 
-    fs.writeFileSync(path.join(LATEST_DIR, 'sources.json'), JSON.stringify(sources, null, 2));
+    writeData('sources.json', sources);
 
     const promises = sources.map(downloadAndConvertToJson);
 
@@ -55,7 +54,7 @@ const report = {
     report.logs = report.logs.sort((a, b) => a > b ? 1 : -1);
     report.errors = report.errors.sort((a, b) => a > b ? 1 : -1);
 
-    fs.writeFileSync(path.join(LATEST_DIR, `report.json`), JSON.stringify(report, null, 2));
+    writeData('report.json', report);
   } catch (e) {
     console.log(e);
     process.exit(1);
@@ -68,7 +67,7 @@ async function downloadAndConvertToJson({ name, type, url }) {
     const cacheFilePath = path.join(LATEST_DIR, `原始資料-${name}.${type}`);
     let buffer;
     if (!fs.existsSync(cacheFilePath)) {
-      const res = await got(url, { responseType: 'buffer' });
+      const res = await got(encodeURI(url), { responseType: 'buffer' });
       buffer = res.body;
       fs.writeFileSync(cacheFilePath, buffer);
     } else {
@@ -88,7 +87,7 @@ async function downloadAndConvertToJson({ name, type, url }) {
         range: 0,
       });
     }
-    fs.writeFileSync(path.join(LATEST_DIR, `原始資料-${name}.json`), JSON.stringify(jsonData, null, 2));
+    writeData(`原始資料-${name}.json`, jsonData);
     report.metadata[`原始資料-${name}.json`] = jsonData.length;
     report.logs.push(`[${name}] 轉換 ${Date.now()- startedAt}ms`);
   } catch (e) {
@@ -112,7 +111,7 @@ function processRatio() {
       });
     });
 
-  fs.writeFileSync(path.join(LATEST_DIR, '自付差額特材數量佔率.json'), JSON.stringify(data, null, 2));
+  writeData('自付差額特材數量佔率.json', data);
   report.metadata[`自付差額特材數量佔率.json`] = data.length;
 }
 
@@ -127,9 +126,9 @@ function processList() {
     }
   });
 
-  fs.writeFileSync(path.join(LATEST_DIR, '自付差額品項類別.json'), JSON.stringify(categories, null, 2));
+  writeData('自付差額品項類別.json', categories);
   report.metadata[`自付差額品項類別.json`] = categories.length;
-  fs.writeFileSync(path.join(LATEST_DIR, '自付差額特材功能分類.json'), JSON.stringify(records, null, 2));
+  writeData('自付差額特材功能分類.json', records);
   report.metadata[`自付差額特材功能分類.json`] = records.length;
 }
 
@@ -206,11 +205,11 @@ function processPCItemList() {
   items = Object.keys(items).map((key) => items[key]);
   paidItems = Object.keys(paidItems).map((key) => paidItems[key]);
 
-  fs.writeFileSync(path.join(LATEST_DIR, '醫事機構.json'), JSON.stringify(organizations, null, 2));
+  writeData('醫事機構.json', organizations);
   report.metadata[`醫事機構.json`] = organizations.length;
-  fs.writeFileSync(path.join(LATEST_DIR, '自付差額品項.json'), JSON.stringify(items, null, 2));
+  writeData('自付差額品項.json', items);
   report.metadata[`自付差額品項.json`] = items.length;
-  fs.writeFileSync(path.join(LATEST_DIR, '自付差額醫材對應健保全額給付品項.json'), JSON.stringify(paidItems, null, 2));
+  writeData('自付差額醫材對應健保全額給付品項.json', paidItems);
   report.metadata[`自付差額醫材對應健保全額給付品項.json`] = paidItems.length;
 }
 
@@ -255,7 +254,7 @@ function processNCItemList() {
 
   items = Object.keys(items).map((key) => items[key]);
 
-  fs.writeFileSync(path.join(LATEST_DIR, '全自費品項.json'), JSON.stringify(items, null, 2));
+  writeData('全自費品項.json', items);
   report.metadata[`全自費品項.json`] = items.length;
 }
 
@@ -307,7 +306,7 @@ function processPCItems() {
       const dir = `${prefix}/${set.name}`;
       const filename = `${cacheKey || '無'}.json`;
       fs.ensureDirSync(path.join(LATEST_DIR, dir));
-      fs.writeFileSync(path.join(LATEST_DIR, dir, filename), JSON.stringify(set.cache[cacheKey], null, 2));
+      writeData(path.join(dir, filename), set.cache[cacheKey]);
       report.metadata[`${dir}/${filename}`] = set.cache[cacheKey].length;
     });
   });

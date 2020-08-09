@@ -17,7 +17,7 @@ async function getSources() {
   const data = await page.$$eval('.table_result tbody tr td', (tds) => tds.map((td) => {
     const string = td.innerHTML;
     const [viewPath, url] = string.match(/href="([^"]*)"/g).map((item) => {
-      return item.match(/href="([^"]*)"/)[1];
+      return item.match(/href="([^"]*)"/)[1].replace(/amp;/g, '');
     });
     return {
       name: string.match(/title="([^"]*)"/)[1],
