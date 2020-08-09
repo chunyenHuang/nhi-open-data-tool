@@ -20,6 +20,7 @@ jobs:
         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
       with:
         args: install
+    - run: npm ci
     - name: Create local changes
       timeout-minutes: 15
       uses: mujo-code/puppeteer-headful@master
