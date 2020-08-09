@@ -9,9 +9,10 @@ const {
   FORCE_CREATE,
   LATEST_DIR,
   // BACKUP_DIR,
-  SOURCES,
   // TIME_ZONE,
 } = require('./config');
+
+const getSources = require('./getSources');
 
 const report = {
   lastUpdatedAt: null,
@@ -26,9 +27,11 @@ const report = {
       fs.emptyDirSync(LATEST_DIR);
     }
 
-    const promises = SOURCES
-      .filter(({ disabled }) => !disabled)
-      .map(downloadAndConvertToJson);
+    const sources = await getSources();
+
+    fs.writeFileSync(path.join(__dirname, 'sources.json'), JSON.stringify(sources, null, 2));
+
+    const promises = sources.map(downloadAndConvertToJson);
 
     await Promise.all(promises);
 
