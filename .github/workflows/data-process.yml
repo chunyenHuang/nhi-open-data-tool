@@ -3,8 +3,8 @@ name: Daily Data Process
 on:
   schedule:
     - cron: "0 9 * * *" # 台北下午5點下班時間
-  #push:
-  # branches: [ master ]
+  push:
+   branches: [ master ]
 
 jobs:
   build:
