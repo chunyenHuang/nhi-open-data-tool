@@ -30,7 +30,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./web/build
-    - run: npm run deploy
-      env:
-        AWS_ACCESS_KEY_ID: ${{secrets.aws_access_key_id}}
-        AWS_SECRET_ACCESS_KEY: ${{secrets.aws_secret_access_key}}
