@@ -22,15 +22,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: cd web && npm ci
-    - run: npm run build:web
+    - name: Install Dependencies
+      run: npm ci
+      working-directory: web
+    - name: Build
+      run: npm run build
+      working-directory: web
     - name: Deploy GitHub Page
       uses: peaceiris/actions-gh-pages@v3.5.7
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./web/build
-    - run: npm run deploy
-      env:
-        AWS_ACCESS_KEY_ID: ${{secrets.aws_access_key_id}}
-        AWS_SECRET_ACCESS_KEY: ${{secrets.aws_secret_access_key}}
