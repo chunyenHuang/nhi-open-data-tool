@@ -96,7 +96,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
       options: {
         filter: false,
         sort: false,
-        customBodyRender: (value) => (<VisitButton url={`/item/${value}`} title="查看" target="_blank" />),
+        customBodyRender: (value) => (<VisitButton url={`/item/${value}`} title="查看" />),
       },
     },
   ];

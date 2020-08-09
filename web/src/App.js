@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
 
 function App(props) {
   const classes = useStyles();
-  const [loading, setLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     (async () => {
@@ -44,38 +44,40 @@ function App(props) {
         await cache.purge();
       }
       await cache.set('lastUpdatedAt', lastUpdatedAt);
-      setLoading(true);
+
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 500);
     })();
   }, []);
+
+  if (isLoading) {
+    return (<CircularProgress className={classes.spinner} />);
+  }
 
   return (
     <Container className={classes.main} maxWidth="xl">
       <Router basename={'/'}>
         <React.Suspense fallback={<CircularProgress className={classes.spinner} />}>
           <CssBaseline />
-
           <Header />
-
-          {!loading && <CircularProgress className={classes.spinner} />}
-
-          {loading &&
-            <main className={classes.container}>
-              <Switch>
-                {routes.map((route) => (
-                  <Route
-                    path={route.path}
-                    exact={route.exact}
-                    key={route.path}
-                    render={(props) => (
-                      <DocumentTitle title={`${route.documentTitle}`}>
-                        <route.component {...props} />
-                      </DocumentTitle>)
-                    }
-                  />
-                ))}
-                <Redirect to="/" />
-              </Switch>
-            </main>}
+          <main className={classes.container}>
+            <Switch>
+              {routes.map((route) => (
+                <Route
+                  path={route.path}
+                  exact={route.exact}
+                  key={route.path}
+                  render={(props) => (
+                    <DocumentTitle title={`${route.documentTitle}`}>
+                      <route.component {...props} />
+                    </DocumentTitle>)
+                  }
+                />
+              ))}
+              <Redirect to="/" />
+            </Switch>
+          </main>
         </React.Suspense>
       </Router>
     </Container>

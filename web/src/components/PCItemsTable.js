@@ -112,7 +112,7 @@ export default function PCItemsTable({ prefilters = {} }) {
       options: {
         filter: false,
         sort: false,
-        customBodyRender: (value) => (<VisitButton url={`/pcItem/${value}`} title="查看" target="_blank" />),
+        customBodyRender: (value) => (<VisitButton url={`/pcItem/${value}`} title="查看" />),
       },
     },
   ];

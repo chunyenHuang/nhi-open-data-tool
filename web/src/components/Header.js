@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Link from 'react-router-dom/Link';
+import { Link } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -43,7 +43,7 @@ function Header() {
     <AppBar position="fixed" color="default" className={classes.appBar}>
       <Toolbar variant="dense">
         <Typography variant="h6" className={classes.title} onClick={() => history.push('/')}>
-          查醫療品項
+          查查醫療品項
         </Typography>
         {routes.filter(({ hideFromMenu })=>!hideFromMenu).map(({ title, path }) => (
           <Button to={path} key={title} component={Link}>

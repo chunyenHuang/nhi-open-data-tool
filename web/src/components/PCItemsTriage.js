@@ -34,7 +34,7 @@ export default function PCItemsTriage() {
           key={item}
           title={item}
           url={`/pcItems?類別[]=${item}`}
-          target="_blank" />
+        />
       ))}
 
       {/* <Typography variant="h5" component="h6">

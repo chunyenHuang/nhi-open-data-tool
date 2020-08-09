@@ -26,5 +26,5 @@ export const getItemImageUrl = (id) => {
 };
 
 export const getTextLinkHtml = (label, url) => {
-  return `<a href="${url}" rel="noopener" target="blank" style="none;">${label}</a>`;
+  return `<a href="${url}" rel="noopener" target="_blank" style="none;">${label}</a>`;
 };
