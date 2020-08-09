@@ -6,6 +6,7 @@ const BASE_URL = 'https://data.nhi.gov.tw/Datasets';
 const config = {
   executablePath: process.env.PUPPETEER_EXEC_PATH,
   headless: true,
+  args: ['--no-sandbox'],
 };
 
 async function getSources() {
