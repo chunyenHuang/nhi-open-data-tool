@@ -38,7 +38,7 @@ export default function DataTable({ title, description, data, columns, options }
         next: '下一頁',
         previous: '上一頁',
         rowsPerPage: '每頁顯示',
-        displayRows: '總頁數',
+        displayRows: '總項目數',
       },
       toolbar: {
         search: '搜尋',
