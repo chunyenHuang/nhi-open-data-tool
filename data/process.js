@@ -53,7 +53,7 @@ const report = {
       return obj;
     }, {});
     report.logs = report.logs.sort((a, b) => a > b ? 1 : -1);
-    report.errors = report.logs.sort((a, b) => a > b ? 1 : -1);
+    report.errors = report.errors.sort((a, b) => a > b ? 1 : -1);
 
     fs.writeFileSync(path.join(LATEST_DIR, `report.json`), JSON.stringify(report, null, 2));
   } catch (e) {
