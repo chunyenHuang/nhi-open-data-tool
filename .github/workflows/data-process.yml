@@ -3,8 +3,8 @@ name: Daily Data Process
 on:
   schedule:
     - cron: "0 9 * * *" # 台北下午5點下班時間
-  #push:
-  #  branches: [ master ]
+  push:
+   branches: [ master ]
 
 jobs:
   build:
@@ -14,11 +14,20 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Install Dependencies
+      uses: actions/setup-node@v1
+      env:
+        PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
+      with:
+        args: install
+    - run: npm ci
     - name: Create local changes
       timeout-minutes: 15
-      run: |
-        npm i
-        npm run process
+      uses: mujo-code/puppeteer-headful@master
+      env:
+        CI: 'true'
+      with:
+        args: npm run process
     - name: Commit files
       timeout-minutes: 15
       run: |
