@@ -22,9 +22,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: cd web && npm ci
-    - run: npm run build:web
+    - name: Install Dependencies
+      run: npm ci
+      working-directory: web
+    - name: Build
+      run: npm run build
+      working-directory: web
     - name: Deploy GitHub Page
       uses: peaceiris/actions-gh-pages@v3.5.7
       with:
