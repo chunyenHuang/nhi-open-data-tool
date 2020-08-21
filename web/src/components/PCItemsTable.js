@@ -42,7 +42,7 @@ export default function PCItemsTable({ prefilters = {} }) {
       name: '分類',
       label: '分類',
       options: {
-        filterList: prefilters['分類'] || [],
+        filterList: (prefilters['分類'] || []).map((x) => x.replace(/ /g, '+')),
         filterOptions: {
           fullWidth: true,
         },

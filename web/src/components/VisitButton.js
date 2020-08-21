@@ -67,6 +67,7 @@ VisitButton.propTypes = {
   className: PropTypes.string,
   variant: PropTypes.string,
   target: PropTypes.string,
+  size: PropTypes.string,
 };
 
 export default VisitButton;
