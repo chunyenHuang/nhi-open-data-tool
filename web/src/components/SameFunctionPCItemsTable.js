@@ -6,7 +6,9 @@ import DataTable from 'components/DataTable';
 import VisitButton from 'components/VisitButton';
 import { sortBy } from 'utils/sorting';
 import CellImage from 'components/CellImage';
-import { getItemImageUrl } from 'utils/retrieve';
+import { getPCItemImageUrl } from 'utils/retrieve';
+
+import { certificateLinkRender } from 'components/table/renders';
 
 export default function SameFunctionPCItemsTable({ funcName, id }) {
   const [data, setData] = useState([]);
@@ -36,7 +38,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
       options: {
         filter: false,
         sort: false,
-        customBodyRender: (value) => <CellImage value={getItemImageUrl(value)} />,
+        customBodyRender: (value) => <CellImage value={getPCItemImageUrl(value)} />,
       },
     },
     {
@@ -66,7 +68,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
       label: '許可證字號',
       options: {
         filter: false,
-        display: false,
+        customBodyRender: certificateLinkRender,
       },
     },
     {

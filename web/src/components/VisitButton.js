@@ -5,11 +5,10 @@ import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import { Link } from 'react-router-dom';
 
-function VisitButton({ url = '', title = 'Visit', tooltip, icon, className, variant = 'outlined', target = '_self' }) {
+function VisitButton({ url = '', title = 'Visit', tooltip, icon, className, variant = 'outlined', target = '_self', size = 'small' }) {
   if (typeof url !== 'string') return null;
 
   const isDisabled = (!url || url === '' || (!url.startsWith('http') && !url.startsWith('/')));
-  const size = 'small';
 
   const tooltipTitle = tooltip || (isDisabled ? '' : title);
 

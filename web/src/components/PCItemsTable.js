@@ -6,7 +6,7 @@ import DataTable from 'components/DataTable';
 import VisitButton from 'components/VisitButton';
 import { sortBy } from 'utils/sorting';
 import CellImage from 'components/CellImage';
-import { getItemImageUrl, getTextLinkHtml } from 'utils/retrieve';
+import { getPCItemImageUrl, getTextLinkHtml } from 'utils/retrieve';
 
 export default function PCItemsTable({ prefilters = {} }) {
   const [data, setData] = useState([]);
@@ -25,7 +25,7 @@ export default function PCItemsTable({ prefilters = {} }) {
       options: {
         filter: false,
         sort: false,
-        customBodyRender: (value) => <CellImage value={getItemImageUrl(value)} />,
+        customBodyRender: (value) => <CellImage value={getPCItemImageUrl(value)} />,
       },
     },
     {

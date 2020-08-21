@@ -126,6 +126,7 @@ function processList() {
     }
   });
 
+  // TODO: 包含佔率 分步率 最低最高價格
   writeData('自付差額品項類別.json', categories);
   report.metadata[`自付差額品項類別.json`] = categories.length;
   writeData('自付差額特材功能分類.json', records);
@@ -167,6 +168,7 @@ function processPCItemList() {
         '分類': record['自付差額品項功能分類'],
         '最低自付差額': cost,
         '最高自付差額': cost,
+        '最低與最高自付差額價差': 0,
         '醫療機構數': 0,
         '對應健保全額給付品項代碼': matchedPaidItemCodes,
       };
@@ -182,6 +184,8 @@ function processPCItemList() {
     if (cost > matchedItem['最高自付差額']) {
       matchedItem['最高自付差額'] = cost;
     }
+
+    matchedItem['最低與最高自付差額價差'] = matchedItem['最高自付差額'] - matchedItem['最低自付差額'];
 
     items[record['品項代碼']] = matchedItem;
   });
@@ -234,6 +238,7 @@ function processNCItemList() {
         '說明': record['說明'],
         '最低自費額': cost,
         '最高自費額': cost,
+        '最低與最高自付差額價差': 0,
         '醫療機構數': 0,
       };
     }
@@ -248,6 +253,8 @@ function processNCItemList() {
     if (cost > matchedItem['最高自費額']) {
       matchedItem['最高自費額'] = cost;
     }
+
+    matchedItem['最低與最高自付差額價差'] = matchedItem['最高自付差額'] - matchedItem['最低自付差額'];
 
     items[record['品項代碼']] = matchedItem;
   });

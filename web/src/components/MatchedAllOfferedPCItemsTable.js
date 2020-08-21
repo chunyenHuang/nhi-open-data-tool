@@ -5,7 +5,7 @@ import retrieve from 'utils/retrieve';
 import DataTable from 'components/DataTable';
 import { sortBy } from 'utils/sorting';
 import CellImage from 'components/CellImage';
-import { getItemImageUrl } from 'utils/retrieve';
+import { getPCItemImageUrl } from 'utils/retrieve';
 
 export default function MatchedAllOfferedPCItemsTable({ id }) {
   const [data, setData] = useState([]);
@@ -26,7 +26,7 @@ export default function MatchedAllOfferedPCItemsTable({ id }) {
       options: {
         filter: false,
         sort: false,
-        customBodyRender: (value) => <CellImage value={getItemImageUrl(value)} />,
+        customBodyRender: (value) => <CellImage value={getPCItemImageUrl(value)} />,
       },
     },
     {

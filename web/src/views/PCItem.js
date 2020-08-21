@@ -6,7 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import DocumentTitle from 'react-document-title';
 
-import retrieve, { getItemImageUrl } from 'utils/retrieve';
+import retrieve, { getPCItemImageUrl, getPCItemDetails } from 'utils/retrieve';
 import PCItemPricesInAllOrgsTable from 'components/PCItemPricesInAllOrgsTable';
 import SameFunctionPCItemsTable from 'components/SameFunctionPCItemsTable';
 import MatchedAllOfferedPCItemsTable from 'components/MatchedAllOfferedPCItemsTable';
@@ -50,6 +50,10 @@ export default function Item({ id: inId, match }) {
       }
       console.log(matched);
       setItem(matched);
+
+      // get details
+      const details = await getPCItemDetails(id);
+      console.log(details);
     })();
   }, [id]);
 
@@ -61,7 +65,7 @@ export default function Item({ id: inId, match }) {
         <Paper>
           <Grid container>
             <Grid container item xs={12} sm={2} md={4} alignItems="center" justify="center" className={classes.container}>
-              <img src={getItemImageUrl(id)} alt="test" className={classes.img}/>
+              <img src={getPCItemImageUrl(id)} alt="test" className={classes.img}/>
             </Grid>
             <Grid item xs={12} sm={10} md={8} className={classes.container}>
               <Typography variant="h5" component="h1">
