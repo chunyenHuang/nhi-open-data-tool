@@ -3,30 +3,30 @@ name: Daily Data Process
 on:
   schedule:
     - cron: "0 9 * * *" # 台北下午5點下班時間
-  push:
-   branches: [ master ]
+#   push:
+#    branches: [ master ]
 
 jobs:
-  prune:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-      with:
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-    - name: Prune the "data/latest" directory from Git history
-      timeout-minutes: 15
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git filter-branch --tree-filter "rm -rf data/latest" --prune-empty HEAD
-        git for-each-ref --format="%(refname)" refs/original/ | xargs -n 1 git update-ref -d
-        git gc
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        force: true
+#   prune:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - uses: actions/checkout@master
+#       with:
+#         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+#         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+#     - name: Prune the "data/latest" directory from Git history
+#       timeout-minutes: 15
+#       run: |
+#         git config --local user.email "action@github.com"
+#         git config --local user.name "GitHub Action"
+#         git filter-branch --tree-filter "rm -rf data/latest" --prune-empty HEAD
+#         git for-each-ref --format="%(refname)" refs/original/ | xargs -n 1 git update-ref -d
+#         git gc
+#     - name: Push changes
+#       uses: ad-m/github-push-action@master
+#       with:
+#         github_token: ${{ secrets.GITHUB_TOKEN }}
+#         force: true
   build:
     runs-on: ubuntu-latest
     steps:
