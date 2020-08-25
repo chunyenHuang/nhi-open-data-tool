@@ -82,6 +82,7 @@ export default function NCItemsTable() {
     {
       name: '最低自費額',
       label: '最低自費額',
+      type: 'number',
       options: {
         filter: false,
       },
@@ -89,6 +90,7 @@ export default function NCItemsTable() {
     {
       name: '最高自費額',
       label: '最高自費額',
+      type: 'number',
       options: {
         filter: false,
       },
@@ -96,6 +98,7 @@ export default function NCItemsTable() {
     {
       name: '醫療機構數',
       label: '醫療機構數',
+      type: 'number',
       options: {
         filter: false,
       },

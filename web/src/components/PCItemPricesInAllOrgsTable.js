@@ -73,6 +73,7 @@ export default function PCItemPricesInAllOrgsTable({ id }) {
     {
       name: '健保給付點數',
       label: '健保給付點數',
+      type: 'number',
       options: {
         filter: false,
       },
@@ -80,6 +81,7 @@ export default function PCItemPricesInAllOrgsTable({ id }) {
     {
       name: '特約院所收費',
       label: '自付差額',
+      type: 'number',
       options: {
         filter: false,
       },

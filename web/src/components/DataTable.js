@@ -1,10 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MUIDataTable from 'mui-datatables';
+import moment from 'moment';
+import { makeStyles } from '@material-ui/core/styles';
 
 import TableFooter from './TableFooter';
 
+const useStyles = makeStyles((theme) => ({
+  number: {},
+}));
+
+
 export default function DataTable({ title, description, data, columns, options }) {
+  const classes = useStyles();
+
   const updatedOptions = Object.assign({
     enableNestedDataAccess: '.',
     pagination: true,
@@ -75,6 +84,42 @@ export default function DataTable({ title, description, data, columns, options }
       );
     },
   }, options);
+
+  columns
+    .map((column, index) => {
+      if (!Object.prototype.hasOwnProperty.call(column, 'options')) {
+        column.options = {};
+      }
+      return column;
+    })
+    .forEach(({ name, edit, type, options = {} }) => {
+      switch (type) {
+      case 'actions':
+        break;
+      case 'datetime':
+        options.customBodyRender = (value) => value ? moment(value).format('YYYY/MM/DD h:mm a') : '';
+        break;
+        // case 'checkbox':
+        //   options.customBodyRender = (value) => {
+        //     const isChecked = (value == 'true' || value === 'yes' || value === true) ? true : false;
+        //     return (<Checkbox checked={isChecked} />);
+        //   };
+        //   break;
+      case 'number':
+        options.customBodyRender = (val) => (
+          <div className={classes.number}>
+            {new Intl.NumberFormat().format(val)}
+          </div>
+        );
+        break;
+      case 'boolean':
+        options.customBodyRender = (val) => val ? 'yes' : 'no';
+        break;
+      default:
+        options.customBodyRender = options.customBodyRender || ((val) => val ? val : null);
+        break;
+      }
+    });
 
   return (
     <MUIDataTable

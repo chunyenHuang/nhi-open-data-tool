@@ -58,6 +58,7 @@ export default function MatchedAllOfferedPCItemsTable({ id }) {
     {
       name: '支付點數',
       label: '健保給付點數',
+      type: 'number',
       options: {
         filter: false,
       },

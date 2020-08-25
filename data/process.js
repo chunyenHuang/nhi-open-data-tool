@@ -4,6 +4,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const moment = require('moment-timezone');
 const got = require('got');
+const stats = require('stats-lite');
 
 const {
   FORCE_CREATE,
@@ -18,6 +19,19 @@ const report = {
   metadata: {},
   logs: [],
   errors: [],
+};
+
+const getLocations = () => {
+  return [
+    '臺北市', '新北市', '基隆市', '桃園市', '新竹市', '新竹縣', '苗栗縣',
+    '臺中市', '彰化縣', '南投縣',
+    '雲林縣', '嘉義市', '嘉義縣', '臺南市', '高雄市', '屏東縣',
+    '宜蘭縣', '花蓮縣', '臺東縣',
+    '澎湖縣', '金門縣', '連江縣'];
+};
+
+const getOrgTypes = () => {
+  return ['醫學中心', '區域醫院', '地區醫院', '基層診所'];
 };
 
 (async () => {
@@ -43,6 +57,8 @@ const report = {
     processPCItemList();
     processPCItems();
     processNCItemList();
+
+    processStatistics();
 
     report.lastUpdatedAt = moment().toISOString();
 
@@ -117,20 +133,25 @@ function processRatio() {
 
 // 清單
 function processList() {
-  const categories = [];
-
   const records = require(path.join(LATEST_DIR, '原始資料-自付差額特材功能分類說明.json'));
+  const mappings = {};
   records.forEach((record) => {
-    if (!categories.includes(record['自付差額品項類別'])) {
-      categories.push(record['自付差額品項類別']);
-    }
+    const categoryName = record['自付差額品項類別'];
+
+    mappings[categoryName] = mappings[categoryName] || {
+      '名稱': categoryName,
+      '子分類': [],
+    };
+
+    mappings[categoryName]['子分類'].push(record);
   });
 
-  // TODO: 包含佔率 分步率 最低最高價格
+  const categories = Object.keys(mappings)
+    .sort((a, b) => a > b ? 1 : -1)
+    .map((key) => mappings[key]);
+
   writeData('自付差額品項類別.json', categories);
   report.metadata[`自付差額品項類別.json`] = categories.length;
-  writeData('自付差額特材功能分類.json', records);
-  report.metadata[`自付差額特材功能分類.json`] = records.length;
 }
 
 function processPCItemList() {
@@ -166,26 +187,56 @@ function processPCItemList() {
         '健保給付點數': record['健保給付點數'],
         '類別': record['自付差額品項類別'],
         '分類': record['自付差額品項功能分類'],
-        '最低自付差額': cost,
-        '最高自付差額': cost,
-        '最低與最高自付差額價差': 0,
-        '醫療機構數': 0,
+        // '最低自付差額': cost,
+        // '最高自付差額': cost,
+        // '最低與最高自付差額價差': 0,
+        // '醫療機構數': 0,
         '對應健保全額給付品項代碼': matchedPaidItemCodes,
+        '統計資料': {
+          '醫療機構': {
+            '總數': 0,
+            '特約類別': getOrgTypes().reduce((obj, item) => {
+              obj[item] = 0;
+              return obj;
+            }, {}),
+            '地區': getLocations().reduce((obj, item) => {
+              obj[item] = 0;
+              return obj;
+            }, {}),
+          },
+          '自付差額': {
+            '平均值': 0, // mean
+            '中位數': 0, // median
+            '眾數': 0, // mode
+            '最低': 0,
+            '最高': 0,
+            '價差': 0,
+            '列表': [],
+          },
+        },
       };
     }
 
     // count
-    matchedItem['醫療機構數']++;
+    const location = record['就醫院所縣市別'];
+    const hospitalType = record['特約類別'];
+    matchedItem['統計資料']['醫療機構']['總數']++;
+    // matchedItem['統計資料']['醫療機構']['地區'][location] = matchedItem['統計資料']['醫療機構']['地區'][location] || 0;
+    matchedItem['統計資料']['醫療機構']['地區'][location]++;
+    // matchedItem['統計資料']['醫療機構']['特約類別'][hospitalType] = matchedItem['統計資料']['醫療機構']['特約類別'][hospitalType] || 0;
+    matchedItem['統計資料']['醫療機構']['特約類別'][hospitalType]++;
 
     // update min and max prices
-    if (cost < matchedItem['最低自付差額']) {
-      matchedItem['最低自付差額'] = cost;
-    }
-    if (cost > matchedItem['最高自付差額']) {
-      matchedItem['最高自付差額'] = cost;
-    }
+    matchedItem['統計資料']['自付差額']['列表'].push(cost);
 
-    matchedItem['最低與最高自付差額價差'] = matchedItem['最高自付差額'] - matchedItem['最低自付差額'];
+    const list = matchedItem['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+    matchedItem['統計資料']['自付差額']['平均值'] = stats.mean(list);
+    matchedItem['統計資料']['自付差額']['中位數'] = stats.median(list);
+    matchedItem['統計資料']['自付差額']['眾數'] = stats.mode(list);
+
+    matchedItem['統計資料']['自付差額']['最低'] = list[0];
+    matchedItem['統計資料']['自付差額']['最高'] = list[list.length - 1];
+    matchedItem['統計資料']['自付差額']['價差'] = list[list.length - 1] - list[0];
 
     items[record['品項代碼']] = matchedItem;
   });
@@ -317,4 +368,145 @@ function processPCItems() {
       report.metadata[`${dir}/${filename}`] = set.cache[cacheKey].length;
     });
   });
+}
+
+function processStatistics() {
+  const markets = require(path.join(LATEST_DIR, '自付差額特材數量佔率.json'));
+  const categories = require(path.join(LATEST_DIR, '自付差額品項類別.json'));
+  const items = require(path.join(LATEST_DIR, '原始資料-民眾自付差額品項收費情形.json'));
+
+  items.forEach((item) => {
+    const matchedCategory = categories.find((x) => x['名稱'] === item['自付差額品項類別']);
+    let category;
+    if (!matchedCategory) {
+      category = {
+        '名稱': item['自付差額品項類別'],
+        '子分類': [],
+      };
+      categories.push(category);
+    } else {
+      category = matchedCategory;
+    }
+
+    const categoryStatistics = category['統計資料'] || {
+      '醫療機構': {
+        '總數': 0,
+        '特約類別': getOrgTypes().reduce((obj, item) => {
+          obj[item] = 0;
+          return obj;
+        }, {}),
+        '地區': getLocations().reduce((obj, item) => {
+          obj[item] = 0;
+          return obj;
+        }, {}),
+        '列表': [],
+      },
+      '自付差額': {
+        '平均值': 0, // mean
+        '中位數': 0, // median
+        '眾數': 0, // mode
+        '最低': 0,
+        '最高': 0,
+        '價差': 0,
+        '列表': [],
+      },
+      '使用佔率': {
+        '平均值': parseFloat(markets.find((x) => x['醫事機構類別'])['同儕平均值']),
+      },
+    };
+
+    const cost = parseFloat(item['特約院所收費']);
+
+    if (!categoryStatistics['醫療機構']['列表'].find((x) => x['醫事機構代碼'] === item['醫事機構代碼'])) {
+      categoryStatistics['醫療機構']['列表'].push(item);
+      categoryStatistics['醫療機構']['總數']++;
+      // categoryStatistics['醫療機構']['特約類別'][item['特約類別']] = categoryStatistics['醫療機構']['特約類別'][item['特約類別']] || 0;
+      categoryStatistics['醫療機構']['特約類別'][item['特約類別']]++;
+      // categoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']] = categoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']] || 0;
+      categoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']]++;
+
+      categoryStatistics['自付差額']['列表'].push(cost);
+      const list = categoryStatistics['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+      categoryStatistics['自付差額']['平均值'] = stats.mean(list);
+      categoryStatistics['自付差額']['中位數'] = stats.median(list);
+      categoryStatistics['自付差額']['眾數'] = stats.mode(list);
+      categoryStatistics['自付差額']['最低'] = list[0];
+      categoryStatistics['自付差額']['最高'] = list[list.length - 1];
+      categoryStatistics['自付差額']['價差'] = list[list.length - 1] - list[0];
+    }
+
+    category['統計資料'] = categoryStatistics;
+
+    // 子分類
+
+    const matchedSubCategory = category['子分類'].find((x) => x['自付差額品項功能分類'] === item['自付差額品項功能分類']);
+    let subcategory;
+    if (!matchedSubCategory) {
+      subcategory = {
+        自付差額品項類別: category['名稱'],
+        自付差額品項功能分類: item['自付差額品項功能分類'],
+        功能一: '暫無資訊',
+        自付差額品項功能分類說明: '暫無資訊',
+      };
+      category['子分類'].push(subcategory);
+    } else {
+      subcategory = matchedSubCategory;
+    }
+
+    const subcategoryStatistics = subcategory['統計資料'] || {
+      '醫療機構': {
+        '總數': 0,
+        '特約類別': getOrgTypes().reduce((obj, item) => {
+          obj[item] = 0;
+          return obj;
+        }, {}),
+        '地區': getLocations().reduce((obj, item) => {
+          obj[item] = 0;
+          return obj;
+        }, {}),
+        '列表': [],
+      },
+      '自付差額': {
+        '平均值': 0, // mean
+        '中位數': 0, // median
+        '眾數': 0, // mode
+        '最低': 0,
+        '最高': 0,
+        '價差': 0,
+        '列表': [],
+      },
+    };
+
+    if (!subcategoryStatistics['醫療機構']['列表'].find((x) => x['醫事機構代碼'] === item['醫事機構代碼'])) {
+      subcategoryStatistics['醫療機構']['列表'].push(item);
+      subcategoryStatistics['醫療機構']['總數']++;
+      // subcategoryStatistics['醫療機構']['特約類別'][item['特約類別']] = subcategoryStatistics['醫療機構']['特約類別'][item['特約類別']] || 0;
+      subcategoryStatistics['醫療機構']['特約類別'][item['特約類別']]++;
+      // subcategoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']] = subcategoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']] || 0;
+      subcategoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']]++;
+
+      subcategoryStatistics['自付差額']['列表'].push(cost);
+      const list = subcategoryStatistics['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+      subcategoryStatistics['自付差額']['平均值'] = stats.mean(list);
+      subcategoryStatistics['自付差額']['中位數'] = stats.median(list);
+      subcategoryStatistics['自付差額']['眾數'] = stats.mode(list);
+      subcategoryStatistics['自付差額']['最低'] = list[0];
+      subcategoryStatistics['自付差額']['最高'] = list[list.length - 1];
+      subcategoryStatistics['自付差額']['價差'] = list[list.length - 1] - list[0];
+    }
+
+    subcategory['統計資料'] = subcategoryStatistics;
+  });
+
+  writeData('自付差額品項類別.json', categories.map((x) => {
+    delete x['統計資料']['醫療機構']['列表'];
+    delete x['統計資料']['自付差額']['列表'];
+    x['子分類'].forEach((subcategory) => {
+      if (subcategory['統計資料']) {
+        delete subcategory['統計資料']['醫療機構']['列表'];
+        delete subcategory['統計資料']['自付差額']['列表'];
+      }
+    });
+    return x;
+  }));
 }

@@ -85,10 +85,12 @@ export default function Item({ id: inId, match }) {
                 許可證字號：{item['許可證字號']}
               </Typography>
               <Typography variant="body2" component="p">
-                健保給付點數：{item['健保給付點數']}
+                健保給付點數：{new Intl.NumberFormat().format(item['健保給付點數'])}
               </Typography>
               <Typography variant="body2" component="p">
-                自付差額範圍：{item['最低自付差額']} - {item['最高自付差額']}
+                自付差額範圍：
+                {new Intl.NumberFormat().format(item['最低自付差額'])} - {new Intl.NumberFormat().format(item['最高自付差額'])} &nbsp;
+                (價差 {new Intl.NumberFormat().format(item['最低與最高自付差額價差'])})
               </Typography>
             </Grid>
           </Grid>

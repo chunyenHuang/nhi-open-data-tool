@@ -74,6 +74,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
     {
       name: '健保給付點數',
       label: '健保給付點數',
+      type: 'number',
       options: {
         filter: false,
       },
@@ -81,6 +82,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
     {
       name: '最低自付差額',
       label: '最低自付差額',
+      type: 'number',
       options: {
         filter: false,
       },
@@ -88,6 +90,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
     {
       name: '最高自付差額',
       label: '最高自付差額',
+      type: 'number',
       options: {
         filter: false,
       },

@@ -81,6 +81,7 @@ export default function PCItemsTable({ prefilters = {} }) {
     {
       name: '健保給付點數',
       label: '健保給付點數',
+      type: 'number',
       options: {
         filter: false,
       },
@@ -88,6 +89,7 @@ export default function PCItemsTable({ prefilters = {} }) {
     {
       name: '最低自付差額',
       label: '最低自付差額',
+      type: 'number',
       options: {
         filter: false,
       },
@@ -95,6 +97,15 @@ export default function PCItemsTable({ prefilters = {} }) {
     {
       name: '最高自付差額',
       label: '最高自付差額',
+      type: 'number',
+      options: {
+        filter: false,
+      },
+    },
+    {
+      name: '最低與最高自付差額價差',
+      label: '最低與最高自付差額價差',
+      type: 'number',
       options: {
         filter: false,
       },
@@ -102,6 +113,7 @@ export default function PCItemsTable({ prefilters = {} }) {
     {
       name: '醫療機構數',
       label: '醫療機構數',
+      type: 'number',
       options: {
         filter: false,
       },
