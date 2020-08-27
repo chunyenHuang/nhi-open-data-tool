@@ -232,15 +232,6 @@ function processPCItemList() {
 
     matchedItem['統計資料']['自付差額']['列表'].push(cost);
 
-    const list = matchedItem['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
-    matchedItem['統計資料']['自付差額']['平均值'] = stats.mean(list);
-    matchedItem['統計資料']['自付差額']['中位數'] = stats.median(list);
-    matchedItem['統計資料']['自付差額']['眾數'] = stats.mode(list);
-
-    matchedItem['統計資料']['自付差額']['最低'] = list[0];
-    matchedItem['統計資料']['自付差額']['最高'] = list[list.length - 1];
-    matchedItem['統計資料']['自付差額']['價差'] = list[list.length - 1] - list[0];
-
     items[record['品項代碼']] = matchedItem;
   });
 
@@ -260,7 +251,17 @@ function processPCItemList() {
   });
 
   organizations = Object.keys(organizations).map((key) => organizations[key]);
-  items = Object.keys(items).map((key) => items[key]);
+  items = Object.keys(items).map((key) => {
+    const list = items[key]['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+    items[key]['統計資料']['自付差額']['平均值'] = stats.mean(list);
+    items[key]['統計資料']['自付差額']['中位數'] = stats.median(list);
+    items[key]['統計資料']['自付差額']['眾數'] = stats.mode(list);
+    items[key]['統計資料']['自付差額']['最低'] = list[0];
+    items[key]['統計資料']['自付差額']['最高'] = list[list.length - 1];
+    items[key]['統計資料']['自付差額']['價差'] = list[list.length - 1] - list[0];
+
+    return items[key];
+  });
   paidItems = Object.keys(paidItems).map((key) => paidItems[key]);
 
   writeData('醫事機構.json', organizations);
@@ -431,13 +432,6 @@ function processStatistics() {
 
       categoryStatistics['自付差額']['健保給付點數'] = item['健保給付點數'];
       categoryStatistics['自付差額']['列表'].push(cost);
-      const list = categoryStatistics['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
-      categoryStatistics['自付差額']['平均值'] = stats.mean(list);
-      categoryStatistics['自付差額']['中位數'] = stats.median(list);
-      categoryStatistics['自付差額']['眾數'] = stats.mode(list);
-      categoryStatistics['自付差額']['最低'] = list[0];
-      categoryStatistics['自付差額']['最高'] = list[list.length - 1];
-      categoryStatistics['自付差額']['價差'] = list[list.length - 1] - list[0];
     }
 
     category['統計資料'] = categoryStatistics;
@@ -493,27 +487,37 @@ function processStatistics() {
 
       subcategoryStatistics['自付差額']['健保給付點數'] = item['健保給付點數'];
       subcategoryStatistics['自付差額']['列表'].push(cost);
-      const list = subcategoryStatistics['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
-      subcategoryStatistics['自付差額']['平均值'] = stats.mean(list);
-      subcategoryStatistics['自付差額']['中位數'] = stats.median(list);
-      subcategoryStatistics['自付差額']['眾數'] = stats.mode(list);
-      subcategoryStatistics['自付差額']['最低'] = list[0];
-      subcategoryStatistics['自付差額']['最高'] = list[list.length - 1];
-      subcategoryStatistics['自付差額']['價差'] = list[list.length - 1] - list[0];
     }
 
     subcategory['統計資料'] = subcategoryStatistics;
   });
 
   writeData('自付差額品項類別.json', categories.map((x) => {
-    // delete x['統計資料']['醫療機構']['列表'];
-    // delete x['統計資料']['自付差額']['列表'];
-    // x['子分類'].forEach((subcategory) => {
-    //   if (subcategory['統計資料']) {
-    //     delete subcategory['統計資料']['醫療機構']['列表'];
-    //     delete subcategory['統計資料']['自付差額']['列表'];
-    //   }
-    // });
+    const list = x['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+    x['自付差額']['平均值'] = stats.mean(list);
+    x['自付差額']['中位數'] = stats.median(list);
+    x['自付差額']['眾數'] = stats.mode(list);
+    x['自付差額']['最低'] = list[0];
+    x['自付差額']['最高'] = list[list.length - 1];
+    x['自付差額']['價差'] = list[list.length - 1] - list[0];
+
+    delete x['統計資料']['醫療機構']['列表'];
+    delete x['統計資料']['自付差額']['列表'];
+
+    x['子分類'].forEach((subcategory) => {
+      if (subcategory['統計資料']) {
+        const list = subcategory['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+        subcategory['自付差額']['平均值'] = stats.mean(list);
+        subcategory['自付差額']['中位數'] = stats.median(list);
+        subcategory['自付差額']['眾數'] = stats.mode(list);
+        subcategory['自付差額']['最低'] = list[0];
+        subcategory['自付差額']['最高'] = list[list.length - 1];
+        subcategory['自付差額']['價差'] = list[list.length - 1] - list[0];
+
+        delete subcategory['統計資料']['醫療機構']['列表'];
+        delete subcategory['統計資料']['自付差額']['列表'];
+      }
+    });
     return x;
   }));
 }
