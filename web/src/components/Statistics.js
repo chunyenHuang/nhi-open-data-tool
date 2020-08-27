@@ -27,7 +27,7 @@ function TextBox({ label, content, compare }) {
         {content}
       </Typography>
       {compare && compare !== 'NaN' &&
-      <Typography gutterBottom variant="h6s" component="h1" color="textSecondary">
+      <Typography gutterBottom variant="h6" component="h1" color="textSecondary">
         {compare}
       </Typography>}
     </Box>);
@@ -81,7 +81,7 @@ function Pie({ data = [] }) {
 }
 
 Pie.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.array.isRequired,
 };
 
 export default function Statistics({ data = {}, compareData = {}, hides = [] }) {
@@ -112,6 +112,13 @@ export default function Statistics({ data = {}, compareData = {}, hides = [] }) 
 
   return (
     <div className={classes.root}>
+      {priceData['健保給付點數'] &&
+        <Grid item xs={12}>
+          <TextBox
+            label="健保給付點數"
+            content={new Intl.NumberFormat().format(priceData['健保給付點數'])}
+          />
+        </Grid>}
       {!hides.includes('自付差額') &&
       <Grid container className={classes.container}>
         <Grid item xs={12} align="center">
@@ -119,13 +126,6 @@ export default function Statistics({ data = {}, compareData = {}, hides = [] }) 
             自付差額 {priceCompareData && <span> - 相較於此分類所有項目 (灰色部分)</span>}
           </Typography>
         </Grid>
-        {priceData['健保給付點數'] &&
-        <Grid item xs={12}>
-          <TextBox
-            label="健保給付點數"
-            content={new Intl.NumberFormat().format(priceData['健保給付點數'])}
-          />
-        </Grid>}
         <Grid item xs={4}>
           <TextBox
             label="最低"

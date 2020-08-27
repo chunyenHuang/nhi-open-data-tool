@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Link from '@material-ui/core/Link';
 import { Link as RouteLink } from 'react-router-dom';
 
-function TextLink({ url, title = 'link', variant = 'body2', ...args }) {
+function TextLink({ url, title = 'link', variant = 'body1', ...args }) {
   if (url.startsWith('/')) {
     return (
       <Link
@@ -11,7 +11,6 @@ function TextLink({ url, title = 'link', variant = 'body2', ...args }) {
         color="primary"
         { ...args }
         to={url}
-        style={{ fontSize: 12 }}
         component={RouteLink}
       >
         {title}
@@ -24,7 +23,6 @@ function TextLink({ url, title = 'link', variant = 'body2', ...args }) {
       { ...args }
       target="_blank"
       href={url}
-      style={{ fontSize: 12 }}
     >
       {title}
     </Link>);

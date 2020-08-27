@@ -75,6 +75,7 @@ export default function PCItemPricesInAllOrgsTable({ id }) {
       label: '健保給付點數',
       type: 'number',
       options: {
+        display: false,
         filter: false,
       },
     },

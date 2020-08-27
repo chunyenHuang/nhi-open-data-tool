@@ -68,7 +68,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
       label: '許可證字號',
       options: {
         filter: false,
-        customBodyRender: certificateLinkRender,
+        customBodyRender: (value) => certificateLinkRender(value, 'body2'),
       },
     },
     {
@@ -101,7 +101,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
       options: {
         filter: false,
         sort: false,
-        customBodyRender: (value) => (<VisitButton url={`/item/${value}`} title="查看" />),
+        customBodyRender: (value) => (<VisitButton url={`/pcItem/${value}`} title="查看" />),
       },
     },
   ];

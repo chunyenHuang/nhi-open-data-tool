@@ -1,3 +1,5 @@
+import fdaCertificationCodes from 'constants/fdaCertificationCodes';
+
 import cache from './cache';
 
 const API_URL = `https://raw.githubusercontent.com/chunyenHuang/nhi-open-data-tool/master/data/latest`;
@@ -29,8 +31,12 @@ export const getTextLinkHtml = (label, url) => {
   return `<a href="${url}" rel="noopener" target="_blank" style="none;">${label}</a>`;
 };
 
-export const getCertificateLinkUrl = (code) => {
-  return `http://www.fda.gov.tw/MLMS/H0001D.aspx?Type=Lic&LicId=06${code}`;
+export const getCertificateLinkUrl = (value) => {
+  const number = value.match(/\d+/)[0];
+  const type = value.split(number)[0].replace('字第', '');
+  const code = fdaCertificationCodes[type];
+
+  return `http://www.fda.gov.tw/MLMS/H0001D.aspx?Type=Lic&LicId=${code}`;
 };
 
 export const getPCItemDetails = async (id) => {

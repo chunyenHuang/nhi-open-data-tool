@@ -6,11 +6,12 @@ import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import DocumentTitle from 'react-document-title';
 
-import retrieve, { getPCItemImageUrl, getPCItemDetails } from 'utils/retrieve';
+import retrieve, { getPCItemImageUrl } from 'utils/retrieve';
 import PCItemPricesInAllOrgsTable from 'components/PCItemPricesInAllOrgsTable';
 import SameFunctionPCItemsTable from 'components/SameFunctionPCItemsTable';
 import MatchedAllOfferedPCItemsTable from 'components/MatchedAllOfferedPCItemsTable';
 import Statistics from 'components/Statistics';
+import { certificateLinkRender } from 'components/table/renders';
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -25,6 +26,9 @@ const useStyles = makeStyles((theme) => ({
   },
   img: {
     width: '100%',
+  },
+  header: {
+    marginBottom: theme.spacing(1),
   },
 }));
 
@@ -69,10 +73,6 @@ export default function Item({ id: inId, match }) {
           });
         }
       });
-
-      // get details
-      const details = await getPCItemDetails(id);
-      console.log(details);
     })();
   }, [id]);
 
@@ -87,24 +87,21 @@ export default function Item({ id: inId, match }) {
               <img src={getPCItemImageUrl(id)} alt="test" className={classes.img}/>
             </Grid>
             <Grid item xs={12} sm={10} md={8} className={classes.container}>
-              <Typography variant="h5" component="h1">
+              <Typography variant="h5" component="h1" className={classes.header}>
                 {item['中文']}
               </Typography>
-              <Typography variant="subtitle1" component="h5">
+              <Typography variant="subtitle1" component="h5" className={classes.header}>
                 {item['英文']}
               </Typography>
-              <Typography variant="body2" component="p">
+              <Typography variant="body2" component="p" className={classes.header}>
                 代碼：{item['代碼']}
               </Typography>
-              <Typography variant="body2" component="p">
+              <Typography variant="body2" component="p" className={classes.header}>
                 {/* TODO: link */}
                 類別：{item['類別']} / {item['分類']}
               </Typography>
-              <Typography variant="body2" component="p">
-                許可證字號：{item['許可證字號']}
-              </Typography>
-              <Typography variant="body2" component="p">
-                健保給付點數：{new Intl.NumberFormat().format(item['健保給付點數'])}
+              <Typography variant="body2" component="p" className={classes.header}>
+                許可證字號：{certificateLinkRender(item['許可證字號'], 'body1')}
               </Typography>
             </Grid>
           </Grid>
