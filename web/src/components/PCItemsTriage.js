@@ -8,6 +8,7 @@ import Box from '@material-ui/core/Box';
 
 import retrieve from 'utils/retrieve';
 import PCItemsTriageCategoryItem from 'components/PCItemsTriageCategoryItem';
+import { sortBy } from 'utils/sorting';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
   container: {
     flexGrow: 1,
-    padding: theme.spacing(3),
+    paddingTop: theme.spacing(3),
     // backgroundColor: theme.palette.background.paper,
     display: 'flex',
     // height: 224,
@@ -63,7 +64,6 @@ export default function PCItemsTriage() {
   const classes = useStyles();
 
   const [categories, setCategories] = useState([]);
-  const [subcategories, setSubcategories] = useState([]);
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -72,12 +72,9 @@ export default function PCItemsTriage() {
 
   useEffect(() => {
     (async () => {
-      const results = await Promise.all([
-        retrieve('自付差額品項類別'),
-        retrieve('自付差額特材功能分類'),
-      ]);
-      setCategories(results[0]);
-      setSubcategories(results[1]);
+      const data = (await retrieve('自付差額品項類別')).sort(sortBy('名稱'));
+      console.log(data);
+      setCategories(data);
     })();
   }, []);
 
@@ -96,16 +93,15 @@ export default function PCItemsTriage() {
           aria-label="自付差額分類"
           className={classes.tabs}
         >
-          {categories.map((name, index)=>(
-            <Tab label={name} key={index} id={`vertical-tab-${index}`} aria-controls={`vertical-tabpanel-${index}`} />
+          {categories.map((item, index)=>(
+            <Tab label={item['名稱']} key={index} id={`vertical-tab-${index}`} aria-controls={`vertical-tabpanel-${index}`} />
           ))}
         </Tabs>
         <div className={classes.tabContainer}>
-          {categories.map((name, index)=>(
+          {categories.map((item, index)=>(
             <TabPanel value={value} index={index} key={index}>
               <PCItemsTriageCategoryItem
-                categoryName={name}
-                subcategories={subcategories.filter((item) => item['自付差額品項類別'] === name)}
+                category={item}
               />
             </TabPanel>
           ))}

@@ -80,7 +80,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
       },
     },
     {
-      name: '最低自付差額',
+      name: '統計資料.自付差額.最低',
       label: '最低自付差額',
       type: 'number',
       options: {
@@ -88,7 +88,7 @@ export default function SameFunctionPCItemsTable({ funcName, id }) {
       },
     },
     {
-      name: '最高自付差額',
+      name: '統計資料.自付差額.最高',
       label: '最高自付差額',
       type: 'number',
       options: {

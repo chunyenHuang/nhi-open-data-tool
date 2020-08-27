@@ -205,6 +205,7 @@ function processPCItemList() {
             }, {}),
           },
           '自付差額': {
+            '健保給付點數': 0,
             '平均值': 0, // mean
             '中位數': 0, // median
             '眾數': 0, // mode
@@ -227,6 +228,8 @@ function processPCItemList() {
     matchedItem['統計資料']['醫療機構']['特約類別'][hospitalType]++;
 
     // update min and max prices
+    matchedItem['統計資料']['自付差額']['健保給付點數'] = record['健保給付點數'];
+
     matchedItem['統計資料']['自付差額']['列表'].push(cost);
 
     const list = matchedItem['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
@@ -402,6 +405,7 @@ function processStatistics() {
         '列表': [],
       },
       '自付差額': {
+        '健保給付點數': 0,
         '平均值': 0, // mean
         '中位數': 0, // median
         '眾數': 0, // mode
@@ -425,6 +429,7 @@ function processStatistics() {
       // categoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']] = categoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']] || 0;
       categoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']]++;
 
+      categoryStatistics['自付差額']['健保給付點數'] = item['健保給付點數'];
       categoryStatistics['自付差額']['列表'].push(cost);
       const list = categoryStatistics['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
       categoryStatistics['自付差額']['平均值'] = stats.mean(list);
@@ -467,6 +472,7 @@ function processStatistics() {
         '列表': [],
       },
       '自付差額': {
+        '健保給付點數': 0,
         '平均值': 0, // mean
         '中位數': 0, // median
         '眾數': 0, // mode
@@ -485,6 +491,7 @@ function processStatistics() {
       // subcategoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']] = subcategoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']] || 0;
       subcategoryStatistics['醫療機構']['地區'][item['就醫院所縣市別']]++;
 
+      subcategoryStatistics['自付差額']['健保給付點數'] = item['健保給付點數'];
       subcategoryStatistics['自付差額']['列表'].push(cost);
       const list = subcategoryStatistics['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
       subcategoryStatistics['自付差額']['平均值'] = stats.mean(list);
@@ -499,14 +506,14 @@ function processStatistics() {
   });
 
   writeData('自付差額品項類別.json', categories.map((x) => {
-    delete x['統計資料']['醫療機構']['列表'];
-    delete x['統計資料']['自付差額']['列表'];
-    x['子分類'].forEach((subcategory) => {
-      if (subcategory['統計資料']) {
-        delete subcategory['統計資料']['醫療機構']['列表'];
-        delete subcategory['統計資料']['自付差額']['列表'];
-      }
-    });
+    // delete x['統計資料']['醫療機構']['列表'];
+    // delete x['統計資料']['自付差額']['列表'];
+    // x['子分類'].forEach((subcategory) => {
+    //   if (subcategory['統計資料']) {
+    //     delete subcategory['統計資料']['醫療機構']['列表'];
+    //     delete subcategory['統計資料']['自付差額']['列表'];
+    //   }
+    // });
     return x;
   }));
 }

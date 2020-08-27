@@ -87,7 +87,7 @@ export default function PCItemsTable({ prefilters = {} }) {
       },
     },
     {
-      name: '最低自付差額',
+      name: '統計資料.自付差額.最低',
       label: '最低自付差額',
       type: 'number',
       options: {
@@ -95,7 +95,7 @@ export default function PCItemsTable({ prefilters = {} }) {
       },
     },
     {
-      name: '最高自付差額',
+      name: '統計資料.自付差額.最高',
       label: '最高自付差額',
       type: 'number',
       options: {
@@ -103,7 +103,7 @@ export default function PCItemsTable({ prefilters = {} }) {
       },
     },
     {
-      name: '最低與最高自付差額價差',
+      name: '統計資料.自付差額.價差',
       label: '最低與最高自付差額價差',
       type: 'number',
       options: {
@@ -111,7 +111,7 @@ export default function PCItemsTable({ prefilters = {} }) {
       },
     },
     {
-      name: '醫療機構數',
+      name: '統計資料.醫療機構.總數',
       label: '醫療機構數',
       type: 'number',
       options: {

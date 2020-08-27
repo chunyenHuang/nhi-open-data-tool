@@ -10,10 +10,14 @@ import retrieve, { getPCItemImageUrl, getPCItemDetails } from 'utils/retrieve';
 import PCItemPricesInAllOrgsTable from 'components/PCItemPricesInAllOrgsTable';
 import SameFunctionPCItemsTable from 'components/SameFunctionPCItemsTable';
 import MatchedAllOfferedPCItemsTable from 'components/MatchedAllOfferedPCItemsTable';
+import Statistics from 'components/Statistics';
 
 const useStyles = makeStyles((theme) => ({
   container: {
     flex: 1,
+    padding: theme.spacing(4),
+  },
+  statisticsContainer: {
     padding: theme.spacing(4),
   },
   space: {
@@ -28,6 +32,8 @@ export default function Item({ id: inId, match }) {
   const classes = useStyles();
   const [id, setId] = useState();
   const [item, setItem] = useState();
+  // const [category, setCategory] = useState();
+  const [subcategory, setSubcategory] = useState({});
 
   useEffect(() => {
     if (inId) {
@@ -50,6 +56,19 @@ export default function Item({ id: inId, match }) {
       }
       console.log(matched);
       setItem(matched);
+
+      const categories = (await retrieve('自付差額品項類別'));
+      categories.forEach((category) => {
+        if (category['名稱'] === matched['類別']) {
+          // setCategory(category);
+          category['子分類'].forEach((subcategory) => {
+            if (subcategory['自付差額品項功能分類'] === matched['分類']) {
+              console.log(subcategory);
+              setSubcategory(subcategory);
+            }
+          });
+        }
+      });
 
       // get details
       const details = await getPCItemDetails(id);
@@ -87,13 +106,15 @@ export default function Item({ id: inId, match }) {
               <Typography variant="body2" component="p">
                 健保給付點數：{new Intl.NumberFormat().format(item['健保給付點數'])}
               </Typography>
-              <Typography variant="body2" component="p">
-                自付差額範圍：
-                {new Intl.NumberFormat().format(item['最低自付差額'])} - {new Intl.NumberFormat().format(item['最高自付差額'])} &nbsp;
-                (價差 {new Intl.NumberFormat().format(item['最低與最高自付差額價差'])})
-              </Typography>
             </Grid>
           </Grid>
+        </Paper>
+        <div className={classes.space} />
+        <Paper className={classes.statisticsContainer}>
+          <Statistics
+            data={item['統計資料']}
+            compareData={subcategory['統計資料']}
+          />
         </Paper>
         <div className={classes.space} />
         <PCItemPricesInAllOrgsTable id={id}/>

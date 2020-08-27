@@ -6,8 +6,10 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
+import Box from '@material-ui/core/Box';
 
 import VisitButton from 'components/VisitButton';
+import Statistics from 'components/Statistics';
 
 const useStyles = makeStyles((theme) => ({
   categoryButton: {
@@ -23,37 +25,50 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function PCItemsTriageCategoryItem({ categoryName, subcategories = [] }) {
+export default function PCItemsTriageCategoryItem({ category = {} }) {
   const classes = useStyles();
+
+  const subcategories = category['子分類'];
 
   return (
     <div>
       <Card className={classes.card}>
         <CardContent>
-          <Typography gutterBottom variant="h6" component="h1">
-            {categoryName}
-          </Typography>
-          {/* TODO: 佔率資訊 分布資訊 價位資訊 */}
+          <Box textAlign="center">
+            <Typography gutterBottom variant="h5" component="h1">
+              {category['名稱']}
+            </Typography>
+          </Box>
         </CardContent>
         <CardActions>
-          <Button size="small" color="default">
-            共有{subcategories.length}個子分類
-          </Button>
           <div className={classes.flex} />
           <VisitButton
             // className={classes.categoryButton}
             title={'查看此類別所有醫材'}
             size="small"
-            url={`/pcItems?類別[]=${categoryName}`}
+            url={`/pcItems?類別[]=${category['名稱']}`}
           />
+          <div className={classes.flex} />
         </CardActions>
+        <CardContent>
+          <Statistics data={category['統計資料']} />
+        </CardContent>
       </Card>
+      <Box textAlign="center" p={2}>
+        <Typography gutterBottom variant="h5" component="h1" color="textSecondary">
+          以下為子分類，共有 {subcategories.length} 項
+        </Typography>
+      </Box>
       {subcategories.map((item, index)=>(
         <Card className={classes.card} key={index}>
           <CardContent>
-            <Typography gutterBottom variant="subtitle1" component="p">
-              {item['自付差額品項功能分類']}
-            </Typography>
+            <Box textAlign="center">
+              <Typography gutterBottom variant="h5" component="h1">
+                {item['自付差額品項功能分類']}
+              </Typography>
+            </Box>
+          </CardContent>
+          <CardContent>
             {item['自付差額品項功能分類說明'].split('\n').map((subtext, i) => (
               <Typography key={i} variant="body2" color="textSecondary" component="p">
                 {subtext}
@@ -71,15 +86,20 @@ export default function PCItemsTriageCategoryItem({ categoryName, subcategories 
               // className={classes.categoryButton}
               title={'查看此子類別相關醫材'}
               size="small"
-              url={`/pcItems?類別[]=${categoryName}&分類[]=${item['自付差額品項功能分類']}`}
+              url={`/pcItems?類別[]=${category['名稱']}&分類[]=${item['自付差額品項功能分類']}`}
             />
           </CardActions>
+          <CardContent>
+            <Statistics
+              data={item['統計資料']}
+              compareData={category['統計資料']}
+            />
+          </CardContent>
         </Card>
       ))}
     </div>);
 }
 
 PCItemsTriageCategoryItem.propTypes = {
-  categoryName: PropTypes.string.isRequired,
-  subcategories: PropTypes.array.isRequired,
+  category: PropTypes.object.isRequired,
 };
