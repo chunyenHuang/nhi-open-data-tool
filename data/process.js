@@ -493,26 +493,26 @@ function processStatistics() {
   });
 
   writeData('自付差額品項類別.json', categories.map((x) => {
-    const list = x['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
-    x['自付差額']['平均值'] = stats.mean(list);
-    x['自付差額']['中位數'] = stats.median(list);
-    x['自付差額']['眾數'] = stats.mode(list);
-    x['自付差額']['最低'] = list[0];
-    x['自付差額']['最高'] = list[list.length - 1];
-    x['自付差額']['價差'] = list[list.length - 1] - list[0];
+    const list = x['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+    x['統計資料']['自付差額']['平均值'] = stats.mean(list);
+    x['統計資料']['自付差額']['中位數'] = stats.median(list);
+    x['統計資料']['自付差額']['眾數'] = stats.mode(list);
+    x['統計資料']['自付差額']['最低'] = list[0];
+    x['統計資料']['自付差額']['最高'] = list[list.length - 1];
+    x['統計資料']['自付差額']['價差'] = list[list.length - 1] - list[0];
 
     delete x['統計資料']['醫療機構']['列表'];
     delete x['統計資料']['自付差額']['列表'];
 
     x['子分類'].forEach((subcategory) => {
       if (subcategory['統計資料']) {
-        const list = subcategory['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
-        subcategory['自付差額']['平均值'] = stats.mean(list);
-        subcategory['自付差額']['中位數'] = stats.median(list);
-        subcategory['自付差額']['眾數'] = stats.mode(list);
-        subcategory['自付差額']['最低'] = list[0];
-        subcategory['自付差額']['最高'] = list[list.length - 1];
-        subcategory['自付差額']['價差'] = list[list.length - 1] - list[0];
+        const list = subcategory['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+        subcategory['統計資料']['自付差額']['平均值'] = stats.mean(list);
+        subcategory['統計資料']['自付差額']['中位數'] = stats.median(list);
+        subcategory['統計資料']['自付差額']['眾數'] = stats.mode(list);
+        subcategory['統計資料']['自付差額']['最低'] = list[0];
+        subcategory['統計資料']['自付差額']['最高'] = list[list.length - 1];
+        subcategory['統計資料']['自付差額']['價差'] = list[list.length - 1] - list[0];
 
         delete subcategory['統計資料']['醫療機構']['列表'];
         delete subcategory['統計資料']['自付差額']['列表'];
