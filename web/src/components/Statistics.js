@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import { ResponsivePieCanvas } from '@nivo/pie';
+import { ResponsivePie } from '@nivo/pie';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,7 +42,7 @@ TextBox.propTypes = {
 function Pie({ data = [] }) {
   return (
     <Box height={500}>
-      <ResponsivePieCanvas
+      <ResponsivePie
         data={data}
         margin={{ top: 40, right: 200, bottom: 40, left: 80 }}
         pixelRatio={1}

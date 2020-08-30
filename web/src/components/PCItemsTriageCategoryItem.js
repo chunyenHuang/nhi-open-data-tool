@@ -76,11 +76,15 @@ export default function PCItemsTriageCategoryItem({ category = {} }) {
             ))}
           </CardContent>
           <CardActions>
+            <div className={classes.flex} />
             {['一', '二', '三', '四', '五'].filter((num) => item[`功能${num}`] && item[`功能${num}`] !== '無').map((num)=>(
               <Button key={num} size="small" color="secondary">
                 {item[`功能${num}`]}
               </Button>
             ))}
+            <div className={classes.flex} />
+          </CardActions>
+          <CardActions>
             <div className={classes.flex} />
             <VisitButton
               // className={classes.categoryButton}
@@ -88,6 +92,7 @@ export default function PCItemsTriageCategoryItem({ category = {} }) {
               size="small"
               url={`/pcItems?類別[]=${category['名稱']}&分類[]=${item['自付差額品項功能分類']}`}
             />
+            <div className={classes.flex} />
           </CardActions>
           <CardContent>
             <Statistics
