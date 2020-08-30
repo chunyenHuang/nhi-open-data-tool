@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nhi-open-data-tool/precache-manifest.df47c982f76f443f9ffc56d217b8a91e.js"
+  "/nhi-open-data-tool/precache-manifest.bf6243c3f36246a3751f274d4695922f.js"
 );
 
 self.addEventListener('message', (event) => {
