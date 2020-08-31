@@ -15760,22 +15760,6 @@
     "藥商名稱": "巴德"
   },
   {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04EX06CAN",
-    "中英文名稱": "\"ANGIOMED\"BARD LIFESTENT VASCULAR STENT(DELIVERY SYS+STENT)\"安吉美爾德\" 巴德萊弗丹血管支架 支架長20:120MM",
-    "支付點數": "28773",
-    "許可證字號": "衛署醫器輸字第020155號",
-    "藥商名稱": "巴德"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04EX15CAN",
-    "中英文名稱": "\"ANGIOMED\"BARD LIFESTENT VASCULAR STENT(DELIVERY SYS+STENT)\"安吉美爾德\" 巴德萊弗丹血管支架 支架長150:170MM",
-    "支付點數": "44293",
-    "許可證字號": "衛署醫器輸字第020155號",
-    "藥商名稱": "巴德"
-  },
-  {
     "自付差額品項代碼": "CBC04PASLXBK",
     "對應健保全額給付品項代碼": "CBC04EX06CAN",
     "中英文名稱": "\"ANGIOMED\"BARD LIFESTENT VASCULAR STENT(DELIVERY SYS+STENT)\"安吉美爾德\" 巴德萊弗丹血管支架 支架長20:120MM",
@@ -17689,22 +17673,6 @@
   },
   {
     "自付差額品項代碼": "CBC04FW035EQ",
-    "對應健保全額給付品項代碼": "CBC04ZFV62CK",
-    "中英文名稱": "\"COOK\"ZILVER FLEX 35 VASCULAR STENTS\"曲克\"麗而服福雷斯血管支架(淺股動脈血管支架)170:200MM 5-8MM",
-    "支付點數": "44293",
-    "許可證字號": "衛署醫器輸字第021466號",
-    "藥商名稱": "曲克"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04ZFV61CK",
-    "中英文名稱": "\"COOK\"ZILVER FLEX 35 VASCULAR STENTS\"曲克\"麗而服福雷斯血管支架(淺股動脈血管支架)20:140MM 5:10MM*適應症請見備註欄",
-    "支付點數": "28773",
-    "許可證字號": "衛署醫器輸字第021466號",
-    "藥商名稱": "曲克"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
     "對應健保全額給付品項代碼": "CBC04ZFV62CK",
     "中英文名稱": "\"COOK\"ZILVER FLEX 35 VASCULAR STENTS\"曲克\"麗而服福雷斯血管支架(淺股動脈血管支架)170:200MM 5-8MM",
     "支付點數": "44293",
@@ -20952,14 +20920,6 @@
     "藥商名稱": "埃默高"
   },
   {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04SC210CD",
-    "中英文名稱": "\"CORDIS\"S.M.A.R.T.CONTROL NITINOL STENT SYSTEM\"考迪斯\"史瑪特鎳鈦支架系統(淺股動脈血管支架)D6:14MM L20:100MM",
-    "支付點數": "28773",
-    "許可證字號": "衛署醫器輸字第022375號",
-    "藥商名稱": "埃默高"
-  },
-  {
     "自付差額品項代碼": "CBC04PASLXBK",
     "對應健保全額給付品項代碼": "CBC04SC210CD",
     "中英文名稱": "\"CORDIS\"S.M.A.R.T.CONTROL NITINOL STENT SYSTEM\"考迪斯\"史瑪特鎳鈦支架系統(淺股動脈血管支架)D6:14MM L20:100MM",
@@ -25745,22 +25705,6 @@
   },
   {
     "自付差額品項代碼": "CBC04FW035EQ",
-    "對應健保全額給付品項代碼": "CBC04SN150CD",
-    "中英文名稱": "\"CORDIS\"S.M.A.R.T.NITINOL STENT SYSTEM\"考迪斯\"史瑪特鎳鈦支架系統(淺股動脈血管支架)D 6:8MM L 150MM*給付規定請見備註欄",
-    "支付點數": "44293",
-    "許可證字號": "衛署醫器輸字第023753號",
-    "藥商名稱": "埃默高"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04SN120CD",
-    "中英文名稱": "\"CORDIS\"S.M.A.R.T.NITINOL STENT SYSTEM\"考迪斯\"史瑪特鎳鈦支架系統(淺股動脈血管支架)D 6:8MM L 120MM*給付規定請見備註欄",
-    "支付點數": "28773",
-    "許可證字號": "衛署醫器輸字第023753號",
-    "藥商名稱": "埃默高"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
     "對應健保全額給付品項代碼": "CBC04SN150CD",
     "中英文名稱": "\"CORDIS\"S.M.A.R.T.NITINOL STENT SYSTEM\"考迪斯\"史瑪特鎳鈦支架系統(淺股動脈血管支架)D 6:8MM L 150MM*給付規定請見備註欄",
     "支付點數": "44293",
@@ -27200,22 +27144,6 @@
     "藥商名稱": "波士頓"
   },
   {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04NSFASSB",
-    "中英文名稱": "\"波士頓科技\"宜諾自膨式支架系統(淺股動脈支架)\"BOSTON SCIENTIFIC\"INNOVA SELF-EXPANDING STENT SYSTEM(DELIVERY SYS+STENT)L20:120MM",
-    "支付點數": "28773",
-    "許可證字號": "衛署醫器輸字第024979號",
-    "藥商名稱": "波士頓"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04NSFALSB",
-    "中英文名稱": "\"波士頓科技\"宜諾自膨式支架系統(淺股動脈支架)\"BOSTON SCIENTIFIC\"INNOVA SELF-EXPANDING STENT SYSTEM(DELIVERY SYS+STENT)L150:201MM",
-    "支付點數": "44293",
-    "許可證字號": "衛署醫器輸字第024979號",
-    "藥商名稱": "波士頓"
-  },
-  {
     "自付差額品項代碼": "CBC04PASLXBK",
     "對應健保全額給付品項代碼": "CBC04NSFASSB",
     "中英文名稱": "\"波士頓科技\"宜諾自膨式支架系統(淺股動脈支架)\"BOSTON SCIENTIFIC\"INNOVA SELF-EXPANDING STENT SYSTEM(DELIVERY SYS+STENT)L20:120MM",
@@ -27824,22 +27752,6 @@
     "藥商名稱": "亞培"
   },
   {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04APL12AB",
-    "中英文名稱": "\"亞培\"雅速博長型周邊血管自張支架系統(淺股動脈血管支架)\"ABBOTT\"ABSOLUTE PRO LL PERIPHERAL SELF-EXPANDING STENT SYSTEM L120MM",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第025659號",
-    "藥商名稱": "亞培"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04APL15AB",
-    "中英文名稱": "\"亞培\"雅速博長型周邊血管自張支架系統(淺股動脈血管支架)\"ABBOTT\"ABSOLUTE PRO LL PERIPHERAL SELF-EXPANDING STENT SYSTEM L150MM",
-    "支付點數": "44293",
-    "許可證字號": "衛部醫器輸字第025659號",
-    "藥商名稱": "亞培"
-  },
-  {
     "自付差額品項代碼": "CBC04PASLXBK",
     "對應健保全額給付品項代碼": "CBC04APL12AB",
     "中英文名稱": "\"亞培\"雅速博長型周邊血管自張支架系統(淺股動脈血管支架)\"ABBOTT\"ABSOLUTE PRO LL PERIPHERAL SELF-EXPANDING STENT SYSTEM L120MM",
@@ -28009,22 +27921,6 @@
   },
   {
     "自付差額品項代碼": "CBC04FW035EQ",
-    "對應健保全額給付品項代碼": "CBC04M1SG2TM",
-    "中英文名稱": "\"泰爾茂\"彌薩爾周邊血管支架(淺股動脈血管支架)\"TERUMO\"MISAGO SELF-EXPANDING PERIPHERAL STENT L150MM",
-    "支付點數": "44293",
-    "許可證字號": "衛部醫器輸字第025665號",
-    "藥商名稱": "泰爾茂"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04M1SG1TM",
-    "中英文名稱": "\"泰爾茂\"彌薩爾周邊血管支架(淺股動脈血管支架)\"TERUMO\"MISAGO SELF-EXPANDING PERIPHERAL STENT L40:120MM",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第025665號",
-    "藥商名稱": "泰爾茂"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
     "對應健保全額給付品項代碼": "CBC04M1SG2TM",
     "中英文名稱": "\"泰爾茂\"彌薩爾周邊血管支架(淺股動脈血管支架)\"TERUMO\"MISAGO SELF-EXPANDING PERIPHERAL STENT L150MM",
     "支付點數": "44293",
@@ -28560,22 +28456,6 @@
     "藥商名稱": "美敦力"
   },
   {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04PRB20EY",
-    "中英文名稱": "愛爾飛絲自動擴張周邊血管支架系統\"EV3\"EVERFLEX SELF-EXPANDING PERIPHERAL STENT SYSTEM 20:120MM",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第026247號",
-    "藥商名稱": "美敦力"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04PR200EY",
-    "中英文名稱": "愛爾飛絲自動擴張周邊血管支架系統\"EV3\"EVERFLEX SELF-EXPANDING PERIPHERAL STENT SYSTEM 150:200MM",
-    "支付點數": "44293",
-    "許可證字號": "衛部醫器輸字第026247號",
-    "藥商名稱": "美敦力"
-  },
-  {
     "自付差額品項代碼": "CBC04PASLXBK",
     "對應健保全額給付品項代碼": "CBC04PRB20EY",
     "中英文名稱": "愛爾飛絲自動擴張周邊血管支架系統\"EV3\"EVERFLEX SELF-EXPANDING PERIPHERAL STENT SYSTEM 20:120MM",
@@ -28745,22 +28625,6 @@
   },
   {
     "自付差額品項代碼": "CBC04FW035EQ",
-    "對應健保全額給付品項代碼": "CBC04PUL20BK",
-    "中英文名稱": "\"百多力\"帕撒18自行擴張周邊支架系統(淺股動脈血管支架)\"BIOTRONIK\" PULSAR-18 SELF EXPANDING PERIPHERAL STENT SYSTEM L150:200MM",
-    "支付點數": "44293",
-    "許可證字號": "衛部醫器輸字第026458號",
-    "藥商名稱": "百多力"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04PUL14BK",
-    "中英文名稱": "\"百多力\"帕撒18自行擴張周邊支架系統(淺股動脈血管支架)\"BIOTRONIK\" PULSAR-18 SELF EXPANDING PERIPHERAL STENT SYSTEM L20:120MM",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第026458號",
-    "藥商名稱": "百多力"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
     "對應健保全額給付品項代碼": "CBC04PUL20BK",
     "中英文名稱": "\"百多力\"帕撒18自行擴張周邊支架系統(淺股動脈血管支架)\"BIOTRONIK\" PULSAR-18 SELF EXPANDING PERIPHERAL STENT SYSTEM L150:200MM",
     "支付點數": "44293",
@@ -31033,22 +30897,6 @@
   },
   {
     "自付差額品項代碼": "CBC04FW035EQ",
-    "對應健保全額給付品項代碼": "CBC04SUP15AB",
-    "中英文名稱": "\"亞培\"速彼諾周邊血管支架系統-淺股動脈血管支架\"ABBOTT\"SUPERA PERIPHERAL STENT SYSTEM L:150-200MM",
-    "支付點數": "44293",
-    "許可證字號": "衛部醫器輸字第027315號",
-    "藥商名稱": "亞培"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04SUP12AB",
-    "中英文名稱": "\"亞培\"速彼諾周邊血管支架系統-淺股動脈血管支架\"ABBOTT\"SUPERA PERIPHERAL STENT SYSTEM L:20-120MM",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第027315號",
-    "藥商名稱": "亞培"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
     "對應健保全額給付品項代碼": "CBC04SUP15AB",
     "中英文名稱": "\"亞培\"速彼諾周邊血管支架系統-淺股動脈血管支架\"ABBOTT\"SUPERA PERIPHERAL STENT SYSTEM L:150-200MM",
     "支付點數": "44293",
@@ -33072,22 +32920,6 @@
     "藥商名稱": "埃默高"
   },
   {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04SF120CD",
-    "中英文名稱": "\"考迪斯\"史瑪特彈力支架系統(淺股動脈血管支架)\"CORDIS\"S.M.A.R.T.FLEX VASCULAR STENT SYSTEM L30:120MM",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第027849號",
-    "藥商名稱": "埃默高"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04SF150CD",
-    "中英文名稱": "\"考迪斯\"史瑪特彈力支架系統(淺股動脈血管支架)\"CORDIS\"S.M.A.R.T.FLEX VASCULAR STENT SYSTEM L150:200MM",
-    "支付點數": "44293",
-    "許可證字號": "衛部醫器輸字第027849號",
-    "藥商名稱": "埃默高"
-  },
-  {
     "自付差額品項代碼": "CBC04PASLXBK",
     "對應健保全額給付品項代碼": "CBC04SF120CD",
     "中英文名稱": "\"考迪斯\"史瑪特彈力支架系統(淺股動脈血管支架)\"CORDIS\"S.M.A.R.T.FLEX VASCULAR STENT SYSTEM L30:120MM",
@@ -33209,14 +33041,6 @@
   },
   {
     "自付差額品項代碼": "CBC04FW035EQ",
-    "對應健保全額給付品項代碼": "CBC0410119AB",
-    "中英文名稱": "\"亞培\"雅速博自擴型周邊血管支架系統(淺股動脈血管支架)\"ABBOTT\"ABSOLUTE PRO PERIPHERAL SELF-EXPANDING STENT SYSTEM L20:100MM",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第027876號",
-    "藥商名稱": "亞培"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
     "對應健保全額給付品項代碼": "CBC0410119AB",
     "中英文名稱": "\"亞培\"雅速博自擴型周邊血管支架系統(淺股動脈血管支架)\"ABBOTT\"ABSOLUTE PRO PERIPHERAL SELF-EXPANDING STENT SYSTEM L20:100MM",
     "支付點數": "28773",
@@ -33737,22 +33561,6 @@
   },
   {
     "自付差額品項代碼": "CBC04FW035EQ",
-    "對應健保全額給付品項代碼": "CBC04EVXSLM4",
-    "中英文名稱": "\"美敦力\"愛爾飛絲自膨式周邊血管支架暨輸送系統(淺股動脈血管支架)\"MEDTRONIC\"EVERFLEX SELF-EXPANDING PERIPHERAL STENT WITH ENTRUST DELIVERY SYSTEM D:5-7MM;L:150MM",
-    "支付點數": "44293",
-    "許可證字號": "衛部醫器輸字第028884號",
-    "藥商名稱": "美敦力"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04EVXSSM4",
-    "中英文名稱": "\"美敦力\"愛爾飛絲自膨式周邊血管支架暨輸送系統(淺股動脈血管支架)\"MEDTRONIC\"EVERFLEX SELF-EXPANDING PERIPHERAL STENT WITH ENTRUST DELIVERY SYSTEM D:5-7MM;L:20-120MM",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第028884號",
-    "藥商名稱": "美敦力"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
     "對應健保全額給付品項代碼": "CBC04EVXSLM4",
     "中英文名稱": "\"美敦力\"愛爾飛絲自膨式周邊血管支架暨輸送系統(淺股動脈血管支架)\"MEDTRONIC\"EVERFLEX SELF-EXPANDING PERIPHERAL STENT WITH ENTRUST DELIVERY SYSTEM D:5-7MM;L:150MM",
     "支付點數": "44293",
@@ -37984,22 +37792,6 @@
     "藥商名稱": "連鎰"
   },
   {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04FCLP1G9",
-    "中英文名稱": "法西里-比比 自膨式支架(淺股動脈支架L:20-120MM)FACILE-PP SELF EXPANDING STENT",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第030785號",
-    "藥商名稱": "連鎰"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04FCLP2G9",
-    "中英文名稱": "法西里-比比 自膨式支架(淺股動脈支架L:150MM)FACILE-PP SELF EXPANDING STENT",
-    "支付點數": "44293",
-    "許可證字號": "衛部醫器輸字第030785號",
-    "藥商名稱": "連鎰"
-  },
-  {
     "自付差額品項代碼": "CBC04PASLXBK",
     "對應健保全額給付品項代碼": "CBC04FCLP1G9",
     "中英文名稱": "法西里-比比 自膨式支架(淺股動脈支架L:20-120MM)FACILE-PP SELF EXPANDING STENT",
@@ -38169,22 +37961,6 @@
   },
   {
     "自付差額品項代碼": "CBC04FW035EQ",
-    "對應健保全額給付品項代碼": "CBC04RTS02E7",
-    "中英文名稱": "\"優科德\"里斯周邊血管支架系統(淺股動脈血管支架)\"EUCATECH\"RESISTANT SELF-EXPANDABLE STENT SYSTEM(L:150-200MM)",
-    "支付點數": "44293",
-    "許可證字號": "衛部醫器輸字第030788號",
-    "藥商名稱": "匯悅"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
-    "對應健保全額給付品項代碼": "CBC04RTS01E7",
-    "中英文名稱": "\"優科德\"里斯周邊血管支架系統(淺股動脈血管支架)\"EUCATECH\"RESISTANT SELF-EXPANDABLE STENT SYSTEM(L:20-120MM)",
-    "支付點數": "28773",
-    "許可證字號": "衛部醫器輸字第030788號",
-    "藥商名稱": "匯悅"
-  },
-  {
-    "自付差額品項代碼": "CBC04LTX35QC",
     "對應健保全額給付品項代碼": "CBC04RTS02E7",
     "中英文名稱": "\"優科德\"里斯周邊血管支架系統(淺股動脈血管支架)\"EUCATECH\"RESISTANT SELF-EXPANDABLE STENT SYSTEM(L:150-200MM)",
     "支付點數": "44293",

@@ -4,7 +4,7 @@
     "url": "http://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200A-001",
     "type": "csv",
     "downloadCount": 2495,
-    "viewCount": 1696,
+    "viewCount": 1697,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=302&Mid=A110734"
   },
   {
@@ -20,7 +20,7 @@
     "url": "http://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200C-001",
     "type": "csv",
     "downloadCount": 2435,
-    "viewCount": 2578,
+    "viewCount": 2579,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=304&Mid=A110734"
   },
   {
@@ -44,7 +44,7 @@
     "url": "http://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-E4200F-001",
     "type": "csv",
     "downloadCount": 296,
-    "viewCount": 578,
+    "viewCount": 579,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=663&Mid=A110734"
   },
   {
@@ -52,7 +52,7 @@
     "url": "http://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-D42001-001",
     "type": "csv",
     "downloadCount": 134,
-    "viewCount": 134,
+    "viewCount": 136,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=664&Mid=KNWEI"
   },
   {
@@ -60,7 +60,7 @@
     "url": "http://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-D42002-001",
     "type": "csv",
     "downloadCount": 145,
-    "viewCount": 142,
+    "viewCount": 143,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=665&Mid=KNWEI"
   },
   {
@@ -68,7 +68,7 @@
     "url": "http://data.nhi.gov.tw/Datasets/Download.ashx?rid=A21030000I-E4200G-004&l=http://data.nhi.gov.tw/resource/OpenData/8大類自付差額特材新56類功能分類說明.ods",
     "type": "ods",
     "downloadCount": 115,
-    "viewCount": 103,
+    "viewCount": 104,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=666&Mid=A110784"
   }
 ]
