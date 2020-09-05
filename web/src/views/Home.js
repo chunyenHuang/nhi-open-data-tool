@@ -7,7 +7,7 @@ import PCItemsTriage from 'components/PCItemsTriage';
 
 export default function Home() {
   return (
-    <Container>
+    <Container maxWidth="xl">
       <PCItemsTriage />
       {/* <Disclaimer /> */}
     </Container>);

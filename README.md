@@ -7,8 +7,8 @@
 
 ## 連結
 
+- [查詢網頁](https://chunyenhuang.github.io/nhi-open-data-tool/#/)
 - [g0v跳坑首頁](https://g0v.hackmd.io/7jJGJcf-RraLLwocmCB20A?view)
-
 
 ## 感謝以下單位提供開放資料
 

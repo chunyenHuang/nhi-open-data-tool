@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import retrieve from 'utils/retrieve';
 import DataTable from 'components/DataTable';
 import { sortBy } from 'utils/sorting';
+import { orgLinkRender } from 'components/table/renders';
 
 export default function PCItemPricesInAllOrgsTable({ id }) {
   const [data, setData] = useState([]);
@@ -52,6 +53,10 @@ export default function PCItemPricesInAllOrgsTable({ id }) {
         filterOptions: {
           fullWidth: true,
         },
+        customBodyRender: (value, { rowData }) => {
+          const id = rowData[5];
+          return orgLinkRender(value, id, 'body2');
+        },
       },
     },
     {
@@ -60,6 +65,10 @@ export default function PCItemPricesInAllOrgsTable({ id }) {
       options: {
         filter: false,
         display: false,
+        customBodyRender: (value, { rowData }) => {
+          const id = rowData[5];
+          return orgLinkRender(value, id, 'body2');
+        },
       },
     },
     {
@@ -68,6 +77,9 @@ export default function PCItemPricesInAllOrgsTable({ id }) {
       options: {
         filter: false,
         display: false,
+        customBodyRender: (value) => {
+          return orgLinkRender(value, value, 'body2');
+        },
       },
     },
     {

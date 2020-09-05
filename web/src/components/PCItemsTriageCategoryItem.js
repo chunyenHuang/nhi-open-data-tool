@@ -64,12 +64,12 @@ export default function PCItemsTriageCategoryItem({ category = {} }) {
           <CardContent>
             <Box textAlign="center">
               <Typography gutterBottom variant="h5" component="h1">
-                {item['自付差額品項功能分類']}
+                {item['功能/材質分類']}
               </Typography>
             </Box>
           </CardContent>
           <CardContent>
-            {item['自付差額品項功能分類說明'].split('\n').map((subtext, i) => (
+            {item['功能/材質分類說明'].split('\n').map((subtext, i) => (
               <Typography key={i} variant="body2" color="textSecondary" component="p">
                 {subtext}
               </Typography>
