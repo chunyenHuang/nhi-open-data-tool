@@ -133,10 +133,10 @@ function processRatio() {
 
 // 清單
 function processList() {
-  const records = require(path.join(LATEST_DIR, '原始資料-自付差額特材功能分類說明.json'));
+  const records = require(path.join(LATEST_DIR, '原始資料-自付差額特材功能材質分類說明.json'));
   const mappings = {};
   records.forEach((record) => {
-    const categoryName = record['自付差額品項類別'];
+    const categoryName = record['醫材'];
 
     mappings[categoryName] = mappings[categoryName] || {
       '名稱': categoryName,
@@ -380,7 +380,7 @@ function processStatistics() {
   const items = require(path.join(LATEST_DIR, '原始資料-民眾自付差額品項收費情形.json'));
 
   items.forEach((item) => {
-    const matchedCategory = categories.find((x) => x['名稱'] === item['自付差額品項類別']);
+    const matchedCategory = categories.find((x) => x['名稱'] === item['醫材']);
     let category;
     if (!matchedCategory) {
       category = {
@@ -438,14 +438,14 @@ function processStatistics() {
 
     // 子分類
 
-    const matchedSubCategory = category['子分類'].find((x) => x['自付差額品項功能分類'] === item['自付差額品項功能分類']);
+    const matchedSubCategory = category['子分類'].find((x) => x['功能/材質分類'] === item['自付差額品項功能分類']);
     let subcategory;
     if (!matchedSubCategory) {
       subcategory = {
-        自付差額品項類別: category['名稱'],
-        自付差額品項功能分類: item['自付差額品項功能分類'],
-        功能一: '暫無資訊',
-        自付差額品項功能分類說明: '暫無資訊',
+        '醫材': category['名稱'],
+        '功能/材質分類': item['自付差額品項功能分類'],
+        '功能一': '暫無資訊',
+        '功能/材質分類說明': '暫無資訊',
       };
       category['子分類'].push(subcategory);
     } else {
