@@ -58,7 +58,7 @@ const getOrgTypes = () => {
     processPCItems();
     processNCItemList();
 
-    processStatistics();
+    await processStatistics();
 
     report.lastUpdatedAt = moment().toISOString();
 
@@ -374,13 +374,13 @@ function processPCItems() {
   });
 }
 
-function processStatistics() {
+async function processStatistics() {
   const markets = require(path.join(LATEST_DIR, '自付差額特材數量佔率.json'));
   const categories = require(path.join(LATEST_DIR, '自付差額品項類別.json'));
   const items = require(path.join(LATEST_DIR, '原始資料-民眾自付差額品項收費情形.json'));
 
-  items.forEach((item) => {
-    const matchedCategory = categories.find((x) => x['名稱'] === item['醫材']);
+  const promises = items.map(async (item) => {
+    const matchedCategory = categories.find((x) => x['名稱'] === item['自付差額品項類別']);
     let category;
     if (!matchedCategory) {
       category = {
@@ -492,7 +492,13 @@ function processStatistics() {
     subcategory['統計資料'] = subcategoryStatistics;
   });
 
-  writeData('自付差額品項類別.json', categories.map((x) => {
+  await Promise.all(promises);
+
+  await wait(500);
+
+  writeData('自付差額品項類別-before.json', categories);
+
+  const updatedCategories = categories.map((x) => {
     const list = x['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
     x['統計資料']['自付差額']['平均值'] = stats.mean(list);
     x['統計資料']['自付差額']['中位數'] = stats.median(list);
@@ -519,5 +525,12 @@ function processStatistics() {
       }
     });
     return x;
-  }));
+  });
+  writeData('自付差額品項類別.json', updatedCategories);
+}
+
+function wait(inMilliseconds) {
+  return new Promise((resolve, reject) => {
+    setTimeout(resolve, inMilliseconds);
+  });
 }
