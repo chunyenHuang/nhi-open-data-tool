@@ -2392,10 +2392,10 @@
   },
   {
     "代碼": "FALSNNATU1A1",
-    "中文": "\"愛爾康\"可舒視然單片型軟式人工水晶體(可濾部份藍光):黃色軟式人工水晶體",
-    "英文": "\"ALCON\"ACRYSOF MATURAL STERILE UV-ABSORBING ACRYLIC FOLDABLE SINGLE PIECE POSTERIOR CHAMBER INTRAOCULAR LENS",
+    "中文": "\"愛爾康\" 可舒視然單片型軟式人工水晶體(可濾部份藍光)-黃色軟式人工水晶體",
+    "英文": "\"ALCON\" ACRYSOF MATURAL STERILE UV-ABSORBING ACRYLIC FOLDABLE SINGLE PIECE POSTERIOR CHAMBER INTRAOCULAR LENS",
     "許可證字號": "衛署醫器輸字第010565號",
-    "健保給付點數": "2744.0",
+    "健保給付點數": "0.0",
     "類別": "人工水晶體",
     "分類": "特殊功能人工水晶體(黃色軟式FunctionalNaturalIOL)",
     "對應健保全額給付品項代碼": [],
@@ -2434,7 +2434,7 @@
         }
       },
       "自付差額": {
-        "健保給付點數": "2744.0",
+        "健保給付點數": "0.0",
         "平均值": 15740.575949367088,
         "中位數": 16250,
         "眾數": 16250,
@@ -2627,13 +2627,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -2671,7 +2671,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 28959.707253886012,
+        "平均值": 28969.033678756477,
         "中位數": 30000,
         "眾數": 30000,
         "最低": 20000,
@@ -2731,7 +2731,6 @@
           27250,
           27250,
           27250,
-          27256,
           27256,
           27256,
           27256,
@@ -3063,6 +3062,7 @@
           30856,
           30856,
           30856,
+          30856,
           30856
         ]
       }
@@ -3091,13 +3091,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -3196,13 +3196,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -3240,7 +3240,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 15457.692307692309,
+        "平均值": 15432.051282051281,
         "中位數": 15000,
         "眾數": 15000,
         "最低": 12157,
@@ -3284,7 +3284,7 @@
           17000,
           17000,
           17000,
-          18000,
+          17000,
           22000
         ]
       }
@@ -3313,13 +3313,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -3410,13 +3410,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -3493,13 +3493,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -3650,26 +3650,26 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 43,
+        "總數": 42,
         "特約類別": {
           "醫學中心": 1,
           "區域醫院": 4,
           "地區醫院": 6,
-          "基層診所": 32
+          "基層診所": 31
         },
         "地區": {
           "臺北市": 5,
-          "新北市": 6,
+          "新北市": 5,
           "基隆市": 1,
           "桃園市": 5,
           "新竹市": 0,
@@ -3694,7 +3694,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 58808.72093023256,
+        "平均值": 58845.69047619047,
         "中位數": 60000,
         "眾數": 60000,
         "最低": 54959,
@@ -3710,7 +3710,6 @@
           57000,
           57150,
           57157,
-          57256,
           57256,
           57256,
           57256,
@@ -3750,10 +3749,10 @@
   },
   {
     "代碼": "FALSNNATU2A1",
-    "中文": "\"愛爾康愛爾蘭廠\"可舒視然單片型軟式人工水晶體(可過濾部分藍光):黃色軟式人工水晶體",
-    "英文": "ACRYSOF NATURAL SINGLE-PIECE INTRAOCULAR LENS",
+    "中文": "“愛爾康愛爾蘭廠”可舒視然單片型軟式人工水晶體(可濾部份藍光)-黃色軟式人工水晶體",
+    "英文": "Acrysof Natural Single-Piece Intraocular Lens",
     "許可證字號": "衛署醫器輸字第018568號",
-    "健保給付點數": "2744.0",
+    "健保給付點數": "0.0",
     "類別": "人工水晶體",
     "分類": "特殊功能人工水晶體(黃色軟式FunctionalNaturalIOL)",
     "對應健保全額給付品項代碼": [],
@@ -3792,7 +3791,7 @@
         }
       },
       "自付差額": {
-        "健保給付點數": "2744.0",
+        "健保給付點數": "0.0",
         "平均值": 17041.666666666668,
         "中位數": 17125,
         "眾數": 18000,
@@ -3833,13 +3832,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -4075,13 +4074,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -4191,13 +4190,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -4589,13 +4588,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -4679,13 +4678,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -4850,13 +4849,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -5231,13 +5230,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -5275,7 +5274,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 43596.41612903226,
+        "平均值": 43605.26774193548,
         "中位數": 44256,
         "眾數": 44256,
         "最低": 35044,
@@ -5315,7 +5314,6 @@
           42250,
           42250,
           42250,
-          42256,
           42256,
           42256,
           42256,
@@ -5591,6 +5589,7 @@
           45000,
           45000,
           45000,
+          45000,
           45000
         ]
       }
@@ -5619,13 +5618,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -5721,13 +5720,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6076,13 +6075,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6209,13 +6208,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6383,13 +6382,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6505,13 +6504,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6587,13 +6586,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6675,13 +6674,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6824,13 +6823,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -7154,7 +7153,7 @@
     "中文": "\"威倫美\"植入器預載式人工水晶體:非球面軟式人工水晶體",
     "英文": "\"Valeant Med Preloaded\"Acrylic Intraocular Lens in a single-use injector",
     "許可證字號": "衛署醫器輸字第023372號",
-    "健保給付點數": "2744.0",
+    "健保給付點數": "0.0",
     "類別": "人工水晶體",
     "分類": "特殊人工水晶體(單焦點、非球面(含黃片))",
     "對應健保全額給付品項代碼": [
@@ -7172,13 +7171,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -7215,7 +7214,7 @@
         }
       },
       "自付差額": {
-        "健保給付點數": "2744.0",
+        "健保給付點數": "0.0",
         "平均值": 26296.222222222223,
         "中位數": 27256,
         "眾數": 27256,
@@ -7268,21 +7267,21 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 220,
+        "總數": 219,
         "特約類別": {
           "醫學中心": 10,
           "區域醫院": 21,
-          "地區醫院": 18,
+          "地區醫院": 17,
           "基層診所": 171
         },
         "地區": {
@@ -7293,7 +7292,7 @@
           "新竹市": 7,
           "新竹縣": 4,
           "苗栗縣": 2,
-          "臺中市": 33,
+          "臺中市": 32,
           "彰化縣": 10,
           "南投縣": 4,
           "雲林縣": 7,
@@ -7312,7 +7311,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 89947.38181818182,
+        "平均值": 89919.74429223745,
         "中位數": 90000,
         "眾數": 90000,
         "最低": 82356,
@@ -7373,6 +7372,8 @@
           89519,
           89900,
           89956,
+          90000,
+          90000,
           90000,
           90000,
           90000,
@@ -7535,9 +7536,6 @@
           92000,
           92000,
           92000,
-          92000,
-          92000,
-          92000,
           92256
         ]
       }
@@ -7566,13 +7564,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -7610,8 +7608,8 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 31371.375634517768,
-        "中位數": 31456,
+        "平均值": 31359.497461928935,
+        "中位數": 31000,
         "眾數": 30000,
         "最低": 25000,
         "最高": 37256,
@@ -7628,7 +7626,6 @@
           27157,
           27200,
           27250,
-          27256,
           27256,
           27256,
           27256,
@@ -7699,6 +7696,9 @@
           30800,
           30800,
           30850,
+          30856,
+          30856,
+          30856,
           30856,
           30856,
           30856,
@@ -7805,8 +7805,6 @@
           33826,
           33826,
           33826,
-          33826,
-          33826,
           34381,
           35000,
           35000,
@@ -7841,13 +7839,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8102,13 +8100,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8208,13 +8206,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8303,13 +8301,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8382,13 +8380,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8468,13 +8466,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8552,13 +8550,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8631,13 +8629,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8712,13 +8710,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8802,13 +8800,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -8968,13 +8966,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -9162,13 +9160,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -9289,13 +9287,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -9377,21 +9375,21 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 63,
+        "總數": 62,
         "特約類別": {
           "醫學中心": 10,
           "區域醫院": 15,
-          "地區醫院": 16,
+          "地區醫院": 15,
           "基層診所": 22
         },
         "地區": {
@@ -9402,7 +9400,7 @@
           "新竹市": 1,
           "新竹縣": 1,
           "苗栗縣": 0,
-          "臺中市": 6,
+          "臺中市": 5,
           "彰化縣": 1,
           "南投縣": 0,
           "雲林縣": 3,
@@ -9421,7 +9419,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 35974.87301587302,
+        "平均值": 35949.37096774193,
         "中位數": 37500,
         "眾數": 37500,
         "最低": 30000,
@@ -9489,7 +9487,6 @@
           37556,
           37556,
           37556,
-          37556,
           38000
         ]
       }
@@ -9518,21 +9515,21 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 105,
+        "總數": 104,
         "特約類別": {
           "醫學中心": 15,
           "區域醫院": 21,
-          "地區醫院": 16,
+          "地區醫院": 15,
           "基層診所": 53
         },
         "地區": {
@@ -9543,7 +9540,7 @@
           "新竹市": 4,
           "新竹縣": 1,
           "苗栗縣": 1,
-          "臺中市": 12,
+          "臺中市": 11,
           "彰化縣": 2,
           "南投縣": 0,
           "雲林縣": 4,
@@ -9562,7 +9559,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 64395.276190476194,
+        "平均值": 64341.38461538462,
         "中位數": 65000,
         "眾數": 65000,
         "最低": 57000,
@@ -9571,6 +9568,7 @@
         "列表": [
           57000,
           58000,
+          60000,
           60000,
           60000,
           60000,
@@ -9596,8 +9594,6 @@
           64956,
           64979,
           64986,
-          65000,
-          65000,
           65000,
           65000,
           65000,
@@ -9701,13 +9697,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -9780,13 +9776,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -9824,13 +9820,14 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 34263.426666666666,
+        "平均值": 34196.76,
         "中位數": 35000,
         "眾數": 36000,
         "最低": 30000,
         "最高": 40000,
         "價差": 10000,
         "列表": [
+          30000,
           30000,
           30000,
           30000,
@@ -9862,7 +9859,6 @@
           33000,
           33000,
           34000,
-          35000,
           35000,
           35000,
           35000,
@@ -9933,13 +9929,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -10047,21 +10043,21 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 244,
+        "總數": 243,
         "特約類別": {
           "醫學中心": 18,
           "區域醫院": 33,
-          "地區醫院": 37,
+          "地區醫院": 36,
           "基層診所": 156
         },
         "地區": {
@@ -10072,7 +10068,7 @@
           "新竹市": 7,
           "新竹縣": 4,
           "苗栗縣": 1,
-          "臺中市": 31,
+          "臺中市": 30,
           "彰化縣": 9,
           "南投縣": 5,
           "雲林縣": 7,
@@ -10091,7 +10087,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 74917.31967213115,
+        "平均值": 74909.75308641975,
         "中位數": 75000,
         "眾數": 75000,
         "最低": 65000,
@@ -10336,7 +10332,6 @@
           76756,
           76756,
           76756,
-          76756,
           76919,
           77000,
           78000,
@@ -10369,13 +10364,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -10597,13 +10592,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -10735,13 +10730,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -10850,13 +10845,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -10977,21 +10972,21 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 116,
+        "總數": 115,
         "特約類別": {
           "醫學中心": 12,
           "區域醫院": 20,
-          "地區醫院": 21,
+          "地區醫院": 20,
           "基層診所": 63
         },
         "地區": {
@@ -11002,7 +10997,7 @@
           "新竹市": 6,
           "新竹縣": 3,
           "苗栗縣": 0,
-          "臺中市": 15,
+          "臺中市": 14,
           "彰化縣": 6,
           "南投縣": 5,
           "雲林縣": 4,
@@ -11021,8 +11016,8 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 31156.46551724138,
-        "中位數": 31902,
+        "平均值": 31129.513043478262,
+        "中位數": 31631,
         "眾數": 32000,
         "最低": 26000,
         "最高": 35000,
@@ -11039,6 +11034,7 @@
           29500,
           29656,
           29656,
+          30000,
           30000,
           30000,
           30000,
@@ -11116,10 +11112,8 @@
           32000,
           32000,
           32000,
-          32000,
           32219,
           32219,
-          32256,
           32256,
           32256,
           32256,
@@ -11171,13 +11165,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -11279,13 +11273,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -11465,13 +11459,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -11509,8 +11503,8 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 33233.93650793651,
-        "中位數": 33256,
+        "平均值": 33190.084656084655,
+        "中位數": 33000,
         "眾數": 36000,
         "最低": 26656,
         "最高": 40000,
@@ -11550,6 +11544,8 @@
           30800,
           30850,
           30850,
+          30856,
+          30856,
           30856,
           30856,
           30856,
@@ -11628,8 +11624,6 @@
           34756,
           34756,
           34900,
-          35000,
-          35000,
           35000,
           35000,
           35000,
@@ -11732,13 +11726,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -11876,13 +11870,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -12029,13 +12023,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -12213,13 +12207,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -12427,13 +12421,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -12471,7 +12465,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 34007.0206185567,
+        "平均值": 33943.68041237113,
         "中位數": 35000,
         "眾數": 36000,
         "最低": 27000,
@@ -12504,6 +12498,7 @@
           30856,
           30856,
           30856,
+          30856,
           32000,
           32000,
           32256,
@@ -12559,7 +12554,6 @@
           36000,
           36000,
           36000,
-          37000,
           37000,
           37500,
           37744,
@@ -12602,13 +12596,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -12878,13 +12872,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -12980,13 +12974,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -13070,13 +13064,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -13242,13 +13236,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -13380,13 +13374,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -13459,13 +13453,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -13538,13 +13532,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -13617,13 +13611,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -13758,21 +13752,21 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 99,
+        "總數": 98,
         "特約類別": {
           "醫學中心": 13,
           "區域醫院": 19,
-          "地區醫院": 16,
+          "地區醫院": 15,
           "基層診所": 51
         },
         "地區": {
@@ -13783,7 +13777,7 @@
           "新竹市": 6,
           "新竹縣": 3,
           "苗栗縣": 0,
-          "臺中市": 4,
+          "臺中市": 3,
           "彰化縣": 0,
           "南投縣": 0,
           "雲林縣": 4,
@@ -13802,21 +13796,22 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 35532.36363636364,
+        "平均值": 35455.5918367347,
         "中位數": 36000,
         "眾數": 36000,
-        "最低": 27256,
+        "最低": 29000,
         "最高": 41119,
-        "價差": 13863,
+        "價差": 12119,
         "列表": [
-          27256,
           29000,
           30000,
           30000,
           30000,
           30000,
           30000,
+          30000,
           30800,
+          30856,
           30856,
           30856,
           30856,
@@ -13844,7 +13839,6 @@
           35206,
           35596,
           35781,
-          36000,
           36000,
           36000,
           36000,
@@ -13906,7 +13900,6 @@
           39239,
           39239,
           39239,
-          40656,
           41119
         ]
       }
@@ -13935,13 +13928,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -14029,13 +14022,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -14133,13 +14126,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -14332,13 +14325,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -14411,13 +14404,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -14544,13 +14537,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -14629,21 +14622,21 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 11,
+        "總數": 10,
         "特約類別": {
           "醫學中心": 2,
           "區域醫院": 6,
-          "地區醫院": 2,
+          "地區醫院": 1,
           "基層診所": 1
         },
         "地區": {
@@ -14654,7 +14647,7 @@
           "新竹市": 1,
           "新竹縣": 0,
           "苗栗縣": 0,
-          "臺中市": 3,
+          "臺中市": 2,
           "彰化縣": 0,
           "南投縣": 0,
           "雲林縣": 0,
@@ -14673,8 +14666,8 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 30994.18181818182,
-        "中位數": 31500,
+        "平均值": 30893.6,
+        "中位數": 31178,
         "眾數": 31500,
         "最低": 28000,
         "最高": 33656,
@@ -14687,7 +14680,6 @@
           30856,
           31500,
           31500,
-          32000,
           32256,
           32356,
           33656
@@ -14718,13 +14710,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -14911,13 +14903,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -14995,13 +14987,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -15112,13 +15104,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -15203,13 +15195,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -15293,13 +15285,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -15398,13 +15390,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -15480,13 +15472,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -15663,13 +15655,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -15782,13 +15774,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -15865,13 +15857,13 @@
       "FALSMNEFL1RQ",
       "FALSMSA60AA1",
       "FALSMNERP1RQ",
-      "FALSMACRA11X",
       "FALSMAAB00A2",
       "FALSMSL0004H",
       "FALSMUF6005K",
       "FALSMRA100RY",
       "FALSNWAVE4HY",
-      "FALSMCT2027Z"
+      "FALSMCT2027Z",
+      "FALSMCT2097Z"
     ],
     "統計資料": {
       "醫療機構": {
@@ -19347,11 +19339,11 @@
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 66,
+        "總數": 65,
         "特約類別": {
           "醫學中心": 6,
           "區域醫院": 31,
-          "地區醫院": 29,
+          "地區醫院": 28,
           "基層診所": 0
         },
         "地區": {
@@ -19366,7 +19358,7 @@
           "彰化縣": 6,
           "南投縣": 3,
           "雲林縣": 3,
-          "嘉義市": 2,
+          "嘉義市": 1,
           "嘉義縣": 1,
           "臺南市": 8,
           "高雄市": 8,
@@ -19381,12 +19373,12 @@
       },
       "自付差額": {
         "健保給付點數": "35195.0",
-        "平均值": 27074.090909090908,
-        "中位數": 26991,
+        "平均值": 26798.30769230769,
+        "中位數": 26982,
         "眾數": 24000,
         "最低": 13523,
-        "最高": 45000,
-        "價差": 31477,
+        "最高": 38225,
+        "價差": 24702,
         "列表": [
           13523,
           15235,
@@ -19452,8 +19444,7 @@
           35000,
           36725,
           37125,
-          38225,
-          45000
+          38225
         ]
       }
     }
@@ -22506,11 +22497,11 @@
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 24,
+        "總數": 23,
         "特約類別": {
           "醫學中心": 7,
           "區域醫院": 5,
-          "地區醫院": 12,
+          "地區醫院": 11,
           "基層診所": 0
         },
         "地區": {
@@ -22519,7 +22510,7 @@
           "基隆市": 1,
           "桃園市": 2,
           "新竹市": 0,
-          "新竹縣": 1,
+          "新竹縣": 0,
           "苗栗縣": 0,
           "臺中市": 3,
           "彰化縣": 0,
@@ -22540,8 +22531,8 @@
       },
       "自付差額": {
         "健保給付點數": "4352.0",
-        "平均值": 74721.375,
-        "中位數": 71000,
+        "平均值": 73970.13043478261,
+        "中位數": 70000,
         "眾數": 68000,
         "最低": 66110,
         "最高": 92072,
@@ -22568,7 +22559,6 @@
           79648,
           81139,
           85648,
-          92000,
           92000,
           92072
         ]
@@ -26559,7 +26549,7 @@
   },
   {
     "代碼": "CBP06ELUT2QR",
-    "中文": "\"渼瑞爾\"拜歐邁茉福冠狀動脈塗藥支架系統",
+    "中文": "\"渼瑞爾\"拜歐邁茉福冠狀動脈塗藥支架系統(支架長度30-40mm)",
     "英文": "\"Meril\"Biomime Morph Sirolimus Eluting Coronary Stent System",
     "許可證字號": "衛部醫器輸字第031612號",
     "健保給付點數": "14099.0",
@@ -27626,10 +27616,10 @@
     "對應健保全額給付品項代碼": [],
     "統計資料": {
       "醫療機構": {
-        "總數": 50,
+        "總數": 52,
         "特約類別": {
           "醫學中心": 8,
-          "區域醫院": 25,
+          "區域醫院": 27,
           "地區醫院": 17,
           "基層診所": 0
         },
@@ -27647,7 +27637,7 @@
           "雲林縣": 3,
           "嘉義市": 0,
           "嘉義縣": 1,
-          "臺南市": 5,
+          "臺南市": 7,
           "高雄市": 5,
           "屏東縣": 1,
           "宜蘭縣": 1,
@@ -27660,7 +27650,7 @@
       },
       "自付差額": {
         "健保給付點數": "19036.0",
-        "平均值": 63618.82,
+        "平均值": 63787.32692307692,
         "中位數": 64564,
         "眾數": 50012,
         "最低": 45764,
@@ -27699,6 +27689,8 @@
           64964,
           65000,
           65000,
+          68000,
+          68000,
           68229,
           68229,
           68600,
@@ -27940,8 +27932,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -28044,8 +28034,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -28062,11 +28050,11 @@
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 79,
+        "總數": 78,
         "特約類別": {
           "醫學中心": 17,
           "區域醫院": 43,
-          "地區醫院": 19,
+          "地區醫院": 18,
           "基層診所": 0
         },
         "地區": {
@@ -28077,7 +28065,7 @@
           "新竹市": 5,
           "新竹縣": 2,
           "苗栗縣": 2,
-          "臺中市": 10,
+          "臺中市": 9,
           "彰化縣": 2,
           "南投縣": 2,
           "雲林縣": 4,
@@ -28096,7 +28084,7 @@
       },
       "自付差額": {
         "健保給付點數": "28773.0",
-        "平均值": 46304.670886075946,
+        "平均值": 46215.92307692308,
         "中位數": 45000,
         "眾數": 44789,
         "最低": 34588,
@@ -28179,7 +28167,6 @@
           53227,
           53227,
           53227,
-          53227,
           53488,
           58370
         ]
@@ -28208,8 +28195,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -28312,8 +28297,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -28459,8 +28442,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -28569,8 +28550,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -28705,8 +28684,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -28818,8 +28795,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -28925,8 +28900,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -29046,8 +29019,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -29157,8 +29128,6 @@
       "CBC04APL15AB",
       "CBC04M1SG1TM",
       "CBC04M1SG2TM",
-      "CBC04PRB20EY",
-      "CBC04PR200EY",
       "CBC04PUL14BK",
       "CBC04PUL20BK",
       "CBC04SUP12AB",
@@ -32059,7 +32028,7 @@
       },
       "自付差額": {
         "健保給付點數": "7127.0",
-        "平均值": 72673.43243243243,
+        "平均值": 72471.16216216216,
         "中位數": 72873,
         "眾數": 64017,
         "最低": 50873,
@@ -32092,11 +32061,11 @@
           77007,
           77373,
           77373,
+          77516,
           77973,
           83000,
           83000,
           83767,
-          85000,
           87000,
           87417,
           87417,
@@ -32235,14 +32204,14 @@
       },
       "自付差額": {
         "健保給付點數": "7127.0",
-        "平均值": 119812.38461538461,
+        "平均值": 119827.76923076923,
         "中位數": 122500,
         "眾數": 122500,
-        "最低": 106073,
+        "最低": 106273,
         "最高": 126000,
-        "價差": 19927,
+        "價差": 19727,
         "列表": [
-          106073,
+          106273,
           115000,
           115000,
           115873,
