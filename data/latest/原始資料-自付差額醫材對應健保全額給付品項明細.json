@@ -13024,6 +13024,14 @@
     "藥商名稱": "雅培"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02VDR1UST",
+    "中英文名稱": "雙腔型心臟節律器\"SJM\" IMPLANTABLE CARDIAC PULSE GENERATOR *適應症請見備註欄",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第017019號",
+    "藥商名稱": "雅培"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP02VDR1UST",
     "中英文名稱": "雙腔型心臟節律器\"SJM\" IMPLANTABLE CARDIAC PULSE GENERATOR *適應症請見備註欄",
@@ -13185,6 +13193,30 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP02DDRSEM4",
+    "中英文名稱": "\"美敦力\"賽亞心臟節律器(雙腔)MEDTRONIC SENSIA PACING GENERATOR-DDDR",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第018020號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01SENARM4",
+    "中英文名稱": "\"美敦力\"賽亞心臟節律系統\"MEDTRONIC\" SENSIA PACING SYSTEM VVIR/AAIR*需檢附心電圖報告專案報備使用",
+    "支付點數": "60756",
+    "許可證字號": "衛署醫器輸字第018020號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02DDDSEM4",
+    "中英文名稱": "美敦力賽亞心臟節律器MEDTRONIC SENSIA PACING GENERATOR*適應症請見備註欄",
+    "支付點數": "91732",
+    "許可證字號": "衛署醫器輸字第018020號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP02DDRSEM4",
     "中英文名稱": "\"美敦力\"賽亞心臟節律器(雙腔)MEDTRONIC SENSIA PACING GENERATOR-DDDR",
     "支付點數": "93833",
@@ -13609,6 +13641,38 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP02VDDADM4",
+    "中英文名稱": "美敦力黛拉心臟節律器MEDTRONIC ADAPTA PACING GENERATOR*適應症請見備註欄",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第018079號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ADAPSM4",
+    "中英文名稱": "\"MEDTRONIC\" ADAPTA PACING SYSTEM\"美敦力\"黛拉心臟節律系統*適應症請見備註欄",
+    "支付點數": "60756",
+    "許可證字號": "衛署醫器輸字第018079號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02DDDADM4",
+    "中英文名稱": "美敦力黛拉心臟節律器MEDTRONIC ADAPTA PACING GENERATOR*適應症請見備註欄",
+    "支付點數": "91732",
+    "許可證字號": "衛署醫器輸字第018079號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02DDRADM4",
+    "中英文名稱": "\"美敦力\"黛拉心臟節律器雙腔MEDTRONIC ADAPTA PACING GENERATOR-(DDDR)",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第018079號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP02VDDADM4",
     "中英文名稱": "美敦力黛拉心臟節律器MEDTRONIC ADAPTA PACING GENERATOR*適應症請見備註欄",
     "支付點數": "93833",
@@ -18752,6 +18816,22 @@
     "藥商名稱": "雅培"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02ACTDRST",
+    "中英文名稱": "\"聖猷達\"艾森心臟節律器(雙腔型)\"SJM\"ACCENT IMPLANTABLE CARDIAC PULSE GENERATOR-DDDR",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第021774號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02ARFDRST",
+    "中英文名稱": "\"聖猷達\"艾森心臟節律器\"SJM\"ACCENT IMPLANTABLE CARDIAC PULSE GENERATOR-雙腔型DDDR",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第021774號",
+    "藥商名稱": "雅培"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP02ACTDRST",
     "中英文名稱": "\"聖猷達\"艾森心臟節律器(雙腔型)\"SJM\"ACCENT IMPLANTABLE CARDIAC PULSE GENERATOR-DDDR",
@@ -21552,6 +21632,22 @@
     "藥商名稱": "百多力"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01EVASRBK",
+    "中英文名稱": "\"百多力\" 艾維亞植入式心律調節器\"BIOTRONIK\" EVIA IMPLANTABLE CARDIAC PACEMAKER*需檢附心電圖報告專案報備使用",
+    "支付點數": "60756",
+    "許可證字號": "衛署醫器輸字第022679號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02EVADRBK",
+    "中英文名稱": "\"百多力\"艾維亞植入式心律調節器-雙腔\"BIOTRONIK\" EVIA IMPLANTABLE CARDIAC PACEMAKER(DDDR)",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第022679號",
+    "藥商名稱": "百多力"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP01EVASRBK",
     "中英文名稱": "\"百多力\" 艾維亞植入式心律調節器\"BIOTRONIK\" EVIA IMPLANTABLE CARDIAC PACEMAKER*需檢附心電圖報告專案報備使用",
@@ -22840,6 +22936,30 @@
     "藥商名稱": "美敦力"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01SR01SM4",
+    "中英文名稱": "\"美敦力\" 賽亞心臟節律器\"MEDTRONIC\" SENSIA PACEMAKER(VVIR/AAIR)*需檢附心電圖報告專案報備使用",
+    "支付點數": "60756",
+    "許可證字號": "衛署醫器輸字第023214號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01SD01SM4",
+    "中英文名稱": "\"美敦力\" 賽亞心臟節律器\"MEDTRONIC\" SENSIA PACEMAKER(DDD)*需檢附心電圖報告專案報備使用",
+    "支付點數": "91732",
+    "許可證字號": "衛署醫器輸字第023214號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02SDR1SM4",
+    "中英文名稱": "\"美敦力\" 賽亞心臟節律器-雙腔\"MEDTRONIC\" SENSIA PACEMAKER(DDDR)",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第023214號",
+    "藥商名稱": "美敦力"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP01SR01SM4",
     "中英文名稱": "\"美敦力\" 賽亞心臟節律器\"MEDTRONIC\" SENSIA PACEMAKER(VVIR/AAIR)*需檢附心電圖報告專案報備使用",
@@ -23241,6 +23361,30 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP02ADDRSM4",
+    "中英文名稱": "\"美敦力\" 黛拉心臟節律器(雙腔)\"MEDTRONIC\" ADAPTA PACEMAKER-DDDR",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第023295號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ADD1SM4",
+    "中英文名稱": "\"美敦力\" 黛拉心臟節律器\"MEDTRONIC\" ADAPTA PACEMAKER-DDD*使用規定請見備註欄",
+    "支付點數": "91732",
+    "許可證字號": "衛署醫器輸字第023295號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ADVDSM4",
+    "中英文名稱": "\"美敦力\" 黛拉心臟節律器\"MEDTRONIC\" ADAPTA PACEMAKER-VDD*使用規定請見備註欄",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第023295號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP02ADDRSM4",
     "中英文名稱": "\"美敦力\" 黛拉心臟節律器(雙腔)\"MEDTRONIC\" ADAPTA PACEMAKER-DDDR",
     "支付點數": "93833",
@@ -23649,6 +23793,30 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP02PM236ST",
+    "中英文名稱": "\"聖猷達\"薩斯坦植入式心臟節律器-雙腔型\"SJM\"SUSTAIN XL IMPLANTABLE CARDIAC PULSE GENERATOR-DDDR",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第023319號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01PM136ST",
+    "中英文名稱": "“聖猷達”薩斯坦植入式心臟節律器“SJM”SUSTAIN XL IMPLANTABLE CARDIAC PULSE GENERATOR-SSIR*需檢附心電圖報告專案報備",
+    "支付點數": "60756",
+    "許可證字號": "衛署醫器輸字第023319號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02PM234ST",
+    "中英文名稱": "\"聖猷達\" 薩斯坦植入式心臟節律器\"SJM\" SUSTAIN XL IMPLANTABLE CARDIAC PULSE GENERATOR(DDD)*需檢附心電圖報告專案報備使用",
+    "支付點數": "91732",
+    "許可證字號": "衛署醫器輸字第023319號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP02PM236ST",
     "中英文名稱": "\"聖猷達\"薩斯坦植入式心臟節律器-雙腔型\"SJM\"SUSTAIN XL IMPLANTABLE CARDIAC PULSE GENERATOR-DDDR",
     "支付點數": "93833",
@@ -24025,6 +24193,14 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP01MR224ST",
+    "中英文名稱": "\"聖猷達\"艾森核磁共振心臟節律器\"SJM\"ACCENT MRI PULSE GENERATOR",
+    "支付點數": "79200",
+    "許可證字號": "衛署醫器輸字第023498號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP01MR224ST",
     "中英文名稱": "\"聖猷達\"艾森核磁共振心臟節律器\"SJM\"ACCENT MRI PULSE GENERATOR",
     "支付點數": "79200",
@@ -25224,6 +25400,14 @@
     "藥商名稱": "百多力"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01EMRSRBK",
+    "中英文名稱": "\"百多力\"艾維亞磁振造影植入式心律調節器(單腔)\"BIOTRONIK\"Evia Implantable Cardiac Pacemakers with a conditional intended use in a MRI environment(SR)",
+    "支付點數": "79200",
+    "許可證字號": "衛署醫器輸字第024158號",
+    "藥商名稱": "百多力"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP01EMRSRBK",
     "中英文名稱": "\"百多力\"艾維亞磁振造影植入式心律調節器(單腔)\"BIOTRONIK\"Evia Implantable Cardiac Pacemakers with a conditional intended use in a MRI environment(SR)",
@@ -25385,6 +25569,30 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP01EFTDRBK",
+    "中英文名稱": "\"百多力\"艾飛塔植入式心律調節器(包含配件)(雙腔)\"BIOTRONIK\"EFFECTA IMPLANTABLE CARDIAC PACEMAKERS INCL. ACCESSORIES-EFFECTA DDDR",
+    "支付點數": "93833",
+    "許可證字號": "衛署醫器輸字第024267號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01EFTSRBK",
+    "中英文名稱": "“百多力”艾飛塔植入式心律調節器(包含配件)*給付規定請見備註欄“BIOTRONIK”EFFECTA IMPLANTABLE CARDIAC PACEMAKERS INCL. ACCESSORIES-EFFECTA SR",
+    "支付點數": "60756",
+    "許可證字號": "衛署醫器輸字第024267號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01EFTDDBK",
+    "中英文名稱": "“百多力”艾飛塔植入式心律調節器(包含配件)*給付規定請見備註欄“BIOTRONIK”EFFECTA IMPLANTABLE CARDIAC PACEMAKERS INCL. ACCESSORIES-EFFECTA DDD",
+    "支付點數": "91732",
+    "許可證字號": "衛署醫器輸字第024267號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP01EFTDRBK",
     "中英文名稱": "\"百多力\"艾飛塔植入式心律調節器(包含配件)(雙腔)\"BIOTRONIK\"EFFECTA IMPLANTABLE CARDIAC PACEMAKERS INCL. ACCESSORIES-EFFECTA DDDR",
     "支付點數": "93833",
@@ -25761,6 +25969,14 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP01EN1SRM4",
+    "中英文名稱": "\"美敦力\"安信諾核磁共振植入式心臟節律器(單腔)\"MEDTRONIC\" ENSURA MRI SURESCAN IMPLANTABLE PACEMAKER(SR)",
+    "支付點數": "79200",
+    "許可證字號": "衛署醫器輸字第024382號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP01EN1SRM4",
     "中英文名稱": "\"美敦力\"安信諾核磁共振植入式心臟節律器(單腔)\"MEDTRONIC\" ENSURA MRI SURESCAN IMPLANTABLE PACEMAKER(SR)",
     "支付點數": "79200",
@@ -27792,6 +28008,46 @@
     "藥商名稱": "雅培"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01EC40MST",
+    "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器-單腔\"SJM\"ENDURITY PULSE GENERATOR(SSI)",
+    "支付點數": "54633",
+    "許可證字號": "衛部醫器輸字第026580號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ENDRMST",
+    "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器(單腔)\"SJM\" ENDURITY PULSE GENERATOR(SR)",
+    "支付點數": "60756",
+    "許可證字號": "衛部醫器輸字第026580號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01MR62MST",
+    "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器-單腔(MRI)\"SJM\"ENDURITY PULSE GENERATOR(SR-MRI)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第026580號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02EC40MST",
+    "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器(雙腔)\"SJM\"ENDURITY PULSE GENERATOR(DDD)",
+    "支付點數": "91732",
+    "許可證字號": "衛部醫器輸字第026580號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02ENDRMST",
+    "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器(雙腔)\"SJM\" ENDURITY PULSE GENERATOR(DDDR)",
+    "支付點數": "93833",
+    "許可證字號": "衛部醫器輸字第026580號",
+    "藥商名稱": "雅培"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP01EC40MST",
     "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器-單腔\"SJM\"ENDURITY PULSE GENERATOR(SSI)",
@@ -28433,6 +28689,30 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP02ASSRMST",
+    "中英文名稱": "\"聖猷達\"安速拉第心臟節律器(雙腔)\"SJM\" ASSURITY PULSE GENERATOR(DDDR)",
+    "支付點數": "93833",
+    "許可證字號": "衛部醫器輸字第026582號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ASSRMST",
+    "中英文名稱": "\"聖猷達\"安速拉第心臟節律器(單腔)\"SJM\" ASSURITY PULSE GENERATOR(SR)",
+    "支付點數": "60756",
+    "許可證字號": "衛部醫器輸字第026582號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01MR72MST",
+    "中英文名稱": "\"聖猷達\"安速拉第心臟節律器-單腔\"SJM\"ASSURITY PULSE GENERATOR(MRI)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第026582號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP02ASSRMST",
     "中英文名稱": "\"聖猷達\"安速拉第心臟節律器(雙腔)\"SJM\" ASSURITY PULSE GENERATOR(DDDR)",
     "支付點數": "93833",
@@ -30296,6 +30576,30 @@
     "藥商名稱": "雅培"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ASSRUST",
+    "中英文名稱": "\"聖猷達\"安速拉第心臟節律器-單腔\"SJM\"ASSURITY PULSE GENERATOR(SR)",
+    "支付點數": "60756",
+    "許可證字號": "衛部醫器輸字第027439號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01MR72UST",
+    "中英文名稱": "\"聖猷達\"安速拉第心臟節律器\"SJM\"ASSURITY PULSE GENERATOR(MRI)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第027439號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP02ASSRUST",
+    "中英文名稱": "\"聖猷達\"安速拉第心臟節律器(雙腔)\"SJM\"ASSURITY PULSE GENERATOR(DDDR)",
+    "支付點數": "93833",
+    "許可證字號": "衛部醫器輸字第027439號",
+    "藥商名稱": "雅培"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP01ASSRUST",
     "中英文名稱": "\"聖猷達\"安速拉第心臟節律器-單腔\"SJM\"ASSURITY PULSE GENERATOR(SR)",
@@ -30697,6 +31001,30 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP02ENDRUST",
+    "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器(雙腔)\"SJM\"ENDURITY PULSE GENERATOR-DDDR",
+    "支付點數": "93833",
+    "許可證字號": "衛部醫器輸字第027440號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ENDRUST",
+    "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器-單腔\"SJM\"ENDURITY PULSE GENERATOR(SR)",
+    "支付點數": "60756",
+    "許可證字號": "衛部醫器輸字第027440號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01MR62UST",
+    "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器-單腔\"SJM\"ENDURITY PULSE GENERATOR-SR(MRI)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第027440號",
+    "藥商名稱": "雅培"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP02ENDRUST",
     "中英文名稱": "\"聖猷達\"恩德拉第心臟節律器(雙腔)\"SJM\"ENDURITY PULSE GENERATOR-DDDR",
     "支付點數": "93833",
@@ -31073,6 +31401,14 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP01ELUSRBK",
+    "中英文名稱": "\"百多力\"艾路納核磁共振植入式心律調節器 -單腔\"BIOTRONIK\"ELUNA 8 IMPLANTABLE PACEMAKER SYSTEM WITH A CONDITIONAL INTENDED USE IN A MRI ENVIRONMENT(SR)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第027467號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP01ELUSRBK",
     "中英文名稱": "\"百多力\"艾路納核磁共振植入式心律調節器 -單腔\"BIOTRONIK\"ELUNA 8 IMPLANTABLE PACEMAKER SYSTEM WITH A CONDITIONAL INTENDED USE IN A MRI ENVIRONMENT(SR)",
     "支付點數": "79200",
@@ -32648,6 +32984,14 @@
     "藥商名稱": "波士頓"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP0129100SB",
+    "中英文名稱": "\"波士頓科技\"艾科雷心臟節律器-單腔MRI\"BOSTON SCIENTIFIC\"ACCOLADE MRI PACEMAKER-SR",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第029100號",
+    "藥商名稱": "波士頓"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP0129100SB",
     "中英文名稱": "\"波士頓科技\"艾科雷心臟節律器-單腔MRI\"BOSTON SCIENTIFIC\"ACCOLADE MRI PACEMAKER-SR",
@@ -33105,6 +33449,22 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP0229675SB",
+    "中英文名稱": "\"波士頓科技\"艾科雷心臟節律器-雙腔\"BOSTON SCIENTIFIC\"ACCOLADE PACEMAKER(DDDR)",
+    "支付點數": "93833",
+    "許可證字號": "衛部醫器輸字第029675號",
+    "藥商名稱": "波士頓"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP0129675SB",
+    "中英文名稱": "\"波士頓科技\"艾科雷心臟節律器-單腔\"BOSTON SCIENTIFIC\"ACCOLADE PACEMAKER(SR)",
+    "支付點數": "60756",
+    "許可證字號": "衛部醫器輸字第029675號",
+    "藥商名稱": "波士頓"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP0229675SB",
     "中英文名稱": "\"波士頓科技\"艾科雷心臟節律器-雙腔\"BOSTON SCIENTIFIC\"ACCOLADE PACEMAKER(DDDR)",
     "支付點數": "93833",
@@ -34224,6 +34584,14 @@
     "藥商名稱": "百多力"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ENTSRBK",
+    "中英文名稱": "\"百多力\"艾尼傳磁振造影植入式心律調節器-單腔\"BIOTRONIK\"ENITRA 8 IMPLANTABLE CARDIAC PACEMAKERS WITH A CONDITIONAL INTENDED USE IN A MRI ENVIRONMENT(SR)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第029999號",
+    "藥商名稱": "百多力"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP01ENTSRBK",
     "中英文名稱": "\"百多力\"艾尼傳磁振造影植入式心律調節器-單腔\"BIOTRONIK\"ENITRA 8 IMPLANTABLE CARDIAC PACEMAKERS WITH A CONDITIONAL INTENDED USE IN A MRI ENVIRONMENT(SR)",
@@ -34385,6 +34753,30 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP02ETCDDBK",
+    "中英文名稱": "\"百多力\"艾緹可磁振造影植入式心律調節器-雙腔\"BIOTRONIK\" Enticos 4 Implantable Cardiac Pacemakers with a conditional intended use in a MRI environment(DDD)",
+    "支付點數": "91732",
+    "許可證字號": "衛部醫器輸字第030000號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ETCSSBK",
+    "中英文名稱": "\"百多力\"艾緹可磁振造影植入式心律調節器-單腔\"BIOTRONIK\" Enticos 4 Implantable Cardiac Pacemakers with a conditional intended use in a MRI environment (S)",
+    "支付點數": "54633",
+    "許可證字號": "衛部醫器輸字第030000號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ETCSRBK",
+    "中英文名稱": "\"百多力\"艾緹可磁振造影植入式心律調節器-單腔\"BIOTRONIK\" Enticos 4 Implantable Cardiac Pacemakers with a conditional intended use in a MRI environment(SR)",
+    "支付點數": "60756",
+    "許可證字號": "衛部醫器輸字第030000號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP02ETCDDBK",
     "中英文名稱": "\"百多力\"艾緹可磁振造影植入式心律調節器-雙腔\"BIOTRONIK\" Enticos 4 Implantable Cardiac Pacemakers with a conditional intended use in a MRI environment(DDD)",
     "支付點數": "91732",
@@ -36137,6 +36529,14 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP01X2SR1M4",
+    "中英文名稱": "\"美敦力\"亞士卓磁振造影植入式心臟節律器-單腔MRI\"MEDTRONIC\"ASTRA MRI SURESCAN IMPLANTABLE PACEMAKER-DDDR MRI",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第030635號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP01X2SR1M4",
     "中英文名稱": "\"美敦力\"亞士卓磁振造影植入式心臟節律器-單腔MRI\"MEDTRONIC\"ASTRA MRI SURESCAN IMPLANTABLE PACEMAKER-DDDR MRI",
     "支付點數": "79200",
@@ -36545,6 +36945,14 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP01W2SR1M4",
+    "中英文名稱": "\"美敦力\"亞士爾磁振造影植入式心臟節律器-單腔\"MEDTRONIC\"AZURE MRI SURESCAN IMPLANTABLE PACEMAKER(SR)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第030747號",
+    "藥商名稱": "美敦力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP01W2SR1M4",
     "中英文名稱": "\"美敦力\"亞士爾磁振造影植入式心臟節律器-單腔\"MEDTRONIC\"AZURE MRI SURESCAN IMPLANTABLE PACEMAKER(SR)",
     "支付點數": "79200",
@@ -37049,6 +37457,22 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP01EN6STBK",
+    "中英文名稱": "\"百多力\"艾尼傳六磁振造影植入式心律調節器-單腔\"BIOTRONIK\"ENITRA 6 IMPLANTABL CARDIAC PACEMAKERS WITH A CONDITIONAL INTENDED USE IN A MRI ENVIRONMENT(SR-T)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第030908號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01EN6SRBK",
+    "中英文名稱": "\"百多力\"艾尼傳六磁振造影植入式心律調節器-單腔\"BIOTRONIK\"ENITRA 6 IMPLANTABL CARDIAC PACEMAKERS WITH A CONDITIONAL INTENDED USE IN A MRI ENVIRONMENT(SR)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第030908號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP01EN6STBK",
     "中英文名稱": "\"百多力\"艾尼傳六磁振造影植入式心律調節器-單腔\"BIOTRONIK\"ENITRA 6 IMPLANTABL CARDIAC PACEMAKERS WITH A CONDITIONAL INTENDED USE IN A MRI ENVIRONMENT(SR-T)",
     "支付點數": "79200",
@@ -37624,6 +38048,14 @@
     "藥商名稱": "美敦力"
   },
   {
+    "自付差額品項代碼": "FHP02ATDDRM4",
+    "對應健保全額給付品項代碼": "FHP01ATSSRM4",
+    "中英文名稱": "\"美敦力\"艾視達磁振造影植入式心臟節律器(單腔)\"MEDTRONIC\"ATTESTA MRI SURESCAN IMPLANTABLE PACEMAKER-SR(MRI)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第032275號",
+    "藥商名稱": "美敦力"
+  },
+  {
     "自付差額品項代碼": "FHP02ELUDDBK",
     "對應健保全額給付品項代碼": "FHP01ATSSRM4",
     "中英文名稱": "\"美敦力\"艾視達磁振造影植入式心臟節律器(單腔)\"MEDTRONIC\"ATTESTA MRI SURESCAN IMPLANTABLE PACEMAKER-SR(MRI)",
@@ -37753,6 +38185,14 @@
   },
   {
     "自付差額品項代碼": "FHP02A3DR1M4",
+    "對應健保全額給付品項代碼": "FHP01EVTSRBK",
+    "中英文名稱": "\"百多力\"艾芙緹磁振造影植入式心律調節器-單腔\"BIOTRONIK\"EVITY 8 IMPLANTABLE CARDIAC PACEMAKERS WITH A CONDITIONAL INTENDED USE IN A MRI ENVIRONMENT-(SR-T)",
+    "支付點數": "79200",
+    "許可證字號": "衛部醫器輸字第032636號",
+    "藥商名稱": "百多力"
+  },
+  {
+    "自付差額品項代碼": "FHP02ATDDRM4",
     "對應健保全額給付品項代碼": "FHP01EVTSRBK",
     "中英文名稱": "\"百多力\"艾芙緹磁振造影植入式心律調節器-單腔\"BIOTRONIK\"EVITY 8 IMPLANTABLE CARDIAC PACEMAKERS WITH A CONDITIONAL INTENDED USE IN A MRI ENVIRONMENT-(SR-T)",
     "支付點數": "79200",
