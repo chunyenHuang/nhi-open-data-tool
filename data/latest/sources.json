@@ -3,23 +3,23 @@
     "name": "自付差額特材數量佔率-醫學中心",
     "url": "http://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200A-001",
     "type": "csv",
-    "downloadCount": 2627,
-    "viewCount": 1764,
+    "downloadCount": 2630,
+    "viewCount": 1765,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=302&Mid=A110734"
   },
   {
     "name": "自付差額特材數量佔率-區域醫院",
     "url": "http://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200B-001",
     "type": "csv",
-    "downloadCount": 2377,
-    "viewCount": 1613,
+    "downloadCount": 2379,
+    "viewCount": 1614,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=303&Mid=A110734"
   },
   {
     "name": "自付差額特材數量佔率-地區醫院",
     "url": "http://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200C-001",
     "type": "csv",
-    "downloadCount": 2577,
+    "downloadCount": 2579,
     "viewCount": 2727,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=304&Mid=A110734"
   },
@@ -27,23 +27,23 @@
     "name": "自付差額特材數量佔率-基層診所",
     "url": "http://data.nhi.gov.tw/Datasets/DatasetResource.ashx?rId=A21030000I-E4200D-001",
     "type": "csv",
-    "downloadCount": 2892,
-    "viewCount": 2300,
+    "downloadCount": 2894,
+    "viewCount": 2301,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=305&Mid=A110734"
   },
   {
     "name": "民眾全自費品項收費情形",
     "url": "http://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-E4200E-001",
     "type": "csv",
-    "downloadCount": 452,
-    "viewCount": 514,
+    "downloadCount": 453,
+    "viewCount": 515,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=662&Mid=A110734"
   },
   {
     "name": "民眾自付差額品項收費情形",
     "url": "http://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-E4200F-001",
     "type": "csv",
-    "downloadCount": 455,
+    "downloadCount": 456,
     "viewCount": 732,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=663&Mid=A110734"
   },
@@ -51,24 +51,24 @@
     "name": "全自費醫材健保替代品項明細",
     "url": "http://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-D42001-001",
     "type": "csv",
-    "downloadCount": 260,
-    "viewCount": 296,
+    "downloadCount": 262,
+    "viewCount": 298,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=664&Mid=KNWEI"
   },
   {
     "name": "自付差額醫材對應健保全額給付品項明細",
     "url": "http://data.nhi.gov.tw/DataSets/DataSetResource.ashx?rId=A21030000I-D42002-001",
     "type": "csv",
-    "downloadCount": 268,
-    "viewCount": 301,
+    "downloadCount": 271,
+    "viewCount": 302,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=665&Mid=KNWEI"
   },
   {
     "name": "自付差額特材功能材質分類說明",
     "url": "http://data.nhi.gov.tw/Datasets/Download.ashx?rid=A21030000I-E4200G-005&l=http://data.nhi.gov.tw/resource/OpenData/8類自付差額特材56類功能材質分類說明_109904.ods",
     "type": "ods",
-    "downloadCount": 227,
-    "viewCount": 170,
+    "downloadCount": 229,
+    "viewCount": 171,
     "viewUrl": "https://data.nhi.gov.tw/Datasets/DatasetDetail.aspx?id=666&Mid=A110784"
   }
 ]
