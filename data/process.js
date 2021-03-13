@@ -77,7 +77,8 @@ const getOrgTypes = () => {
   }
 })();
 
-async function downloadAndConvertToJson({ name, type, url }) {
+async function downloadAndConvertToJson({ name: inName, type, url }) {
+  const name = inName.replace(/\//g, '__');
   try {
     let startedAt = Date.now();
     const cacheFilePath = path.join(LATEST_DIR, `原始資料-${name}.${type}`);
@@ -366,7 +367,7 @@ function processPCItems() {
   sets.forEach((set) => {
     Object.keys(set.cache).forEach((cacheKey) => {
       const dir = `${prefix}/${set.name}`;
-      const filename = `${cacheKey || '無'}.json`;
+      const filename = `${cacheKey || '無'}.json`.replace(/\//g, '__');
       fs.ensureDirSync(path.join(LATEST_DIR, dir));
       writeData(path.join(dir, filename), set.cache[cacheKey]);
       report.metadata[`${dir}/${filename}`] = set.cache[cacheKey].length;
@@ -499,32 +500,38 @@ async function processStatistics() {
   writeData('自付差額品項類別-before.json', categories);
 
   const updatedCategories = categories.map((x) => {
-    const list = x['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
-    x['統計資料']['自付差額']['平均值'] = stats.mean(list);
-    x['統計資料']['自付差額']['中位數'] = stats.median(list);
-    x['統計資料']['自付差額']['眾數'] = stats.mode(list);
-    x['統計資料']['自付差額']['最低'] = list[0];
-    x['統計資料']['自付差額']['最高'] = list[list.length - 1];
-    x['統計資料']['自付差額']['價差'] = list[list.length - 1] - list[0];
+    try {
+      const list = x['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+      x['統計資料']['自付差額']['平均值'] = stats.mean(list);
+      x['統計資料']['自付差額']['中位數'] = stats.median(list);
+      x['統計資料']['自付差額']['眾數'] = stats.mode(list);
+      x['統計資料']['自付差額']['最低'] = list[0];
+      x['統計資料']['自付差額']['最高'] = list[list.length - 1];
+      x['統計資料']['自付差額']['價差'] = list[list.length - 1] - list[0];
 
-    delete x['統計資料']['醫療機構']['列表'];
-    delete x['統計資料']['自付差額']['列表'];
+      delete x['統計資料']['醫療機構']['列表'];
+      delete x['統計資料']['自付差額']['列表'];
 
-    x['子分類'].forEach((subcategory) => {
-      if (subcategory['統計資料']) {
-        const list = subcategory['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
-        subcategory['統計資料']['自付差額']['平均值'] = stats.mean(list);
-        subcategory['統計資料']['自付差額']['中位數'] = stats.median(list);
-        subcategory['統計資料']['自付差額']['眾數'] = stats.mode(list);
-        subcategory['統計資料']['自付差額']['最低'] = list[0];
-        subcategory['統計資料']['自付差額']['最高'] = list[list.length - 1];
-        subcategory['統計資料']['自付差額']['價差'] = list[list.length - 1] - list[0];
+      x['子分類'].forEach((subcategory) => {
+        if (subcategory['統計資料']) {
+          const list = subcategory['統計資料']['自付差額']['列表'].sort((a, b) => a > b ? 1 : -1);
+          subcategory['統計資料']['自付差額']['平均值'] = stats.mean(list);
+          subcategory['統計資料']['自付差額']['中位數'] = stats.median(list);
+          subcategory['統計資料']['自付差額']['眾數'] = stats.mode(list);
+          subcategory['統計資料']['自付差額']['最低'] = list[0];
+          subcategory['統計資料']['自付差額']['最高'] = list[list.length - 1];
+          subcategory['統計資料']['自付差額']['價差'] = list[list.length - 1] - list[0];
 
-        delete subcategory['統計資料']['醫療機構']['列表'];
-        delete subcategory['統計資料']['自付差額']['列表'];
-      }
-    });
-    return x;
+          delete subcategory['統計資料']['醫療機構']['列表'];
+          delete subcategory['統計資料']['自付差額']['列表'];
+        }
+      });
+      return x;
+    } catch (e) {
+      console.log(x);
+      console.log(e);
+      // throw new Error(e);
+    }
   });
   writeData('自付差額品項類別.json', updatedCategories);
 }
