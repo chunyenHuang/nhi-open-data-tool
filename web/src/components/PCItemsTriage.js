@@ -72,8 +72,7 @@ export default function PCItemsTriage() {
 
   useEffect(() => {
     (async () => {
-      const data = (await retrieve('自付差額品項類別')).sort(sortBy('名稱'));
-      console.log(data);
+      const data = (await retrieve('自付差額品項類別')).filter((x) => x).sort(sortBy('名稱'));
       setCategories(data);
     })();
   }, []);
