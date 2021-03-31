@@ -1864,14 +1864,6 @@
     "藥商名稱": "愛爾康"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMMZ30BA1",
-    "中英文名稱": "\"愛爾康\"視而卡人工水晶體\"ALCON\" CILCO INTRAOCULAR LENSES(PMMA)",
-    "支付點數": "1532",
-    "許可證字號": "衛署醫器輸字第006650號",
-    "藥商名稱": "愛爾康"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMMZ30BA1",
     "中英文名稱": "\"愛爾康\"視而卡人工水晶體\"ALCON\" CILCO INTRAOCULAR LENSES(PMMA)",
@@ -3816,22 +3808,6 @@
     "藥商名稱": "愛爾康"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMCR5BUA1",
-    "中英文名稱": "PMMA I.O.L",
-    "支付點數": "1532",
-    "許可證字號": "衛署醫器輸字第007796號",
-    "藥商名稱": "愛爾康"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMMC71CA1",
-    "中英文名稱": "PMMA I.O.L. UV UV+LASER",
-    "支付點數": "1532",
-    "許可證字號": "衛署醫器輸字第007796號",
-    "藥商名稱": "愛爾康"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMCR5BUA1",
     "中英文名稱": "PMMA I.O.L",
@@ -4801,14 +4777,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMMA30BA1",
-    "中英文名稱": "ACRYSOF INTRAOCULAR LENSES",
-    "支付點數": "2744",
-    "許可證字號": "衛署醫器輸字第007894號+009694號",
-    "藥商名稱": "愛爾康"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMMA30BA1",
     "中英文名稱": "ACRYSOF INTRAOCULAR LENSES",
     "支付點數": "2744",
@@ -7160,14 +7128,6 @@
     "藥商名稱": "眼力健"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMAR40NA2",
-    "中英文名稱": "\"AMO\" SENSAR ACRYLIC POSTERIOR CHAMBER INTRAOCULAR LENS \"艾米歐\"勝色人工水晶體眼球",
-    "支付點數": "2744",
-    "許可證字號": "衛署醫器輸字第009489號",
-    "藥商名稱": "眼力健"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMAR40NA2",
     "中英文名稱": "\"AMO\" SENSAR ACRYLIC POSTERIOR CHAMBER INTRAOCULAR LENS \"艾米歐\"勝色人工水晶體眼球",
@@ -7881,14 +7841,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMSA30AA1",
-    "中英文名稱": "ACRYSOF SINGLE-PIECE FOLDABLE ACRYLIC POSTERIOR CHAMBER INTRAOCULAR LENSES",
-    "支付點數": "2744",
-    "許可證字號": "衛署醫器輸字第009531號",
-    "藥商名稱": "愛爾康"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMSA30AA1",
     "中英文名稱": "ACRYSOF SINGLE-PIECE FOLDABLE ACRYLIC POSTERIOR CHAMBER INTRAOCULAR LENSES",
     "支付點數": "2744",
@@ -10160,14 +10112,6 @@
     "藥商名稱": "博士倫"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMHAKR0ZX",
-    "中英文名稱": "AKREOS FOLDABLE INTRAOCULAR LENSES(ACRYLIC W/UV FILTER)",
-    "支付點數": "2744",
-    "許可證字號": "衛署醫器輸字第010495號",
-    "藥商名稱": "博士倫"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMHAKR0ZX",
     "中英文名稱": "AKREOS FOLDABLE INTRAOCULAR LENSES(ACRYLIC W/UV FILTER)",
@@ -10881,14 +10825,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMSTEC1LS",
-    "中英文名稱": "ACRYLIC INTRAOCULAR LENS",
-    "支付點數": "2744",
-    "許可證字號": "衛署醫器輸字第010639號",
-    "藥商名稱": "樺瑩"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMSTEC1LS",
     "中英文名稱": "ACRYLIC INTRAOCULAR LENS",
     "支付點數": "2744",
@@ -12080,14 +12016,6 @@
     "藥商名稱": "博士倫"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMSFLEXB9",
-    "中英文名稱": "SILICONE SOFLEX(SOFLEX SE) INTRAOCULAR LENS(可折疊式矽膠)",
-    "支付點數": "1448",
-    "許可證字號": "衛署醫器輸字第016078號",
-    "藥商名稱": "博士倫"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMSFLEXB9",
     "中英文名稱": "SILICONE SOFLEX(SOFLEX SE) INTRAOCULAR LENS(可折疊式矽膠)",
@@ -12801,14 +12729,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMLS100LS",
-    "中英文名稱": "INTRAOCULAR LENS",
-    "支付點數": "1532",
-    "許可證字號": "衛署醫器輸字第016856號",
-    "藥商名稱": "樺瑩"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMLS100LS",
     "中英文名稱": "INTRAOCULAR LENS",
     "支付點數": "1532",
@@ -14553,14 +14473,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMCSFLXRY",
-    "中英文名稱": "\"RAYNER\"INJECTABLE IOL SYSTEM PACK(HYDROPHILIC ACRYLIC)\"銳能\"推注式人工水晶體系統包",
-    "支付點數": "2744",
-    "許可證字號": "衛署醫器輸字第018515號",
-    "藥商名稱": "鈦沅"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMCSFLXRY",
     "中英文名稱": "\"RAYNER\"INJECTABLE IOL SYSTEM PACK(HYDROPHILIC ACRYLIC)\"銳能\"推注式人工水晶體系統包",
     "支付點數": "2744",
@@ -15145,14 +15057,6 @@
   },
   {
     "自付差額品項代碼": "CBP06ELUT4AB",
-    "對應健保全額給付品項代碼": "CBP01AU729RB",
-    "中英文名稱": "\"ORBUSNEICH\"AZULE CORONARY STENT DELIVERY SYSTEM\"奧爾\"雅助冠狀動脈血管支架輸送系統*適應症請見備註欄",
-    "支付點數": "14099",
-    "許可證字號": "衛署醫器輸字第019276號",
-    "藥商名稱": "祥豐"
-  },
-  {
-    "自付差額品項代碼": "CBP06ELUT4M4",
     "對應健保全額給付品項代碼": "CBP01AU729RB",
     "中英文名稱": "\"ORBUSNEICH\"AZULE CORONARY STENT DELIVERY SYSTEM\"奧爾\"雅助冠狀動脈血管支架輸送系統*適應症請見備註欄",
     "支付點數": "14099",
@@ -16272,14 +16176,6 @@
     "藥商名稱": "幸生"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMNEFL1RQ",
-    "中英文名稱": "NEO EYE FOLDABLE INTRAOCULAR LENS新視軟式人工水晶體",
-    "支付點數": "2744",
-    "許可證字號": "衛署醫器輸字第020164號",
-    "藥商名稱": "幸生"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMNEFL1RQ",
     "中英文名稱": "NEO EYE FOLDABLE INTRAOCULAR LENS新視軟式人工水晶體",
@@ -16849,22 +16745,6 @@
   },
   {
     "自付差額品項代碼": "CBP06ELUT4AB",
-    "對應健保全額給付品項代碼": "CBP01BLUE2BB",
-    "中英文名稱": "\"B.BRAUN\"COROFLEX BLUE CORONARY STENT SYSTEM普弩冠狀動脈血管支架系統",
-    "支付點數": "14099",
-    "許可證字號": "衛署醫器輸字第020275號",
-    "藥商名稱": "台灣柏朗"
-  },
-  {
-    "自付差額品項代碼": "CBP06ELUT4M4",
-    "對應健保全額給付品項代碼": "CBP01BLUE1BB",
-    "中英文名稱": "\"柏朗\"普弩冠狀動脈血管支架系統:含傳輸系統\"B.BRAUN\"COROFLEX BLUE CORONARY STENT SYSTEM",
-    "支付點數": "14099",
-    "許可證字號": "衛署醫器輸字第020275號",
-    "藥商名稱": "台灣柏朗"
-  },
-  {
-    "自付差額品項代碼": "CBP06ELUT4M4",
     "對應健保全額給付品項代碼": "CBP01BLUE2BB",
     "中英文名稱": "\"B.BRAUN\"COROFLEX BLUE CORONARY STENT SYSTEM普弩冠狀動脈血管支架系統",
     "支付點數": "14099",
@@ -18272,14 +18152,6 @@
     "藥商名稱": "愛爾康"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMSA60AA1",
-    "中英文名稱": "ACRYSOF SINGLE PIECE INTRAOCULAR LENS\"愛爾康愛爾蘭廠\"可舒單片型軟式人工水晶體",
-    "支付點數": "2744",
-    "許可證字號": "衛署醫器輸字第021749號",
-    "藥商名稱": "愛爾康"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMSA60AA1",
     "中英文名稱": "ACRYSOF SINGLE PIECE INTRAOCULAR LENS\"愛爾康愛爾蘭廠\"可舒單片型軟式人工水晶體",
@@ -19801,14 +19673,6 @@
   },
   {
     "自付差額品項代碼": "CBP06ELUT4AB",
-    "對應健保全額給付品項代碼": "CBP01ML8STAB",
-    "中英文名稱": "\"ABBOTT\"MULTI-LINK 8 CORONARY STENT SYSTEM\"亞培\"第八代冠狀動脈支架系統 D 2.25:4.00MM L:8MM:38MM*適應症請見備註欄",
-    "支付點數": "14099",
-    "許可證字號": "衛署醫器輸字第022198號",
-    "藥商名稱": "亞培"
-  },
-  {
-    "自付差額品項代碼": "CBP06ELUT4M4",
     "對應健保全額給付品項代碼": "CBP01ML8STAB",
     "中英文名稱": "\"ABBOTT\"MULTI-LINK 8 CORONARY STENT SYSTEM\"亞培\"第八代冠狀動脈支架系統 D 2.25:4.00MM L:8MM:38MM*適應症請見備註欄",
     "支付點數": "14099",
@@ -20520,14 +20384,6 @@
     "藥商名稱": "美敦力"
   },
   {
-    "自付差額品項代碼": "CBP06ELUT4M4",
-    "對應健保全額給付品項代碼": "CBP011NTEGM4",
-    "中英文名稱": "\"MEDTRONIC\"INTEGRITY RAPID EXCHANGE CORONARY STENT SYSTEM\"美敦力\"英泰爾快速交換冠狀動脈血管支架系統*適應症請見備註欄",
-    "支付點數": "14099",
-    "許可證字號": "衛署醫器輸字第022443號",
-    "藥商名稱": "美敦力"
-  },
-  {
     "自付差額品項代碼": "CBP06ELUT5AB",
     "對應健保全額給付品項代碼": "CBP011NTEGM4",
     "中英文名稱": "\"MEDTRONIC\"INTEGRITY RAPID EXCHANGE CORONARY STENT SYSTEM\"美敦力\"英泰爾快速交換冠狀動脈血管支架系統*適應症請見備註欄",
@@ -20849,14 +20705,6 @@
   },
   {
     "自付差額品項代碼": "CBP06ELUT4AB",
-    "對應健保全額給付品項代碼": "CBP01KANMETM",
-    "中英文名稱": "\"TERUMO\"KANAME COBALT-CHROMIUM CORONARY STENT SYSTEM\"泰爾茂\"凱樂鎂冠狀動脈血管支架系統*適應症請見備註欄",
-    "支付點數": "14099",
-    "許可證字號": "衛署醫器輸字第022672號",
-    "藥商名稱": "泰爾茂"
-  },
-  {
-    "自付差額品項代碼": "CBP06ELUT4M4",
     "對應健保全額給付品項代碼": "CBP01KANMETM",
     "中英文名稱": "\"TERUMO\"KANAME COBALT-CHROMIUM CORONARY STENT SYSTEM\"泰爾茂\"凱樂鎂冠狀動脈血管支架系統*適應症請見備註欄",
     "支付點數": "14099",
@@ -21649,14 +21497,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMNERP1RQ",
-    "中英文名稱": "\"ROHTO\"NEO EYE INTRAOCULAR LENS \"樂敦\"新視人工水晶體",
-    "支付點數": "1532",
-    "許可證字號": "衛署醫器輸字第022752號",
-    "藥商名稱": "幸生"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMNERP1RQ",
     "中英文名稱": "\"ROHTO\"NEO EYE INTRAOCULAR LENS \"樂敦\"新視人工水晶體",
     "支付點數": "1532",
@@ -22080,14 +21920,6 @@
     "藥商名稱": "波士頓"
   },
   {
-    "自付差額品項代碼": "CBP06ELUT4M4",
-    "對應健保全額給付品項代碼": "CBP010MEGASB",
-    "中英文名稱": "\"BOSTON SCIENTIFIC\"OMEGA MONORAIL PTCR CORONARY STENT SYSTEM \"波士頓科技\"*亞美加單軌冠狀動脈支架系統*適應症請見備註欄",
-    "支付點數": "14099",
-    "許可證字號": "衛署醫器輸字第022915號",
-    "藥商名稱": "波士頓"
-  },
-  {
     "自付差額品項代碼": "CBP06ELUT5AB",
     "對應健保全額給付品項代碼": "CBP010MEGASB",
     "中英文名稱": "\"BOSTON SCIENTIFIC\"OMEGA MONORAIL PTCR CORONARY STENT SYSTEM \"波士頓科技\"*亞美加單軌冠狀動脈支架系統*適應症請見備註欄",
@@ -23945,14 +23777,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMAAB00A2",
-    "中英文名稱": "\"AMO\"SENSAR I-PIECE ACRYLIC IOL\"眼力健\"勝視明單片型摺疊式人工水晶體",
-    "支付點數": "2744",
-    "許可證字號": "衛署醫器輸字第023712號",
-    "藥商名稱": "眼力健"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMAAB00A2",
     "中英文名稱": "\"AMO\"SENSAR I-PIECE ACRYLIC IOL\"眼力健\"勝視明單片型摺疊式人工水晶體",
     "支付點數": "2744",
@@ -28264,14 +28088,6 @@
     "藥商名稱": "波士頓"
   },
   {
-    "自付差額品項代碼": "CBP06ELUT4M4",
-    "對應健保全額給付品項代碼": "CBP01REBELSB",
-    "中英文名稱": "\"波士頓科技\"瑞柏爾單軌冠狀動脈支架系統\"BOSTON SCIENTIFIC\"REBEL MONORAIL PTCR CORONARY STENT SYSTEM",
-    "支付點數": "14099",
-    "許可證字號": "衛部醫器輸字第027039號",
-    "藥商名稱": "波士頓"
-  },
-  {
     "自付差額品項代碼": "CBP06ELUT5AB",
     "對應健保全額給付品項代碼": "CBP01REBELSB",
     "中英文名稱": "\"波士頓科技\"瑞柏爾單軌冠狀動脈支架系統\"BOSTON SCIENTIFIC\"REBEL MONORAIL PTCR CORONARY STENT SYSTEM",
@@ -28801,14 +28617,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMSL0004H",
-    "中英文名稱": "\"漢寧達\"視能球面親水性人工水晶體 \"HANITA\" SEELENS SPHERICAL HYDROPHILIC INTRAOCULAR LENS",
-    "支付點數": "2744",
-    "許可證字號": "衛部醫器輸字第027247號",
-    "藥商名稱": "佳和美"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMSL0004H",
     "中英文名稱": "\"漢寧達\"視能球面親水性人工水晶體 \"HANITA\" SEELENS SPHERICAL HYDROPHILIC INTRAOCULAR LENS",
     "支付點數": "2744",
@@ -29449,14 +29257,6 @@
   },
   {
     "自付差額品項代碼": "CBP06ELUT4AB",
-    "對應健保全額給付品項代碼": "CBP01PKE36BK",
-    "中英文名稱": "\"百多力\"普凱能鈷鉻冠狀動脈支架系統\"BIOTRONIK\"PRO-KINETIC ENERGY COBALT CHROMIUM (COCR) CORONARY STENT SYSTEM",
-    "支付點數": "14099",
-    "許可證字號": "衛部醫器輸字第027430號",
-    "藥商名稱": "百多力"
-  },
-  {
-    "自付差額品項代碼": "CBP06ELUT4M4",
     "對應健保全額給付品項代碼": "CBP01PKE36BK",
     "中英文名稱": "\"百多力\"普凱能鈷鉻冠狀動脈支架系統\"BIOTRONIK\"PRO-KINETIC ENERGY COBALT CHROMIUM (COCR) CORONARY STENT SYSTEM",
     "支付點數": "14099",
@@ -31328,14 +31128,6 @@
     "藥商名稱": "鏵甡"
   },
   {
-    "自付差額品項代碼": "CBP06ELUT4M4",
-    "對應健保全額給付品項代碼": "CBP01LCMLXHC",
-    "中英文名稱": "\"海斯凱\"海力士冠狀動脈支架系統\"HEXACATH\"PREMOUNTED CORONARY STENT HELIX",
-    "支付點數": "14099",
-    "許可證字號": "衛部醫器輸字第028152號",
-    "藥商名稱": "鏵甡"
-  },
-  {
     "自付差額品項代碼": "CBP06ELUT5AB",
     "對應健保全額給付品項代碼": "CBP01LCMLXHC",
     "中英文名稱": "\"海斯凱\"海力士冠狀動脈支架系統\"HEXACATH\"PREMOUNTED CORONARY STENT HELIX",
@@ -32025,14 +31817,6 @@
   },
   {
     "自付差額品項代碼": "CBP06ELUT4AB",
-    "對應健保全額給付品項代碼": "CBP01AVANTYV",
-    "中英文名稱": "\"喜安汀\"康保冠狀動脈血管支架-先鋒型\"CID\"AVANTGARDE CHRONO CARBOSTENT CORONARY STENT WITH DELIVERY SYSTEM D:2.25-4.5MM;L:7-31MM",
-    "支付點數": "14099",
-    "許可證字號": "衛部醫器輸字第029666號",
-    "藥商名稱": "奧生"
-  },
-  {
-    "自付差額品項代碼": "CBP06ELUT4M4",
     "對應健保全額給付品項代碼": "CBP01AVANTYV",
     "中英文名稱": "\"喜安汀\"康保冠狀動脈血管支架-先鋒型\"CID\"AVANTGARDE CHRONO CARBOSTENT CORONARY STENT WITH DELIVERY SYSTEM D:2.25-4.5MM;L:7-31MM",
     "支付點數": "14099",
@@ -33000,14 +32784,6 @@
     "藥商名稱": "博士倫"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMUF6005K",
-    "中英文名稱": "“威朗”博科視單片式球面人工水晶體“VALEANT MED” FOCUSFORCE ULTRAFLEX SPHERIC INTRAOCULAR LENS",
-    "支付點數": "2744",
-    "許可證字號": "衛部醫器輸字第029976號",
-    "藥商名稱": "博士倫"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMUF6005K",
     "中英文名稱": "“威朗”博科視單片式球面人工水晶體“VALEANT MED” FOCUSFORCE ULTRAFLEX SPHERIC INTRAOCULAR LENS",
@@ -34240,14 +34016,6 @@
     "藥商名稱": "鈦沅"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMRA100RY",
-    "中英文名稱": "“銳能”預裝式親水性球面人工水晶體推注系統“RAYNER” RAYONE SPHERIC PRELOADED HYDROPHILIC ACRYLIC IOL INJECTION SYSTEM",
-    "支付點數": "2744",
-    "許可證字號": "衛部醫器輸字第030175號",
-    "藥商名稱": "鈦沅"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMRA100RY",
     "中英文名稱": "“銳能”預裝式親水性球面人工水晶體推注系統“RAYNER” RAYONE SPHERIC PRELOADED HYDROPHILIC ACRYLIC IOL INJECTION SYSTEM",
@@ -34961,14 +34729,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSNWAVE4HY",
-    "中英文名稱": "豪雅預載式單片型人工水晶體 HOYA ISERT PRELOADED INTRAOCULAR LENS",
-    "支付點數": "2744",
-    "許可證字號": "衛部醫器輸字第030422號",
-    "藥商名稱": "維州"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSNWAVE4HY",
     "中英文名稱": "豪雅預載式單片型人工水晶體 HOYA ISERT PRELOADED INTRAOCULAR LENS",
     "支付點數": "2744",
@@ -35513,14 +35273,6 @@
   },
   {
     "自付差額品項代碼": "CBP06ELUT4AB",
-    "對應健保全額給付品項代碼": "CBP01AARPC7X",
-    "中英文名稱": "阿受斯皮可冠狀動脈支架系統(冠狀動脈支架)ARTHOS PICO STENT IMPLANTATION SYSTEM",
-    "支付點數": "14099",
-    "許可證字號": "衛部醫器輸字第030712號",
-    "藥商名稱": "連鎰"
-  },
-  {
-    "自付差額品項代碼": "CBP06ELUT4M4",
     "對應健保全額給付品項代碼": "CBP01AARPC7X",
     "中英文名稱": "阿受斯皮可冠狀動脈支架系統(冠狀動脈支架)ARTHOS PICO STENT IMPLANTATION SYSTEM",
     "支付點數": "14099",
@@ -36489,14 +36241,6 @@
   },
   {
     "自付差額品項代碼": "CBP06ELUT4AB",
-    "對應健保全額給付品項代碼": "CBP02CCFLXE7",
-    "中英文名稱": "\"優科德\"優科喜福來冠狀動脈支架系統\"EUCATECH\"EUCA CCFLEX CORONARY STENT SYSTEM",
-    "支付點數": "14099",
-    "許可證字號": "衛部醫器輸字第031520號",
-    "藥商名稱": "匯悅"
-  },
-  {
-    "自付差額品項代碼": "CBP06ELUT4M4",
     "對應健保全額給付品項代碼": "CBP02CCFLXE7",
     "中英文名稱": "\"優科德\"優科喜福來冠狀動脈支架系統\"EUCATECH\"EUCA CCFLEX CORONARY STENT SYSTEM",
     "支付點數": "14099",
@@ -37040,14 +36784,6 @@
     "藥商名稱": "科舉"
   },
   {
-    "自付差額品項代碼": "CBP06ELUT4M4",
-    "對應健保全額給付品項代碼": "CBP02NEXGNQR",
-    "中英文名稱": "\"渼瑞爾\"納克斯金冠狀動脈支架系統\"MERIL\" NEXGEN COBALT CHROMIUM CORONARY STENT SYSTEM",
-    "支付點數": "14099",
-    "許可證字號": "衛部醫器輸字第032778號",
-    "藥商名稱": "科舉"
-  },
-  {
     "自付差額品項代碼": "CBP06ELUT5AB",
     "對應健保全額給付品項代碼": "CBP02NEXGNQR",
     "中英文名稱": "\"渼瑞爾\"納克斯金冠狀動脈支架系統\"MERIL\" NEXGEN COBALT CHROMIUM CORONARY STENT SYSTEM",
@@ -37280,14 +37016,6 @@
     "藥商名稱": "科舉"
   },
   {
-    "自付差額品項代碼": "CBP06ELUT4M4",
-    "對應健保全額給付品項代碼": "CBP02BCR01BS",
-    "中英文名稱": "\"百爾森\"克瑪冠狀動脈支架系統\"BIOSENSORS\"CHROMA CORONARY STENT SYSTEM",
-    "支付點數": "14099",
-    "許可證字號": "衛部醫器輸字第033045號",
-    "藥商名稱": "科舉"
-  },
-  {
     "自付差額品項代碼": "CBP06ELUT5AB",
     "對應健保全額給付品項代碼": "CBP02BCR01BS",
     "中英文名稱": "\"百爾森\"克瑪冠狀動脈支架系統\"BIOSENSORS\"CHROMA CORONARY STENT SYSTEM",
@@ -37824,14 +37552,6 @@
     "藥商名稱": "卡爾蔡司台北"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMCT2027Z",
-    "中英文名稱": "“蔡司”疏水性丙烯酸脂後房人工水晶體“ZEISS” HYDROPHOBIC ACRYLIC POSTERIOR CHAMBER INTRAOCULAR LENS",
-    "支付點數": "2744",
-    "許可證字號": "衛部醫器輸字第033336號",
-    "藥商名稱": "卡爾蔡司台北"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMCT2027Z",
     "中英文名稱": "“蔡司”疏水性丙烯酸脂後房人工水晶體“ZEISS” HYDROPHOBIC ACRYLIC POSTERIOR CHAMBER INTRAOCULAR LENS",
@@ -38552,14 +38272,6 @@
     "藥商名稱": "卡爾蔡司"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMCT2097Z",
-    "中英文名稱": "“蔡司”親水性後房人工水晶體 “ZEISS” CT SPHERIS HYDROPHILIC ACRYLIC POSTERIOR CHAMBER INTRAOCULAR LENS",
-    "支付點數": "2744",
-    "許可證字號": "衛部醫器輸字第033602號",
-    "藥商名稱": "卡爾蔡司"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMCT2097Z",
     "中英文名稱": "“蔡司”親水性後房人工水晶體 “ZEISS” CT SPHERIS HYDROPHILIC ACRYLIC POSTERIOR CHAMBER INTRAOCULAR LENS",
@@ -39273,14 +38985,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMGAB00JJ",
-    "中英文名稱": "“嬌生”勝視明單片型人工水晶體與智慧預載植入系統 “JOHNSON & JOHNSON” SENSAR 1-PIECE IOL WITH SMARTLOAD DELIVERY TECHNOLOGY",
-    "支付點數": "2744",
-    "許可證字號": "衛部醫器輸字第033935號",
-    "藥商名稱": "眼力健"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMGAB00JJ",
     "中英文名稱": "“嬌生”勝視明單片型人工水晶體與智慧預載植入系統 “JOHNSON & JOHNSON” SENSAR 1-PIECE IOL WITH SMARTLOAD DELIVERY TECHNOLOGY",
     "支付點數": "2744",
@@ -40536,14 +40240,6 @@
     "藥商名稱": "維州"
   },
   {
-    "自付差額品項代碼": "FALSNWAVE11X",
-    "對應健保全額給付品項代碼": "FALSMAVE10HY",
-    "中英文名稱": "豪雅預載式單片型人工水晶體HOYA ISERT PRELOADED INTRAOCULAR LENS",
-    "支付點數": "2744",
-    "許可證字號": "衛部醫器輸字第034068號",
-    "藥商名稱": "維州"
-  },
-  {
     "自付差額品項代碼": "FALSNWAVE13Q",
     "對應健保全額給付品項代碼": "FALSMAVE10HY",
     "中英文名稱": "豪雅預載式單片型人工水晶體HOYA ISERT PRELOADED INTRAOCULAR LENS",
@@ -41257,14 +40953,6 @@
   },
   {
     "自付差額品項代碼": "FALSNWAVE11W",
-    "對應健保全額給付品項代碼": "FALSMT872S41",
-    "中英文名稱": "“鈦克”人工水晶體“TEKIA” TEKLENS II INTRAOCULAR LENS",
-    "支付點數": "2744",
-    "許可證字號": "衛部醫器輸字第034218號",
-    "藥商名稱": "康毅"
-  },
-  {
-    "自付差額品項代碼": "FALSNWAVE11X",
     "對應健保全額給付品項代碼": "FALSMT872S41",
     "中英文名稱": "“鈦克”人工水晶體“TEKIA” TEKLENS II INTRAOCULAR LENS",
     "支付點數": "2744",
