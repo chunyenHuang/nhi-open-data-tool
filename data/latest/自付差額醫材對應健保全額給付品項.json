@@ -3491,6 +3491,25 @@
     ]
   },
   {
+    "代碼": "FBHBA1000AS2",
+    "名稱": "\"好美得卡-奧斯得寧\"人工雙極式髖關節系統\"HOWMEDICA-OSTEONICS\" ACCOLADE HIP SYSTEM:HA BIPOLAR SYSTEM",
+    "支付點數": "35195",
+    "許可證字號": "衛署醫器輸字第021427號+衛署007998+衛部029701 +衛部029020號",
+    "藥商名稱": "史賽克",
+    "自付差額品項代碼": [
+      "FBHBCCERA15D",
+      "FBHBCCERA1S2",
+      "FBHBCCERA1U0",
+      "FBHBCCERA1Z1",
+      "FBHBCCERA2DP",
+      "FBHBCCERA2S2",
+      "FBHBCCERA3Z1",
+      "FBHBCCERA5U0",
+      "FBHBCPRTYF5D",
+      "FBHBCUTF1TU0"
+    ]
+  },
+  {
     "代碼": "CBC04ZFV61CK",
     "名稱": "\"COOK\"ZILVER FLEX 35 VASCULAR STENTS\"曲克\"麗而服福雷斯血管支架(淺股動脈血管支架)20:140MM 5:10MM*適應症請見備註欄",
     "支付點數": "28773",
@@ -5059,6 +5078,35 @@
     ]
   },
   {
+    "代碼": "FBHPA1000AS2",
+    "名稱": "\"好美得卡奧斯得寧\"全人工髖關節系統\"HOWMEDICA OSTEONICS\"ACCOLADE HIP SYSTEM",
+    "支付點數": "39396",
+    "許可證字號": "衛部醫器輸字029020+衛署010293 +衛署019147+衛部029701+衛署011235+衛署022771+衛署019314號+衛署024932號",
+    "藥商名稱": "史賽克",
+    "自付差額品項代碼": [
+      "FBHPC7000NU0",
+      "FBHPC7100NU0",
+      "FBHPCCERA15D",
+      "FBHPCCERA1DP",
+      "FBHPCCERA1S2",
+      "FBHPCCERA1U0",
+      "FBHPCCERA2DP",
+      "FBHPCCERA2S2",
+      "FBHPCCERA3S2",
+      "FBHPCCERA3Z1",
+      "FBHPCCERA5Z1",
+      "FBHPCCERAH5D",
+      "FBHPCCERAK5D",
+      "FBHPCUTF1TU0",
+      "FBHPCUTF1XU0",
+      "FBHPE7000NU0",
+      "FBHPE7100NU0",
+      "FBHPEUTF1XU0",
+      "FBHPEVTMA1BM",
+      "FBHPEVTMA2BM"
+    ]
+  },
+  {
     "代碼": "CBC04APL12AB",
     "名稱": "\"亞培\"雅速博長型周邊血管自張支架系統(淺股動脈血管支架)\"ABBOTT\"ABSOLUTE PRO LL PERIPHERAL SELF-EXPANDING STENT SYSTEM L120MM",
     "支付點數": "28773",
@@ -6166,6 +6214,26 @@
       "FHP02MR72MST",
       "FHP02MR72UST",
       "FHP02X2DR1M4"
+    ]
+  },
+  {
+    "代碼": "FBHH16269NS2",
+    "名稱": "\"史賽克\" 股骨頭\"STRYKER\" LFIT V40 FEMORAL HEAD",
+    "支付點數": "4352",
+    "許可證字號": "衛部醫器輸字第029701號",
+    "藥商名稱": "史賽克",
+    "自付差額品項代碼": [
+      "FBHHCCERA15D",
+      "FBHHCCERA1S2",
+      "FBHHCCERA1U0",
+      "FBHHCCERA1Z1",
+      "FBHHCCERA2DP",
+      "FBHHCCERA2S2",
+      "FBHHCCERA2Z1",
+      "FBHHCCERA5U0",
+      "FBHHCCERA7U0",
+      "FBHHCCERAP5D",
+      "FBHHCCERR3Z1"
     ]
   },
   {
