@@ -5347,9 +5347,9 @@
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 45,
+        "總數": 46,
         "特約類別": {
-          "醫學中心": 16,
+          "醫學中心": 17,
           "區域醫院": 20,
           "地區醫院": 9,
           "基層診所": 0
@@ -5363,7 +5363,7 @@
           "新竹縣": 2,
           "苗栗縣": 1,
           "臺中市": 7,
-          "彰化縣": 0,
+          "彰化縣": 1,
           "南投縣": 0,
           "雲林縣": 2,
           "嘉義市": 2,
@@ -5381,7 +5381,7 @@
       },
       "自付差額": {
         "健保給付點數": "70200.0",
-        "平均值": 61248.37777777778,
+        "平均值": 61286.45652173913,
         "中位數": 61300,
         "眾數": 61300,
         "最低": 52300,
@@ -5419,6 +5419,7 @@
           62000,
           62900,
           62900,
+          63000,
           63000,
           63000,
           63000,
@@ -5744,6 +5745,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -5758,7 +5760,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -5891,6 +5895,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -5905,7 +5910,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6068,6 +6075,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -6082,7 +6090,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6211,6 +6221,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -6225,7 +6236,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6357,6 +6370,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -6371,7 +6385,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6469,6 +6485,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -6483,7 +6500,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6567,6 +6586,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -6581,7 +6601,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6671,6 +6693,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -6685,7 +6708,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6828,6 +6853,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -6842,7 +6868,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -6957,6 +6985,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -6971,7 +7000,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -7141,6 +7172,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -7155,7 +7187,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -7309,6 +7343,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -7323,7 +7358,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -7446,6 +7483,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -7460,7 +7498,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -7548,6 +7588,7 @@
       "FHP02ASSRUST",
       "FHP01MR62UST",
       "FHP02ENDRUST",
+      "FHP03MC1VRM4",
       "FHP0129100SB",
       "FHP0229675SB",
       "FHP01ENTSRBK",
@@ -7562,7 +7603,9 @@
       "FHP01EVTSRBK",
       "FHP01EPSRMSB",
       "FHP02EPDRESB",
-      "FHP02Q50A2M4"
+      "FHP03MC1AVM4",
+      "FHP02Q50A2M4",
+      "FHP03AVEVRAB"
     ],
     "統計資料": {
       "醫療機構": {
@@ -23634,12 +23677,12 @@
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 103,
+        "總數": 104,
         "特約類別": {
           "醫學中心": 2,
           "區域醫院": 13,
           "地區醫院": 8,
-          "基層診所": 80
+          "基層診所": 81
         },
         "地區": {
           "臺北市": 15,
@@ -23656,7 +23699,7 @@
           "嘉義市": 2,
           "嘉義縣": 1,
           "臺南市": 12,
-          "高雄市": 17,
+          "高雄市": 18,
           "屏東縣": 6,
           "宜蘭縣": 0,
           "花蓮縣": 1,
@@ -23668,7 +23711,7 @@
       },
       "自付差額": {
         "健保給付點數": "2744.0",
-        "平均值": 54851.95145631068,
+        "平均值": 54853.375,
         "中位數": 55000,
         "眾數": 55000,
         "最低": 51256,
@@ -23684,6 +23727,7 @@
           54000,
           54826,
           54901,
+          55000,
           55000,
           55000,
           55000,
@@ -29378,10 +29422,10 @@
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 31,
+        "總數": 30,
         "特約類別": {
           "醫學中心": 5,
-          "區域醫院": 13,
+          "區域醫院": 12,
           "地區醫院": 13,
           "基層診所": 0
         },
@@ -29400,7 +29444,7 @@
           "嘉義市": 2,
           "嘉義縣": 1,
           "臺南市": 1,
-          "高雄市": 4,
+          "高雄市": 3,
           "屏東縣": 0,
           "宜蘭縣": 0,
           "花蓮縣": 1,
@@ -29412,8 +29456,8 @@
       },
       "自付差額": {
         "健保給付點數": "35195.0",
-        "平均值": 64512.3870967742,
-        "中位數": 62000,
+        "平均值": 64629.46666666667,
+        "中位數": 62500,
         "眾數": 56070,
         "最低": 56070,
         "最高": 75528,
@@ -29433,7 +29477,6 @@
           58860,
           58860,
           60000,
-          61000,
           62000,
           63000,
           68000,
@@ -33851,15 +33894,15 @@
     ],
     "統計資料": {
       "醫療機構": {
-        "總數": 57,
+        "總數": 58,
         "特約類別": {
           "醫學中心": 6,
-          "區域醫院": 24,
+          "區域醫院": 25,
           "地區醫院": 27,
           "基層診所": 0
         },
         "地區": {
-          "臺北市": 8,
+          "臺北市": 9,
           "新北市": 4,
           "基隆市": 0,
           "桃園市": 6,
@@ -33885,8 +33928,8 @@
       },
       "自付差額": {
         "健保給付點數": "49319.0",
-        "平均值": 107761.31578947368,
-        "中位數": 106600,
+        "平均值": 107851.63793103448,
+        "中位數": 106956,
         "眾數": {},
         "最低": 85000,
         "最高": 128000,
@@ -33930,6 +33973,7 @@
           110000,
           111358,
           112600,
+          113000,
           115000,
           115000,
           115038,

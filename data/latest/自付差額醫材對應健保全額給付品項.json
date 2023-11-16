@@ -5540,6 +5540,32 @@
     ]
   },
   {
+    "代碼": "FHP03MC1VRM4",
+    "名稱": "\"美敦力\"脈克拉無導線節律系統+\"美敦力\"脈克拉親水性塗層血管導引鞘“MEDTRONIC” MICRA TRANSCATHETER LEADLESS PACEMAKER SYSTEM+“MEDTRONIC” MICRA INTRODUCER SHEATH WITH HYDROPHILIC COATING",
+    "支付點數": "336620",
+    "許可證字號": "衛部醫器輸字第029037號+衛部醫器輸字第028626號",
+    "藥商名稱": "美敦力",
+    "自付差額品項代碼": [
+      "FHP0229100SB",
+      "FHP02A3DR1M4",
+      "FHP02ATDDRM4",
+      "FHP02EDRMRSB",
+      "FHP02EMRDRBK",
+      "FHP02EMRDTBK",
+      "FHP02EN1DRM4",
+      "FHP02EN6DTBK",
+      "FHP02ENTDRBK",
+      "FHP02ETCDRBK",
+      "FHP02EVTDRBK",
+      "FHP02MR224ST",
+      "FHP02MR62MST",
+      "FHP02MR62UST",
+      "FHP02MR72MST",
+      "FHP02MR72UST",
+      "FHP02X2DR1M4"
+    ]
+  },
+  {
     "代碼": "FHP0129100SB",
     "名稱": "\"波士頓科技\"艾科雷心臟節律器-單腔MRI\"BOSTON SCIENTIFIC\"ACCOLADE MRI PACEMAKER-SR",
     "支付點數": "79200",
@@ -6987,6 +7013,32 @@
     ]
   },
   {
+    "代碼": "FHP03MC1AVM4",
+    "名稱": "\"美敦力\"脈克拉無導線房室傳導節律系統及\"美敦力\"脈克拉親水性塗層血管導引鞘\"MEDTRONIC\" MICRA VDD DUAL CHAMBER TRANSCATHETER LEADLESS PACING SYSTEM AND “MEDTRONIC\" MICRA INTRODUCER SHEATH WITH HYDROPHILIC COATING",
+    "支付點數": "393845",
+    "許可證字號": "衛部醫器輸字第034485號+衛部醫器輸字第028626號",
+    "藥商名稱": "美敦力",
+    "自付差額品項代碼": [
+      "FHP0229100SB",
+      "FHP02A3DR1M4",
+      "FHP02ATDDRM4",
+      "FHP02EDRMRSB",
+      "FHP02EMRDRBK",
+      "FHP02EMRDTBK",
+      "FHP02EN1DRM4",
+      "FHP02EN6DTBK",
+      "FHP02ENTDRBK",
+      "FHP02ETCDRBK",
+      "FHP02EVTDRBK",
+      "FHP02MR224ST",
+      "FHP02MR62MST",
+      "FHP02MR62UST",
+      "FHP02MR72MST",
+      "FHP02MR72UST",
+      "FHP02X2DR1M4"
+    ]
+  },
+  {
     "代碼": "FBHH18022N40",
     "名稱": "“捷邁邦美”鈷鉻股骨頭“ZIMMER BIOMET”12/14 COCR FEMORAL HEAD",
     "支付點數": "4352",
@@ -7207,6 +7259,32 @@
       "CBC04RASFASB",
       "CBC04Z1SV6CK",
       "CBC04ZPTX1CK"
+    ]
+  },
+  {
+    "代碼": "FHP03AVEVRAB",
+    "名稱": "\"雅培\"安又威無導線心臟節律器+\"雅培\"安又威無導線節律器遞送導管+\"雅培\"安又威導引器\"ABBOTT\" AVEIR LEADLESS PACEMAKER+\"ABBOTT\" AVEIR DELIVERY CATHETER+\"ABBOTT\" AVEIR INTRODUCER",
+    "支付點數": "336620",
+    "許可證字號": "衛部醫器輸字第036343號+衛部醫器輸字第036339號+衛部醫器輸字第036069號",
+    "藥商名稱": "雅培",
+    "自付差額品項代碼": [
+      "FHP0229100SB",
+      "FHP02A3DR1M4",
+      "FHP02ATDDRM4",
+      "FHP02EDRMRSB",
+      "FHP02EMRDRBK",
+      "FHP02EMRDTBK",
+      "FHP02EN1DRM4",
+      "FHP02EN6DTBK",
+      "FHP02ENTDRBK",
+      "FHP02ETCDRBK",
+      "FHP02EVTDRBK",
+      "FHP02MR224ST",
+      "FHP02MR62MST",
+      "FHP02MR62UST",
+      "FHP02MR72MST",
+      "FHP02MR72UST",
+      "FHP02X2DR1M4"
     ]
   },
   {
